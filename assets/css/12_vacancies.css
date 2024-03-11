@@ -1,0 +1,18 @@
+.docs-embed {
+ position: relative;
+ height: 40rem;
+ width: 100%;
+}
+.docs-embed iframe {
+ width: 100%;
+ height: 100%;
+ background-color: var(--filling-clr-light);
+ box-shadow: var(--panel-shadow-setup);
+ border-radius: 1rem;
+}
+.vacancies-text {
+ display: flex;
+ flex-direction: column;
+ align-items: end;
+ text-align: end;
+}

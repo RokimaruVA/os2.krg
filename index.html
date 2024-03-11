@@ -2,13 +2,25 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Дворец школьников №2 - Главная страница</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Schoolkids Palace №2 - Main Page</title>
   <link
    rel="stylesheet"
    href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
   />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/01_root.css" />
+  <link rel="stylesheet" href="assets/css/02_base_elements.css" />
+  <link rel="stylesheet" href="assets/css/03_sidebar_header.css" />
+  <link rel="stylesheet" href="assets/css/04_about.css" />
+  <link rel="stylesheet" href="assets/css/05_instruction.css" />
+  <link rel="stylesheet" href="assets/css/06_directions.css" />
+  <link rel="stylesheet" href="assets/css/07_instagram_news.css" />
+  <link rel="stylesheet" href="assets/css/08_qna.css" />
+  <link rel="stylesheet" href="assets/css/09_competitions.css" />
+  <link rel="stylesheet" href="assets/css/10_magazine.css" />
+  <link rel="stylesheet" href="assets/css/11_documentation.css" />
+  <link rel="stylesheet" href="assets/css/12_vacancies.css" />
+  <link rel="stylesheet" href="assets/css/13_footer.css" />
  </head>
  <body>
   <div class="wrapper">
@@ -20,19 +32,42 @@
       </a>
      </li>
      <li><a class="sidebar__li" href="#about">About us</a></li>
-     <li><a class="sidebar__li" href="#news">News and Events</a></li>
      <li>
       <a class="sidebar__li" href="#how_to_regestrate">How to sign up</a>
      </li>
-     <li><a class="sidebar__li" href="#">Our directions</a></li>
-     <li><a class="sidebar__li" href="#">Q&A Section</a></li>
-     <li><a class="sidebar__li" href="#">Documentation</a></li>
-     <li><a class="sidebar__li" href="#">Competitions</a></li>
-     <li><a class="sidebar__li" href="#">Seminars</a></li>
-     <li><a class="sidebar__li" href="#">Vacancies</a></li>
+     <li><a class="sidebar__li" href="#directions">What do we teach</a></li>
+     <li><a class="sidebar__li" href="#news">News and Events</a></li>
+     <li><a class="sidebar__li" href="#qna">Q&A Section</a></li>
+     <li><a class="sidebar__li" href="#competitions">!!! Competitions</a></li>
+     <li><a class="sidebar__li" href="#magazine">!!! Our magazine</a></li>
+     <li><a class="sidebar__li" href="#">!!! Seminars</a></li>
+     <li>
+      <a class="sidebar__li" href="#documentation">!!! Documentation</a>
+     </li>
+     <li><a class="sidebar__li" href="#vacancies">!!! Vacancies</a></li>
     </ul>
+
     <div class="content">
-     <section class="header animation-hidden" id="about">
+     <div class="top-panel hidden-desktop">
+      <div class="lang__row">
+       <a class="lang__item" href="#">kz</a>
+       <a class="lang__item" href="#">ru</a>
+       <a class="lang__item selected" href="#">en</a>
+      </div>
+      <div class="header__icons">
+       <a href="javascript:void(0);" class="icon-container">
+        <ion-icon
+         name="contrast-outline"
+         class="theme-switcher"
+         onclick="toggleTheme() "
+        ></ion-icon>
+       </a>
+       <a href="javascript:void(0);" class="icon-container">
+        <ion-icon name="reorder-three-outline" class="menu-button"></ion-icon>
+       </a>
+      </div>
+     </div>
+     <div class="header animation-hidden" id="about">
       <a class="logo" href="index.html"
        ><div class="logo__img" alt="bg-logo"></div>
        <div class="logo__text">
@@ -40,161 +75,1060 @@
         Schoolkids Palace №2
        </div></a
       >
-      <div class="header__row animation-hidden">
+      <div class="header__row animation-hidden hidden-mobile">
        <div class="lang__row">
         <a class="lang__item" href="#">kz</a>
         <a class="lang__item" href="#">ru</a>
         <a class="lang__item selected" href="#">en</a>
        </div>
        <div class="header__icons">
-        <a href="#" class="icon-container">
+        <a href="javascript:void(0);" class="icon-container">
          <ion-icon
           name="contrast-outline"
           class="theme-switcher"
           onclick="toggleTheme() "
          ></ion-icon>
         </a>
-        <a href="#" class="icon-container">
+        <a href="javascript:void(0);" class="icon-container">
          <ion-icon name="reorder-three-outline" class="menu-button"></ion-icon>
         </a>
        </div>
       </div>
-     </section>
-     <section class="about animation-hidden">
-      <div class="about__img">
-       <img
-        src="assets/images/entry.jpg"
-        alt="Дворец_школьников №2 Караганада"
-       />
-      </div>
-      <div class="about__content">
-       <h1 style="text-align: end">About Us</h1>
-       <p>
-        The Schoolkids Palace №2 is a multifunctional institution that operates
-        during the school year and during vacation periods. Our students develop
-        their creative abilities, broaden their horizons, learn new skills, and
-        make new friends.
-       </p>
-       <h1 style="text-align: end">Contacts</h1>
-       <div class="about-links__row">
-        <div class="about__links">
-         <a
-          href="#"
-          id="copy-text-1"
-          class="about__contacts about__tel-desktop"
-         >
-          <ion-icon name="copy-outline"></ion-icon>
-          <div id="text-1">8 7212 60 44 79</div>
-         </a>
-         <a href="tel:8 7212 60 44 79" class="about__contacts-mobile">
-          <ion-icon name="copy-outline"></ion-icon>
-          <p>8 7212 60 44 79</p>
-         </a>
-         <a href="#" id="copy-text-2" class="about__contacts">
-          <ion-icon name="copy-outline"></ion-icon>
-          <div id="text-2">ddu_new@kargoo.kz</div>
-         </a>
-         <a
-          href="https://go.2gis.com/hnoom"
-          target="_blank"
-          class="about__link"
-         >
-          <ion-icon name="navigate-outline"></ion-icon> 141 Acc. Qtr., Bldg. 690
-         </a>
-        </div>
-        <div class="about__social-media">
-         <a
-          href="https://www.instagram.com/oqushylarsaraiy_2_krg/"
-          target="_blank"
-          class="about__link"
-         >
-          <ion-icon name="logo-instagram"></ion-icon> Instagram
-         </a>
-         <a
-          href="https://www.facebook.com/people/Екінші-Оқушылар-Сарайы/pfbid02xSaTc4MMTSMSRtzxFfpQu8tyn9pfZikjS3DmL4g7y3iui6e4SYggtcMeVs8x3V9Vl/"
-          target="_blank"
-          class="about__link"
-         >
-          <ion-icon name="logo-facebook"></ion-icon> Facebook
-         </a>
-         <a
-          href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
-          target="_blank"
-          class="about__link"
-         >
-          <ion-icon name="earth-outline"></ion-icon> Education Department
-         </a>
-        </div>
+     </div>
+
+     <div class="sections">
+      <section class="about animation-hidden">
+       <div class="about__img">
+        <img
+         src="assets/images/entry.jpg"
+         alt="Дворец_школьников №2 Караганда"
+        />
        </div>
-       <p>
-        We are located in the southeast of the city, between Sarayarka Street
-        and Miners Avenue, behind the 'House of Friendship of Nations'. The
-        entrance is located on Sarayarka Street side. We will be glad to see
-        you!
-       </p>
-      </div>
-     </section>
-     <section
-      class="news-row animation-hidden"
-      style="margin-bottom: -1rem"
-      id="news"
-     >
-      <h1 style="text-align: end">Our News</h1>
-      <!-- LightWidget WIDGET -->
-      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-      <iframe
-       src="//lightwidget.com/widgets/bbfa9196644559378cd8e09bbfa8330d.html"
-       scrolling="no"
-       allowtransparency="true"
-       class="lightwidget-widget"
-       style="width: 100%; border: 0; overflow: visible"
-      ></iframe>
-     </section>
-     <section class="instruction animation-hidden" id="how_to_regestrate">
-      <h1 style="text-align: end">How to sign up</h1>
-      <div class="instruction__row">
-       <div class="video-tutorial">
-        <div class="inframe__video">
-         <iframe
-          class="video"
-          s
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/y2feQEVNcKA?si=RNSld9MkgOUdPsEV"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-         ></iframe>
+       <div class="about__content">
+        <h1 class="text-right-alignment">About Us</h1>
+        <p>
+         The Schoolkids Palace №2 is a multifunctional institution that operates
+         during the school year and during vacation periods. Our students
+         develop their creative abilities, broaden their horizons, learn new
+         skills, and make new friends.
+        </p>
+        <h1 class="text-right-alignment" id="contacts__scroll">Contacts</h1>
+        <div class="about-links__row">
+         <div class="about__links">
+          <a
+           href="javascript:void(0);"
+           id="copy-text-1"
+           class="about__contacts about__tel-desktop"
+          >
+           <ion-icon name="copy-outline"></ion-icon>
+           <div id="text-1">8 7212 60 44 79</div>
+          </a>
+          <a href="tel:8 7212 60 44 79" class="about__contacts-mobile">
+           <ion-icon name="copy-outline"></ion-icon>
+           <p>8 7212 60 44 79</p>
+          </a>
+          <a
+           href="javascript:void(0);"
+           id="copy-text-2"
+           class="about__contacts"
+          >
+           <ion-icon name="copy-outline"></ion-icon>
+           <div id="text-2">ddu_new@kargoo.kz</div>
+          </a>
+          <a
+           href="https://go.2gis.com/hnoom"
+           target="_blank"
+           class="about__link"
+          >
+           <ion-icon name="navigate-outline"></ion-icon> 141 Acc. Qtr., Bldg.
+           690
+          </a>
+         </div>
+         <div class="about__social-media">
+          <a
+           href="https://www.instagram.com/oqushylarsaraiy_2_krg/"
+           target="_blank"
+           class="about__link"
+          >
+           <ion-icon name="logo-instagram"></ion-icon> Instagram
+          </a>
+          <a
+           href="https://www.facebook.com/people/Екінші-Оқушылар-Сарайы/pfbid02xSaTc4MMTSMSRtzxFfpQu8tyn9pfZikjS3DmL4g7y3iui6e4SYggtcMeVs8x3V9Vl/"
+           target="_blank"
+           class="about__link"
+          >
+           <ion-icon name="logo-facebook"></ion-icon> Facebook
+          </a>
+          <a
+           href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
+           target="_blank"
+           class="about__link"
+          >
+           <ion-icon name="earth-outline"></ion-icon> Education Department
+          </a>
+         </div>
         </div>
         <p>
-         This step-by-step video tutorial will help you apply for enrollment for
-         your child.
+         We are located in the southeast of the city, between Sarayarka Street
+         and Miners Avenue, behind the 'House of Friendship of Nations'. The
+         entrance is located on Sarayarka Street side. We will be glad to see
+         you!
         </p>
        </div>
-       <div class="instruction__content">
-        <h2>Documents required for enrollment</h2>
-        <ul class="instruction__doc-list">
-         <li>
-          Medical certificate No. 027/u* or
-          <a
-           class="link link-in-text"
-           href="https://egov.kz/cms/ru/services/health_care/2F128_mzsr"
-           >medical certificates from egov.kz</a
-          >
-          in the child's name*;
-         </li>
-         <li>Child's birth certificate*;</li>
-         <li>Parent's identity document*;</li>
-         <li>Child's photograph (e.g., 3x4)</li>
-        </ul>
+      </section>
+      <section class="instruction animation-hidden" id="how_to_regestrate">
+       <h1 class="text-right-alignment">How to sign up</h1>
+       <div class="instruction__row">
+        <div class="video-tutorial">
+         <div class="youtube-player" data-id="y2feQEVNcKA"></div>
+         <p>
+          This step-by-step video tutorial will help you apply for enrollment
+          for your child.
+         </p>
+        </div>
+        <div class="instruction__content">
+         <h2>Documents required for enrollment</h2>
+         <ul class="instruction__doc-list">
+          <li>
+           Medical certificate No. 027/u* or
+           <a
+            class="link link-in-text"
+            href="https://egov.kz/cms/ru/services/health_care/2F128_mzsr"
+            target="_blank"
+            >medical certificates from egov.kz</a
+           >
+           in the child's name*;
+          </li>
+          <li>Child's birth certificate*;</li>
+          <li>Parent's identity document*;</li>
+          <li>Child's photograph (e.g., 3x4)</li>
+         </ul>
+        </div>
        </div>
-      </div>
-     </section>
+      </section>
+      <section class="directions animation-hidden" id="directions">
+       <h1 class="text-right-alignment">What do we teach</h1>
+       <p>
+        Please take the opportunity to peruse our diverse range of classes and
+        educational clubs. We encourage you to explore and select the options
+        that resonate with your interests and aspirations.
+       </p>
+       <div class="directions__grid">
+        <div
+         class="direction__card"
+         style="
+          background-image: url(https://plus.unsplash.com/premium_photo-1663050756824-165ee7eafdac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+         "
+        >
+         <div class="direction__card-bg-holder"></div>
+         <div class="direction__content">
+          <h2 class="direction__title">Scientific and Technical Direction</h2>
+          <p class="direction__tags">
+           Robotics | Computer Graphics <br />Engineering | Additional
+           <br />Ecology | Biology Professional Training
+          </p>
+          <a
+           target="_blank"
+           class="link"
+           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=113,4,11,110,117&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
+           >Learn and Register</a
+          >
+         </div>
+        </div>
+        <div
+         class="direction__card"
+         style="
+          background-image: url(https://plus.unsplash.com/premium_photo-1663013279615-cf72e5fd9f6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+         "
+        >
+         <div class="direction__card-bg-holder"></div>
+         <div class="direction__content">
+          <h2 class="direction__title">Creativity</h2>
+          <p class="direction__tags">Visual and <br />Aesthetic Creativity</p>
+          <a
+           target="_blank"
+           class="link"
+           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=112,8,5,4,2&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
+           >Learn and Register</a
+          >
+         </div>
+        </div>
+        <div
+         class="direction__card"
+         style="
+          background-image: url(https://images.unsplash.com/photo-1537655780520-1e392ead81f2?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+         "
+        >
+         <div class="direction__card-bg-holder"></div>
+         <div class="direction__content">
+          <h2 class="direction__title">
+           SHAMSHYRAQ <br />
+           Early Development Complex
+          </h2>
+          <p class="direction__tags">Classes for Children 5-6 Years Old</p>
+          <a
+           target="_blank"
+           class="link"
+           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=13,118&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
+           >Learn and Register</a
+          >
+         </div>
+        </div>
+        <div
+         class="direction__card"
+         style="
+          background-image: url(https://kargoo.kz/media/img/photohost/64df9937bb9ed.png);
+         "
+        >
+         <div class="direction__card-bg-holder"></div>
+         <div class="direction__content">
+          <h2 class="direction__title">Music Choreography Theater</h2>
+          <p class="direction__tags">
+           Vocal | Dance | Theater <br />Instrumental Performance
+          </p>
+          <a
+           target="_blank"
+           class="link"
+           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=6,7,1,4&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
+           >Learn and Register</a
+          >
+         </div>
+        </div>
+        <div
+         class="direction__card"
+         style="
+          background-image: url(https://hobspace.com/blog/wp-content/uploads/2022/04/istockphoto-1134408236-612x612-1-610x400.jpg);
+         "
+        >
+         <div class="direction__card-bg-holder"></div>
+         <div class="direction__content">
+          <h2 class="direction__title">Sports and Board Games</h2>
+          <p class="direction__tags">
+           Checkers | Chess | Gymnastics <br />
+           National Games
+          </p>
+          <a
+           target="_blank"
+           class="link"
+           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=6,7,1,4&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
+           >Learn and Register</a
+          >
+         </div>
+        </div>
+        <div
+         class="direction__card"
+         style="
+          background-image: url(https://4.bp.blogspot.com/-A636EeKCz_Q/V8mwB9l-bAI/AAAAAAAAATA/jagaKBIqsZs3bKWuzmKHjaBAMsv5u_wNACEw/s1600/iStock_000029453792_Medium.jpg);
+         "
+        >
+         <div class="direction__card-bg-holder"></div>
+         <div class="direction__content">
+          <h2 class="direction__title">Linguistics</h2>
+          <p class="direction__tags">
+           Language Studies <br />
+           Oratory
+          </p>
+          <a
+           target="_blank"
+           class="link"
+           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=9,109,12&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
+           >Learn and Register</a
+          >
+         </div>
+        </div>
+       </div>
+      </section>
+      <section
+       class="news animation-hidden"
+       style="margin-bottom: -1rem"
+       id="news"
+      >
+       <h1 class="text-right-alignment">Our News</h1>
+       <!-- LightWidget WIDGET -->
+       <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+       <iframe
+        src="//lightwidget.com/widgets/bbfa9196644559378cd8e09bbfa8330d.html"
+        scrolling="no"
+        allowtransparency="true"
+        class="lightwidget-widget"
+        style="width: 100%; border: 0; overflow: visible"
+       ></iframe>
+      </section>
+      <section class="qna animation-hidden" id="qna">
+       <h1 class="text-right-alignment">Questions and Answers</h1>
+       <p class="qna__message">
+        If you have any questions, you can find them here or ask by <br />
+        phone
+        <a href="tel:8 7212 60 44 79" class="link link-in-text hidden-desktop">
+         8 7212 60 44 79</a
+        >
+        <a
+         href="javascript:void(0);"
+         id="copy-text-3"
+         class="link link-in-text hidden-mobile"
+         ><span id="text-3">8 7212 60 44 79</span></a
+        >
+        <br />
+        or email
+        <a href="javascript:void(0);" id="copy-text-4" class="link link-in-text"
+         ><span id="text-4">ddu_new@kargoo.kz</span></a
+        >.
+       </p>
+       <div class="accordion">
+        <div class="accordion__tab">
+         <input type="checkbox" id="rd5" name="rd" />
+         <label class="accordion__tab-label" for="rd5"
+          >How to sign up for classes?</label
+         >
+         <div class="accordion__tab-content">
+          The website features a section with videos explaining how to sign up
+          for classes at Schoolkids Palace №2. Additionally, various directions
+          of classes are displayed, and by clicking on them, you can see the
+          full list of our clubs.
+         </div>
+        </div>
+
+        <div class="accordion__tab">
+         <input type="checkbox" id="rd6" name="rd" />
+         <label class="accordion__tab-label" for="rd6"
+          >Why don't I see the sign-up button next to the selected club on the
+          e-daryn website?</label
+         >
+         <div class="accordion__tab-content">
+          When the sign-up button is not displayed on the website, it may be
+          because you are not within the age range for classes in that club, or
+          enrollment in the club is currently closed.
+         </div>
+        </div>
+
+        <div class="accordion__tab">
+         <input type="checkbox" id="rd7" name="rd" />
+         <label class="accordion__tab-label" for="rd7"
+          >When can we receive the contract for educational services if we have
+          already signed up for classes?</label
+         >
+         <div class="accordion__tab-content">
+          After signing up for a club, the teacher will provide the contract for
+          services within a few classes.
+         </div>
+        </div>
+
+        <div class="accordion__tab">
+         <input type="checkbox" id="rd8" name="rd" />
+         <label class="accordion__tab-label" for="rd8"
+          >How can I find out the contact number of the teacher?</label
+         >
+         <div class="accordion__tab-content">
+          When selecting clubs on the e-daryn website, the contact number of the
+          teacher is provided along with other information about the classes.
+         </div>
+        </div>
+
+        <div class="accordion__tab">
+         <input type="checkbox" id="rd9" name="rd" />
+         <label class="accordion__tab-label" for="rd9"
+          >Can I accompany my child to the classroom door?</label
+         >
+         <div class="accordion__tab-content">
+          No. According to modern safety standards, parents are only allowed in
+          the vestibule area (the area near the entrance and cloakroom) without
+          special permission.
+         </div>
+        </div>
+        <!-- <div class="accordion__tab" for="rd1">
+	         <input type="checkbox" id="rd1" name="rd" />
+	         <label class="accordion__tab-label" for="rd1">section #1</label>
+	         <div class="accordion__tab-content">
+	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
+	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
+	          doloribus!
+	         </div>
+	        </div>
+	        <div class="accordion__tab">
+	         <input type="checkbox" id="rd2" name="rd" />
+	         <label class="accordion__tab-label" for="rd2">section #1</label>
+	         <div class="accordion__tab-content">
+	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
+	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
+	          doloribus!
+	         </div>
+	        </div>
+	
+	        <div class="accordion__tab">
+	         <input type="checkbox" id="rd3" name="rd" />
+	         <label class="accordion__tab-label" for="rd3"
+	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
+	         >
+	         <div class="accordion__tab-content">
+	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
+	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
+	          doloribus!
+	         </div>
+	        </div>
+	
+	        <div class="accordion__tab">
+	         <input type="checkbox" id="rd4" name="rd" />
+	         <label class="accordion__tab-label" for="rd4"
+	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
+	         >
+	         <div class="accordion__tab-content">
+	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
+	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
+	          doloribus!
+	         </div>
+	        </div>
+	        <div class="accordion__tab">
+	         <input type="checkbox" id="rd10" name="rd" />
+	         <label class="accordion__tab-label" for="rd10"
+	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
+	         >
+	         <div class="accordion__tab-content">
+	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
+	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
+	          doloribus!
+	         </div>
+	        </div> -->
+       </div>
+      </section>
+      <section class="competitions animation-hidden" id="competitions">
+       <h1 class="text-right-alignment">Our Competitions</h1>
+       <p class="text-right-alignment">
+        We offer a variety of contests, competitions, and projects that
+        contribute not only to academic growth but also to personal development.
+        Here you will find engaging and educational events specifically designed
+        to develop the talents and skills of students.
+       </p>
+       <div class="competition__grid">
+        <div class="competition__card span__2">
+         <p class="competition__subject">Subject</p>
+         <h2>Competition's Name</h2>
+         <div class="competition__parameters">
+          <div>
+           <h3>Level:</h3>
+           <span>Regional</span>
+          </div>
+          <div>
+           <h3>Languages:</h3>
+           <span>Kazakh, Russian</span>
+          </div>
+          <div>
+           <h3>Period:</h3>
+           <span>January, March</span>
+          </div>
+          <div>
+           <h3>Age Category:</h3>
+           <span>11-18 years old</span>
+          </div>
+         </div>
+         <p class="competitor__description">
+          Description Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sed doloremque repellat ullam illo odio, numquam non esse quibusdam
+          fugit harum ad similique reiciendis optio.
+         </p>
+         <ul class="competition__links">
+          <li>
+           <a class="link link-in-text" href="#">Regulations</a>
+          </li>
+          <!-- <li>
+	           <a class="link link-in-text" href="#">Регистрация</a>
+	          </li>
+	          <li>
+	           <a class="link link-in-text" href="#">Протокол</a>
+	          </li>
+	          <li>
+	           <a class="link link-in-text" href="#">Наградной материал</a>
+	          </li> -->
+         </ul>
+        </div>
+        <div class="competition__card">
+         <p class="competition__subject">Subject</p>
+         <h2>Competition's Name</h2>
+         <div class="competition__parameters">
+          <div>
+           <h3>Level:</h3>
+           <span>Regional</span>
+          </div>
+          <div>
+           <h3>Languages:</h3>
+           <span>Kazakh</span>
+          </div>
+          <div>
+           <h3>Period:</h3>
+           <span>January, March</span>
+          </div>
+          <div>
+           <h3>Age Category:</h3>
+           <span>11-18 years old</span>
+          </div>
+         </div>
+         <p class="competitor__description">
+          Description Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sed doloremque repellat ullam illo odio, numquam non esse quibusdam
+          fugit harum ad similique reiciendis optio.
+         </p>
+         <ul class="competition__links">
+          <li>
+           <a class="link link-in-text" href="#">Regulations</a>
+          </li>
+          <!-- <li>
+							<a class="link link-in-text" href="#">Регистрация</a>
+						 </li>
+						 <li>
+							<a class="link link-in-text" href="#">Протокол</a>
+						 </li>
+						 <li>
+							<a class="link link-in-text" href="#">Наградной материал</a>
+						 </li> -->
+         </ul>
+        </div>
+        <div class="competition__card">
+         <p class="competition__subject">Subject</p>
+         <h2>Competition's Name</h2>
+         <div class="competition__parameters">
+          <div>
+           <h3>Level:</h3>
+           <span>Regional</span>
+          </div>
+          <div>
+           <h3>Languages:</h3>
+           <span>Russian</span>
+          </div>
+          <div>
+           <h3>Period:</h3>
+           <span>January, March</span>
+          </div>
+          <div>
+           <h3>Age Category:</h3>
+           <span>11-18 years old</span>
+          </div>
+         </div>
+         <p class="competitor__description">
+          Description Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sed doloremque repellat ullam illo odio, numquam non esse quibusdam
+          fugit harum ad similique reiciendis optio.
+         </p>
+         <ul class="competition__links">
+          <li>
+           <a class="link link-in-text" href="#">Regulations</a>
+          </li>
+          <!-- <li>
+							<a class="link link-in-text" href="#">Регистрация</a>
+						 </li>
+						 <li>
+							<a class="link link-in-text" href="#">Протокол</a>
+						 </li>
+						 <li>
+							<a class="link link-in-text" href="#">Наградной материал</a>
+						 </li> -->
+         </ul>
+        </div>
+       </div>
+      </section>
+      <section class="magazine animation-hidden" id="magazine">
+       <h1 class="text-right-alignment">Our magazine</h1>
+       <p class="text-right-alignment">
+        Our organization publishes a journal focusing on education, aiming to
+        provide insightful perspectives and innovative ideas to our readers. At
+        our organization, we strive to be a trusted source of information and
+        inspiration for individuals interested in the field of education.
+       </p>
+       <div class="magazine__grid">
+        <div class="magazine__card">
+         <div class="magazine__card-img">
+          <img src="assets/images/magazine-cover.png" alt="magazine cover 1" />
+         </div>
+         <div class="magazine__card-info">
+          <h2 class="magazine__card-title">
+           #1 Perspectives on Global Education
+          </h2>
+          <div class="magazine__card-text">
+           In an era of rapid change, education becomes the key to success and
+           overcoming challenges.
+          </div>
+          <a href="#" class="magazine__card-link link">Download</a>
+         </div>
+        </div>
+        <div class="magazine__card">
+         <div class="magazine__card-img">
+          <img
+           src="https://static.wikia.nocookie.net/7d5db291-d700-4b6a-944b-eb0c84bf5781"
+           alt="magazine cover 1"
+          />
+         </div>
+         <div class="magazine__card-info">
+          <h2 class="magazine__card-title">
+           #1 Perspectives on Global Education
+          </h2>
+          <div class="magazine__card-text">
+           In an era of rapid change, education becomes the key to success and
+           overcoming challenges.
+          </div>
+          <a href="#" class="magazine__card-link link">Download</a>
+         </div>
+        </div>
+        <div class="magazine__card">
+         <div class="magazine__card-img">
+          <img
+           src="https://static.wikia.nocookie.net/7d5db291-d700-4b6a-944b-eb0c84bf5781"
+           alt="magazine cover 1"
+          />
+         </div>
+         <div class="magazine__card-info">
+          <h2 class="magazine__card-title">
+           #1 Perspectives on Global Education
+          </h2>
+          <div class="magazine__card-text">
+           In an era of rapid change, education becomes the key to success and
+           overcoming challenges.
+          </div>
+          <a href="#" class="magazine__card-link link">Download</a>
+         </div>
+        </div>
+        <a href="#" class="link link-in-text" magazine__more-link>See more</a>
+       </div>
+      </section>
+      <section class="documentation animation-hidden" id="documentation">
+       <h1 class="text-right-alignment">Documentation</h1>
+       <div class="docs__row">
+        <div class="docs__files">
+         <div class="docs__section">
+          <h2>Нормативные акты организации</h2>
+          <div class="docs__files-block">
+           <div class="docs__name">Устав организации</div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/18-g3M0u4suYvtE9Bd_982-P7HI6USbkT/view"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1EBEF1xbZtlqlRJYe_VmXca8vlqF4T13L/view"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">Договор оказания образовательных услуг</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            Договор сотрудничества организаций образования
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1HxFC7YlQcxCte25mmVK4YJ4UonJxGgZT/view?usp=sharinghttps://drive.google.com/file/d/1HxFC7YlQcxCte25mmVK4YJ4UonJxGgZT/view?usp=sharing"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1vQZOJp286FZfDmRjl6nHZzWMvz96zkyU/view?usp=sharing"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+         </div>
+         <div class="docs__section">
+          <h2>Основные законодательные и нормативные акты</h2>
+          <div class="docs__files-block">
+           <div class="docs__name">О противодействии коррупции</div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1JH4fXp5h9cmNiTXEzBoepLs7Jq9ERqDi/view?usp=share_link"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1RI32ntrBzsEHiv2x9G_GdYmOTf9YuN6k/view?usp=share_link"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            Законодательные и нормативные правовые акты, регулирующие
+            образовательный процесс дополнительного образования детей в РК
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://www.rumsdokz.org/_files/ugd/809cb6_12ee0c6699844dc8ba806baedd62e7c4.pdf"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://www.ziyatker.org/_files/ugd/809cb6_20f1af087d934761995c932f78c26415.pdf"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            №293-VI «О статусе педагога» от 27.12.2019 г.
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://adilet.zan.kz/kaz/docs/Z1900000293"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://adilet.zan.kz/rus/docs/Z1900000293"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            О некоторых вопросах педагогической этики
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1WFvsQkTLvupIZKruw3hGY4YkuDbWRqRQ/view?usp=share_link3"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://drive.google.com/file/d/1KnyapIMWvC_goRqBo0trj1zYsamzldie/view?usp=share_link"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            №319-III «Об образовании» от 27.07.2007 г.
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://adilet.zan.kz/kaz/docs/Z070000319_"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://adilet.zan.kz/rus/docs/Z070000319_"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            №345 «О правах ребенка в Республике Казахстан» от 08.08.2002 г.
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://adilet.zan.kz/kaz/docs/Z020000345_"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://adilet.zan.kz/rus/docs/Z020000345_"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            №413-IV «О государственном имуществе» от 01.03.2011 г.
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://adilet.zan.kz/kaz/docs/Z1100000413"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://adilet.zan.kz/rus/docs/Z1100000413"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">
+            №591«О профилактике правонарушений среди несовершеннолетних и
+            предупреждении детской безнадзорности и беспризорности» от
+            09.07.2004
+           </div>
+           <div class="docs__langblock">
+            <a
+             class="link"
+             href="https://adilet.zan.kz/kaz/docs/Z040000591_"
+             target="_blank"
+             >қаз</a
+            >
+            <a
+             class="link"
+             href="https://adilet.zan.kz/rus/docs/Z040000591_"
+             target="_blank"
+             >рус</a
+            >
+           </div>
+          </div>
+         </div>
+         <div class="docs__section">
+          <h2>Гос. закупки и бюджет</h2>
+          <div class="docs__files-block">
+           <div class="docs__name">Поле для заполнения</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">Поле для заполнения</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">Поле для заполнения</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+         </div>
+         <div class="docs__section">
+          <h2>Инфроструктурная документация</h2>
+          <div class="docs__files-block">
+           <div class="docs__name">Поле для заполнения</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">Поле для заполнения</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+          <div class="docs__files-block">
+           <div class="docs__name">Поле для заполнения</div>
+           <div class="docs__langblock">
+            <a class="link" href="#" target="_blank">қаз</a>
+            <a class="link" href="#" target="_blank">рус</a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="docs__pass">
+         <div class="docs__pass-block">
+          <div class="docs__pass-block-img">
+           <img src="assets/images/building_docs.jpg" alt="" />
+          </div>
+          <div class="docs__pass-block-text">
+           <h2 class="docs__pass-title">Паспорт организации</h2>
+           <div>
+            <p class="docs__pass-header">Наименование организации</p>
+            <p class="docs__pass-info">
+             Коммунальное государственное учреждение<br />
+             "Дворец школьников №2"<br />
+             акимата города Караганды <br />
+             отдела образования города Караганды
+            </p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Краткое наименование организации</p>
+            <p class="docs__pass-info">КГУ "Дворец школьников №2"</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Директор</p>
+            <p class="docs__pass-info">Алтынбекова Шариза Далабаевна</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Контактные данные</p>
+            <p class="docs__pass-info">
+             8 (7212) 60-44-79 приемная <br />
+             8 (7212) 60-44-83 бухгалтерия <br />
+             ddu_new@kargoo.kz
+            </p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Язык обучения</p>
+            <p class="docs__pass-info">казахский, русский</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Время работы</p>
+            <p class="docs__pass-info">с 9:00 до 21:00</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Проектная мощьность</p>
+            <p class="docs__pass-info">999 учебных мест</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Дата открытия</p>
+            <p class="docs__pass-info">29 августа 2020 год</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Тип финансирования</p>
+            <p class="docs__pass-info">бюджетные средства</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Кадровое обеспечение</p>
+            <p class="docs__pass-info">
+             по штатному расписанию АУП и тех.персонал 21,5 ед. <br />
+             педагогический состав-99 ед.
+            </p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Адрес</p>
+            <p class="docs__pass-info">141-учёт. квартал, ст. 690</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Общая площадь здания</p>
+            <p class="docs__pass-info">3941,2 кв.м.</p>
+           </div>
+           <div>
+            <p class="docs__pass-header">Тип отопления</p>
+            <p class="docs__pass-info">центральное</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </section>
+      <section class="vacancies animation-hidden" id="vacancies">
+       <h1 class="text-right-alignment">Our Vacancies</h1>
+       <div class="vacancies-text">
+        <p>
+         You can see our job vacancies and application status in the window
+         below and apply for the vacancy by contacting us via phone
+         <a href="tel:8 7212 60 44 79" class="link link-in-text hidden-desktop">
+          8 7212 60 44 79</a
+         >
+         <a
+          href="javascript:void(0);"
+          id="copy-text-5"
+          class="link link-in-text hidden-mobile"
+          ><span id="text-5">8 7212 60 44 79</span></a
+         >
+         <br />
+         email
+         <a
+          href="javascript:void(0);"
+          id="copy-text-6"
+          class="link link-in-text"
+          ><span id="text-6">ddu_new@kargoo.kz</span></a
+         >
+         <br />
+         or find
+         <a
+          target="_blank"
+          href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized"
+          class="link link-in-text"
+          >Our vacancies on ENBEK.KZ</a
+         >
+        </p>
+       </div>
+       <div class="docs-embed">
+        <iframe
+         src="https://docs.google.com/document/d/e/2PACX-1vSzNUfKvLiz2zErdq6veSQ3RxRJyoh9VY_zQIBxXuQsX0OpfxcTXxviN7cVMrJVIUXaPUisTwa3TIzj/pub?embedded=true"
+         loading="lazy"
+        ></iframe>
+       </div>
+      </section>
+     </div>
     </div>
    </main>
-   <footer class="footer"></footer>
   </div>
+  <footer class="footer">
+   <div class="footer__bg"></div>
+   <div class="footer__illustration">
+    <img
+     src="assets/images/footer-illustration.svg"
+     alt="stylized image of organisation's building"
+    />
+   </div>
+   <div class="footer-content">
+    <div class="footer__follow-us">
+     <h2>Follow Us</h2>
+     <div class="footer__follow-us-links">
+      <a
+       href="https://www.instagram.com/oqushylarsaraiy_2_krg/"
+       target="_blank"
+       class="about__link"
+      >
+       <ion-icon name="logo-instagram"></ion-icon> Instagram
+      </a>
+      <a
+       href="https://www.facebook.com/people/Екінші-Оқушылар-Сарайы/pfbid02xSaTc4MMTSMSRtzxFfpQu8tyn9pfZikjS3DmL4g7y3iui6e4SYggtcMeVs8x3V9Vl/"
+       target="_blank"
+       class="about__link"
+      >
+       <ion-icon name="logo-facebook"></ion-icon> Facebook
+      </a>
+      <a
+       href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
+       target="_blank"
+       class="about__link"
+      >
+       <ion-icon name="earth-outline"></ion-icon> Education Department
+      </a>
+     </div>
+    </div>
+    <div class="footer__contact-us">
+     <h2>Contact Us</h2>
+     <div class="footer__contact-us-links">
+      <a
+       href="javascript:void(0);"
+       id="copy-text-1"
+       class="about__contacts about__tel-desktop"
+      >
+       <ion-icon name="copy-outline"></ion-icon>
+       <div id="text-1">8 7212 60 44 79</div>
+      </a>
+      <a href="tel:8 7212 60 44 79" class="about__contacts-mobile">
+       <ion-icon name="copy-outline"></ion-icon>
+       <p>8 7212 60 44 79</p>
+      </a>
+      <a href="javascript:void(0);" id="copy-text-2" class="about__contacts">
+       <ion-icon name="copy-outline"></ion-icon>
+       <div id="text-2">ddu_new@kargoo.kz</div>
+      </a>
+      <a href="https://go.2gis.com/hnoom" target="_blank" class="about__link">
+       <ion-icon name="navigate-outline"></ion-icon> 141 Acc. Qtr., Bldg. 690
+      </a>
+     </div>
+    </div>
+    <div class="footer__credits">
+     <div>
+      <div class="footer__made-by">Made by Roma.V</div>
+      <div class="footer__copyrights">2024 © All rights reserved</div>
+     </div>
+    </div>
+   </div>
+  </footer>
   <script
    type="module"
    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -203,9 +1137,10 @@
    nomodule
    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
   ></script>
+  <script src="assets/js/scroll-animation.js"></script>
+  <script src="assets/js/menu.js"></script>
   <script src="assets/js/clipboard.js"></script>
   <script src="assets/js/darkToggle.js"></script>
-  <script src="assets/js/menu.js"></script>
-  <script src="assets/js/scroll-animation.js"></script>
+  <script src="assets/js/youtube.js"></script>
  </body>
 </html>

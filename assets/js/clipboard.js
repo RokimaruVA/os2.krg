@@ -1,55 +1,89 @@
-function copyText(htmlElement) {
+// Функция для копирования текста с элемента, указанного по ID
+function copyText(htmlElementId) {
+ let htmlElement = document.getElementById(htmlElementId);
  if (!htmlElement) {
   return;
  }
 
  let elementText = htmlElement.innerText;
 
- // Создаем элемент input, чтобы скопировать текст
  let inputElement = document.createElement("input");
  inputElement.setAttribute("value", elementText);
  document.body.appendChild(inputElement);
 
- // Выделяем текст внутри элемента input
  inputElement.select();
-
- // Команда копирования текста в буфер обмена
  document.execCommand("copy");
-
- // Удаляем временный элемент input
  inputElement.parentNode.removeChild(inputElement);
 
- // Показываем всплывающее сообщение рядом с кнопкой
  showCopiedMessage(htmlElement);
 }
 
-// Функция для показа всплывающего сообщения
+// Функция для показа всплывающего сообщения о копировании
 function showCopiedMessage(htmlElement) {
  let messageElement = document.createElement("div");
- messageElement.textContent = "Copied!";
+ messageElement.textContent = getMessage(); // Получаем сообщение на основе языка
  messageElement.classList.add("copied-message");
 
- // Получаем позицию кнопки
  let buttonRect = htmlElement.getBoundingClientRect();
  messageElement.style.top = buttonRect.top + "px";
  messageElement.style.left = buttonRect.right + "px";
-
- // Устанавливаем фиксированную ширину и высоту для сообщения
- messageElement.style.width = "100px";
- messageElement.style.height = "40px";
+ messageElement.style.width = "auto";
+ messageElement.style.height = "auto";
 
  document.body.appendChild(messageElement);
 
- // Удаляем сообщение через 2 секунды
  setTimeout(function () {
   messageElement.parentNode.removeChild(messageElement);
- }, 2000);
+ }, 1800);
 }
 
-document.getElementById("copy-text-1").onclick = function () {
- copyText(this);
-};
+// Функция для получения сообщения в зависимости от языка страницы
+function getMessage() {
+ // Получаем язык страницы
+ let language = document.documentElement.lang.toLowerCase();
 
-document.getElementById("copy-text-2").onclick = function () {
- copyText(this);
-};
+ // В зависимости от языка возвращаем соответствующее сообщение
+ switch (language) {
+  case "en":
+   return "Copied!";
+  case "ru":
+   return "Скопировано!";
+  // Добавьте другие языки по мере необходимости
+  case "kz":
+   return "Көшірілген!";
+ }
+}
+
+// Привязываем обработчики к кнопкам с разными ID для копирования текста
+document.querySelectorAll("#copy-text-1").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-1");
+ };
+});
+
+// Повторите для остальных кнопок и текстовых элементов
+document.querySelectorAll("#copy-text-2").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-2");
+ };
+});
+document.querySelectorAll("#copy-text-3").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-3");
+ };
+});
+document.querySelectorAll("#copy-text-4").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-4");
+ };
+});
+document.querySelectorAll("#copy-text-5").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-5");
+ };
+});
+document.querySelectorAll("#copy-text-6").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-6");
+ };
+});

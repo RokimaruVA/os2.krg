@@ -1,0 +1,152 @@
+/* root_part */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+* {
+ font-family: "Open Sans", sans-serif;
+ box-sizing: border-box;
+}
+html {
+ scroll-behavior: smooth;
+ scroll-padding-top: 4rem;
+ font-size: 100%;
+}
+@media screen and (min-width: 2560px) {
+ html {
+  font-size: 150%;
+ }
+}
+@media screen and (min-width: 3840px) {
+ html {
+  font-size: 200%;
+ }
+}
+@media screen and (min-width: 2560px) {
+ html {
+  font-size: 130%;
+ }
+}
+@media screen and (min-width: 3840px) {
+ html {
+  font-size: 200%;
+ }
+}
+
+:root {
+ /* font block  */
+ /* --fw-n: 400; */
+ --fw-m: 600;
+ --fw-b: 700;
+ --fs-sm: 1rem;
+ --fs-md: 1.2rem;
+ --fs-lg: clamp(1.4rem, 1.067rem + 0.86vw, 1.6rem);
+ --fs-xlg: clamp(2.4rem, 1.582rem + 4.09vw, 4.2rem);
+ --fs-xxlg: 6rem;
+
+ --lh-lg: 1.6;
+ --lh-md: 1.2;
+ --lh-sm: 1;
+ --lh-xs: 0.9;
+ /* space block  */
+ --spacer-xs: 0.5rem;
+ --spacer-sm: 1rem;
+ --spacer-md: 1.5rem;
+ --spacer-lg: 2rem;
+ --spacer-xlg: 4rem;
+ /* animation  */
+ --scroll-animation-speed: 1s ease;
+ --transition-delay-1: 0.2s;
+ --transition-delay-2: 0.4s;
+ --transition-delay-3: 0.6s;
+ --transition-delay-4: 0.8s;
+
+ /* colors: light scheme */
+ --base-clr-light: hsl(204, 56%, 24%);
+ --bg-clr-light: hsl(205, 33%, 98%);
+ --filling-clr-light: hsl(0, 0%, 100%);
+ --accent-clr-light: hsl(211, 88%, 59%);
+ --primary-shadow-clr-light: hsla(212, 100%, 7%, 0.075);
+ --secondary-shadow-clr-light: hsla(0, 0%, 0%, 0.05);
+ --third-shadow-color: hsla(212, 100%, 7%, 0.22);
+ --logo-light: url("../images/logo_light.svg");
+
+ /* colors: dark scheme */
+ --basic-clr-dark: hsl(0, 0%, 85%);
+ --bg-clr-dark: hsl(206, 8%, 20%);
+ --filling-clr-dark: hsl(206, 8%, 13%);
+ --accent-clr-dark: #47a0ff;
+ --primary-shadow-clr-dark: hsla(0, 0%, 0%, 0.573);
+ --secondary-shadow-clr-dark: hsl(0, 0%, 20%);
+ --logo-dark: url("../images/logo_dark.svg");
+
+ /* shadow-thickness */
+ --shadow-border-thickness-1: 0.25rem;
+ --shadow-border-thickness-2: 0.3125rem;
+ --shadow-blur-1: 2rem;
+ --shadow-blur-2: 1rem;
+}
+@media (prefers-color-scheme: light) {
+ :root {
+  /* light theme: color-objects */
+  --accent: var(--accent-clr-light);
+  --text: var(--base-clr-light);
+  --small-elements: var(--base-clr-light);
+  --background: var(--bg-clr-light);
+  --filling-space: var(--filling-clr-light);
+
+  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1)
+    var(--filling-clr-light),
+   0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light),
+   0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
+
+  --shadow-filter: var(--third-shadow-color);
+  --logo-url: var(--logo-light);
+ }
+}
+@media (prefers-color-scheme: dark) {
+ :root {
+  /* dark theme: color-objects */
+  --accent: var(--accent-clr-dark);
+  --text: var(--basic-clr-dark);
+  --small-elements: var(--basic-clr-dark);
+  --background: var(--bg-clr-dark);
+  --filling-space: var(--filling-clr-dark);
+
+  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1)
+    var(--filling-clr-dark),
+   0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-dark),
+   0 0 var(--shadow-blur-1) var(--primary-shadow-clr-dark);
+
+  --shadow-filter: var(--primary-shadow-clr-dark);
+  --logo-url: var(--logo-dark);
+ }
+}
+
+[data-theme="light"] {
+ --accent: var(--accent-clr-light);
+ --text: var(--base-clr-light);
+ --small-elements: var(--base-clr-light);
+ --background: var(--bg-clr-light);
+ --filling-space: var(--filling-clr-light);
+
+ --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1)
+   var(--filling-clr-light),
+  0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light),
+  0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
+
+ --shadow-filter: var(--third-shadow-color);
+ --logo-url: var(--logo-light);
+}
+[data-theme="dark"] {
+ --accent: var(--accent-clr-dark);
+ --text: var(--basic-clr-dark);
+ --small-elements: var(--basic-clr-dark);
+ --background: var(--bg-clr-dark);
+ --filling-space: var(--filling-clr-dark);
+
+ --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1)
+   var(--filling-clr-dark),
+  0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-dark),
+  0 0 var(--shadow-blur-1) var(--primary-shadow-clr-dark);
+
+ --shadow-filter: var(--primary-shadow-clr-dark);
+ --logo-url: var(--logo-dark);
+}

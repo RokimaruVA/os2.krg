@@ -1,0 +1,45 @@
+.magazine__grid {
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: var(--spacer-sm);
+ justify-items: end;
+}
+.magazine__card {
+ overflow: clip;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: var(--spacer-xs);
+ background-color: var(--filling-space);
+ box-shadow: var(--panel-shadow-setup);
+ border-radius: 1rem;
+}
+.magazine__card-img {
+}
+.magazine__card-img img {
+ height: 100%;
+ object-fit: cover;
+ aspect-ratio: 21 / 9;
+}
+.magazine__card-info {
+ display: flex;
+ flex-direction: column;
+ gap: var(--spacer-sm);
+ padding: var(--spacer-sm);
+}
+.magazine__card-title {
+}
+.magazine__card-text {
+ margin-left: var(--spacer-sm);
+}
+.magazine__card-link {
+}
+.magazine__more-link {
+ width: fit-content;
+ text-align: end;
+}
+@media (max-width: 39em) {
+ .magazine__card {
+  grid-template-columns: 1fr;
+  gap: var(--spacer-xs);
+ }
+}
