@@ -60,7 +60,6 @@ document.querySelectorAll("#copy-text-1").forEach(function (button) {
   copyText("text-1");
  };
 });
-
 // Повторите для остальных кнопок и текстовых элементов
 document.querySelectorAll("#copy-text-2").forEach(function (button) {
  button.onclick = function () {
@@ -85,5 +84,15 @@ document.querySelectorAll("#copy-text-5").forEach(function (button) {
 document.querySelectorAll("#copy-text-6").forEach(function (button) {
  button.onclick = function () {
   copyText("text-6");
+ };
+});
+document.querySelectorAll("#copy-text-7").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-7");
+ };
+});
+document.querySelectorAll("#copy-text-8").forEach(function (button) {
+ button.onclick = function () {
+  copyText("text-8");
  };
 });

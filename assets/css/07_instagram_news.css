@@ -4,7 +4,7 @@
  filter: drop-shadow(0 0 1rem var(--shadow-filter));
 }
 .lightwidget__caption {
- color: var(--accent, #3c93f3);
+ color: var(--accent, hsl(211, 100%, 61%));
  font-size: 1rem;
  font-weight: 600;
  margin: 1rem 1rem 1rem 0;
@@ -14,7 +14,7 @@
 }
 .lightwidget__photo:hover .lightwidget__caption,
 .lightwidget__photo:focus .lightwidget__caption {
- border-left: solid var(--accent, #3c93f3) 0.1875rem;
+ border-left: solid var(--accent, hsl(211, 100%, 61%)) 0.1875rem;
  transition: 0.3s ease;
 }
 .lightwidget__posts--grid {

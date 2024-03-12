@@ -51,7 +51,7 @@ hr {
  transform: translateY(0%);
 }
 @media (prefers-reduced-motion) {
- .hidden {
+ .animation-hidden {
   transform: none;
  }
 }
@@ -90,6 +90,7 @@ a {
  text-decoration: underline solid transparent 0.1875rem;
  text-underline-offset: 0.3125rem;
  transition: 0.3s ease;
+ cursor: pointer;
 }
 .link:hover,
 .link:focus {
@@ -99,6 +100,10 @@ a {
  display: inline;
 }
 ion-icon {
+}
+.icon-container {
+ display: flex;
+ cursor: pointer;
 }
 .wrapper {
  display: flex;

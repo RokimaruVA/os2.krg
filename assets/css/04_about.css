@@ -51,6 +51,7 @@
  font-weight: var(--fw-m);
  border-bottom: solid transparent 0.1875rem;
  transition: 0.3s ease;
+ cursor: pointer;
 }
 .about__contacts:hover,
 .about__contacts:focus,
@@ -70,6 +71,7 @@
  font-weight: var(--fw-m);
  border-bottom: solid transparent 0.1875rem;
  transition: 0.3s ease;
+ cursor: pointer;
 }
 .about__link:hover,
 .about__link:focus {

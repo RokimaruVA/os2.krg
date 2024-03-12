@@ -24,9 +24,13 @@ function initYouTubeVideos() {
   var videoId = playerElements[n].dataset.id;
   var div = document.createElement("div");
   div.setAttribute("data-id", videoId);
+
+  // Создание элемента img с альтернативным текстом
   var thumbNode = document.createElement("img");
   thumbNode.src = "//i.ytimg.com/vi/ID/hqdefault.jpg".replace("ID", videoId);
+  thumbNode.alt = "youtube-video"; // Установка альтернативного текста
   div.appendChild(thumbNode);
+
   var playButton = document.createElement("div");
   playButton.setAttribute("class", "play");
   div.appendChild(playButton);

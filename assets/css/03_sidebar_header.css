@@ -68,9 +68,6 @@
  gap: var(--spacer-md);
  justify-content: end;
 }
-.icon-container {
- display: flex;
-}
 .menu-button,
 .close-button {
  display: none;

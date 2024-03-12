@@ -62,7 +62,7 @@ html {
  --base-clr-light: hsl(204, 56%, 24%);
  --bg-clr-light: hsl(205, 33%, 98%);
  --filling-clr-light: hsl(0, 0%, 100%);
- --accent-clr-light: hsl(211, 88%, 59%);
+ --accent-clr-light: hsl(211, 100%, 61%);
  --primary-shadow-clr-light: hsla(212, 100%, 7%, 0.075);
  --secondary-shadow-clr-light: hsla(0, 0%, 0%, 0.05);
  --third-shadow-color: hsla(212, 100%, 7%, 0.22);
@@ -72,7 +72,7 @@ html {
  --basic-clr-dark: hsl(0, 0%, 85%);
  --bg-clr-dark: hsl(206, 8%, 20%);
  --filling-clr-dark: hsl(206, 8%, 13%);
- --accent-clr-dark: #47a0ff;
+ --accent-clr-dark: hsl(211, 100%, 61%);
  --primary-shadow-clr-dark: hsla(0, 0%, 0%, 0.573);
  --secondary-shadow-clr-dark: hsl(0, 0%, 20%);
  --logo-dark: url("../images/logo_dark.svg");

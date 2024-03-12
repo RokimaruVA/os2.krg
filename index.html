@@ -2,8 +2,29 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8" />
+  <meta name="language" content="en" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Schoolkids Palace №2 - Main Page</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Schoolkids Palace №2. Education for children.</title>
+  <meta
+   name="description"
+   content="Our organization provides supplementary education for children of school and preschool age. You can find educational sections, clubs, and circles tailored to your child's interests with us."
+  />
+  <meta
+   name="keywords"
+   content="Supplementary education, After-school programs, Enrichment programs, Educational activities, Extracurricular activities, Learning resources, Academic enrichment, Skill development, Creative learning, Enrichment classes, Educational workshops, Specialized education, Learning centers, Enrichment courses, Academic support, Tutoring services, STEM education, Arts education, Physical education, Language learning"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta
+   property="og:title"
+   content="Schoolkids Palace №2. Education for children."
+  />
+  <meta
+   property="og:description"
+   content="Our organization provides supplementary education for children of school and preschool age. You can find educational sections, clubs, and circles tailored to your child's interests with us."
+  />
+  <meta property="og:image" content="assets/images/entry.jpg" />
   <link
    rel="icon"
    href="assets/images/favicon_light.svg"
@@ -37,28 +58,29 @@
  <body>
   <div class="wrapper">
    <main>
-    <ul class="sidebar animation-hidden">
-     <li>
-      <a href="#" class="close-button">
-       <ion-icon name="close-outline"></ion-icon>
-      </a>
-     </li>
-     <li><a class="sidebar__li" href="#about">About us</a></li>
-     <li>
-      <a class="sidebar__li" href="#how_to_regestrate">How to sign up</a>
-     </li>
-     <li><a class="sidebar__li" href="#directions">What do we teach</a></li>
-     <li><a class="sidebar__li" href="#news">News and Events</a></li>
-     <li><a class="sidebar__li" href="#qna">Q&A Section</a></li>
-     <li><a class="sidebar__li" href="#competitions">!!! Competitions</a></li>
-     <li><a class="sidebar__li" href="#magazine">!!! Our magazine</a></li>
-     <li><a class="sidebar__li" href="#">!!! Seminars</a></li>
-     <li>
-      <a class="sidebar__li" href="#documentation">!!! Documentation</a>
-     </li>
-     <li><a class="sidebar__li" href="#vacancies">!!! Vacancies</a></li>
-    </ul>
-
+    <nav>
+     <ul class="sidebar animation-hidden">
+      <li>
+       <a href="#" class="close-button" aria-label="Close side-menu">
+        <ion-icon name="close-outline"></ion-icon>
+       </a>
+      </li>
+      <li><a class="sidebar__li" href="#about">About us</a></li>
+      <li>
+       <a class="sidebar__li" href="#how_to_regestrate">How to sign up</a>
+      </li>
+      <li><a class="sidebar__li" href="#directions">What do we teach</a></li>
+      <li><a class="sidebar__li" href="#news">News and Events</a></li>
+      <li><a class="sidebar__li" href="#qna">Q&A Section</a></li>
+      <li><a class="sidebar__li" href="#competitions">!!! Competitions</a></li>
+      <li><a class="sidebar__li" href="#magazine">!!! Our magazine</a></li>
+      <li><a class="sidebar__li" href="#">!!! Seminars</a></li>
+      <li>
+       <a class="sidebar__li" href="#documentation">!!! Documentation</a>
+      </li>
+      <li><a class="sidebar__li" href="#vacancies">!!! Vacancies</a></li>
+     </ul>
+    </nav>
     <div class="content">
      <div class="top-panel hidden-desktop">
       <div class="lang__row">
@@ -67,14 +89,14 @@
        <a class="lang__item selected" href="#">en</a>
       </div>
       <div class="header__icons">
-       <a href="javascript:void(0);" class="icon-container">
+       <a class="icon-container" aria-label="Dark-light mod changer">
         <ion-icon
          name="contrast-outline"
          class="theme-switcher"
          onclick="toggleTheme() "
         ></ion-icon>
        </a>
-       <a href="javascript:void(0);" class="icon-container">
+       <a class="icon-container" aria-label="Open menu button">
         <ion-icon name="reorder-three-outline" class="menu-button"></ion-icon>
        </a>
       </div>
@@ -94,14 +116,14 @@
         <a class="lang__item selected" href="#">en</a>
        </div>
        <div class="header__icons">
-        <a href="javascript:void(0);" class="icon-container">
+        <a class="icon-container">
          <ion-icon
           name="contrast-outline"
           class="theme-switcher"
           onclick="toggleTheme() "
          ></ion-icon>
         </a>
-        <a href="javascript:void(0);" class="icon-container">
+        <a class="icon-container">
          <ion-icon name="reorder-three-outline" class="menu-button"></ion-icon>
         </a>
        </div>
@@ -113,7 +135,7 @@
        <div class="about__img">
         <img
          src="assets/images/entry.jpg"
-         alt="Дворец_школьников №2 Караганда"
+         alt="image of Schoolkids Palace №2"
         />
        </div>
        <div class="about__content">
@@ -127,23 +149,15 @@
         <h1 class="text-right-alignment" id="contacts__scroll">Contacts</h1>
         <div class="about-links__row">
          <div class="about__links">
-          <a
-           href="javascript:void(0);"
-           id="copy-text-1"
-           class="about__contacts about__tel-desktop"
-          >
+          <a id="copy-text-1" class="about__contacts about__tel-desktop">
            <ion-icon name="copy-outline"></ion-icon>
            <div id="text-1">8 7212 60 44 79</div>
           </a>
-          <a href="tel:8 7212 60 44 79" class="about__contacts-mobile">
+          <a href="tel:87212604479" class="about__contacts-mobile">
            <ion-icon name="copy-outline"></ion-icon>
            <p>8 7212 60 44 79</p>
           </a>
-          <a
-           href="javascript:void(0);"
-           id="copy-text-2"
-           class="about__contacts"
-          >
+          <a id="copy-text-2" class="about__contacts">
            <ion-icon name="copy-outline"></ion-icon>
            <div id="text-2">ddu_new@kargoo.kz</div>
           </a>
@@ -359,6 +373,7 @@
        <!-- LightWidget WIDGET -->
        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
        <iframe
+        title="instagram__news"
         src="//lightwidget.com/widgets/bbfa9196644559378cd8e09bbfa8330d.html"
         scrolling="no"
         allowtransparency="true"
@@ -371,18 +386,15 @@
        <p class="qna__message">
         If you have any questions, you can find them here or ask by <br />
         phone
-        <a href="tel:8 7212 60 44 79" class="link link-in-text hidden-desktop">
+        <a href="tel:87212604479" class="link link-in-text hidden-desktop">
          8 7212 60 44 79</a
         >
-        <a
-         href="javascript:void(0);"
-         id="copy-text-3"
-         class="link link-in-text hidden-mobile"
+        <a id="copy-text-3" class="link link-in-text hidden-mobile"
          ><span id="text-3">8 7212 60 44 79</span></a
         >
         <br />
         or email
-        <a href="javascript:void(0);" id="copy-text-4" class="link link-in-text"
+        <a id="copy-text-4" class="link link-in-text"
          ><span id="text-4">ddu_new@kargoo.kz</span></a
         >.
        </p>
@@ -957,7 +969,10 @@
         <div class="docs__pass">
          <div class="docs__pass-block">
           <div class="docs__pass-block-img">
-           <img src="assets/images/building_docs.jpg" alt="" />
+           <img
+            src="assets/images/building_docs.jpg"
+            alt="image of Schoolkids Palace №2"
+           />
           </div>
           <div class="docs__pass-block-text">
            <h2 class="docs__pass-title">Паспорт организации</h2>
@@ -992,15 +1007,15 @@
            </div>
            <div>
             <p class="docs__pass-header">Время работы</p>
-            <p class="docs__pass-info">с 9:00 до 21:00</p>
+            <p class="docs__pass-info">с 9:00 до 20:00</p>
            </div>
            <div>
             <p class="docs__pass-header">Проектная мощьность</p>
-            <p class="docs__pass-info">999 учебных мест</p>
+            <p class="docs__pass-info">3744 учебных мест</p>
            </div>
            <div>
             <p class="docs__pass-header">Дата открытия</p>
-            <p class="docs__pass-info">29 августа 2020 год</p>
+            <p class="docs__pass-info">1 сентября 2020 год</p>
            </div>
            <div>
             <p class="docs__pass-header">Тип финансирования</p>
@@ -1009,8 +1024,9 @@
            <div>
             <p class="docs__pass-header">Кадровое обеспечение</p>
             <p class="docs__pass-info">
-             по штатному расписанию АУП и тех.персонал 21,5 ед. <br />
-             педагогический состав-99 ед.
+             по штатному расписанию АУП 5 ед. <br />
+             тех.персонал 30 ед. <br />
+             педагогический состав 85 ед.
             </p>
            </div>
            <div>
@@ -1036,13 +1052,10 @@
         <p>
          You can see our job vacancies and application status in the window
          below and apply for the vacancy by contacting us via phone
-         <a href="tel:8 7212 60 44 79" class="link link-in-text hidden-desktop">
+         <a href="tel:87212604479" class="link link-in-text hidden-desktop">
           8 7212 60 44 79</a
          >
-         <a
-          href="javascript:void(0);"
-          id="copy-text-5"
-          class="link link-in-text hidden-mobile"
+         <a id="copy-text-5" class="link link-in-text hidden-mobile"
           ><span id="text-5">8 7212 60 44 79</span></a
          >
          <br />
@@ -1067,6 +1080,7 @@
         <iframe
          src="https://docs.google.com/document/d/e/2PACX-1vSzNUfKvLiz2zErdq6veSQ3RxRJyoh9VY_zQIBxXuQsX0OpfxcTXxviN7cVMrJVIUXaPUisTwa3TIzj/pub?embedded=true"
          loading="lazy"
+         title="google-docs"
         ></iframe>
        </div>
       </section>
@@ -1075,69 +1089,76 @@
    </main>
   </div>
   <footer class="footer">
-   <div class="footer__bg"></div>
-   <div class="footer__illustration">
-    <img
-     src="assets/images/footer-illustration.svg"
-     alt="stylized image of organisation's building"
-    />
-   </div>
-   <div class="footer-content">
-    <div class="footer__follow-us">
-     <h2>Follow Us</h2>
-     <div class="footer__follow-us-links">
-      <a
-       href="https://www.instagram.com/oqushylarsaraiy_2_krg/"
-       target="_blank"
-       class="about__link"
-      >
-       <ion-icon name="logo-instagram"></ion-icon> Instagram
-      </a>
-      <a
-       href="https://www.facebook.com/people/Екінші-Оқушылар-Сарайы/pfbid02xSaTc4MMTSMSRtzxFfpQu8tyn9pfZikjS3DmL4g7y3iui6e4SYggtcMeVs8x3V9Vl/"
-       target="_blank"
-       class="about__link"
-      >
-       <ion-icon name="logo-facebook"></ion-icon> Facebook
-      </a>
-      <a
-       href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
-       target="_blank"
-       class="about__link"
-      >
-       <ion-icon name="earth-outline"></ion-icon> Education Department
-      </a>
+   <div class="footer-wraper">
+    <div class="footer-content">
+     <div class="footer__bg"></div>
+     <div class="footer__illustration">
+      <img
+       src="assets/images/footer-illustration.svg"
+       alt="stylized image of organisation's building"
+      />
      </div>
-    </div>
-    <div class="footer__contact-us">
-     <h2>Contact Us</h2>
-     <div class="footer__contact-us-links">
-      <a
-       href="javascript:void(0);"
-       id="copy-text-1"
-       class="about__contacts about__tel-desktop"
-      >
-       <ion-icon name="copy-outline"></ion-icon>
-       <div id="text-1">8 7212 60 44 79</div>
-      </a>
-      <a href="tel:8 7212 60 44 79" class="about__contacts-mobile">
-       <ion-icon name="copy-outline"></ion-icon>
-       <p>8 7212 60 44 79</p>
-      </a>
-      <a href="javascript:void(0);" id="copy-text-2" class="about__contacts">
-       <ion-icon name="copy-outline"></ion-icon>
-       <div id="text-2">ddu_new@kargoo.kz</div>
-      </a>
-      <a href="https://go.2gis.com/hnoom" target="_blank" class="about__link">
-       <ion-icon name="navigate-outline"></ion-icon> 141 Acc. Qtr., Bldg. 690
-      </a>
+     <div class="footer__follow-us">
+      <h2>Follow Us</h2>
+      <div class="footer__follow-us-links">
+       <a
+        href="https://www.instagram.com/oqushylarsaraiy_2_krg/"
+        target="_blank"
+        class="about__link"
+       >
+        <ion-icon name="logo-instagram"></ion-icon> Instagram
+       </a>
+       <a
+        href="https://www.facebook.com/people/Екінші-Оқушылар-Сарайы/pfbid02xSaTc4MMTSMSRtzxFfpQu8tyn9pfZikjS3DmL4g7y3iui6e4SYggtcMeVs8x3V9Vl/"
+        target="_blank"
+        class="about__link"
+       >
+        <ion-icon name="logo-facebook"></ion-icon> Facebook
+       </a>
+       <a
+        href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
+        target="_blank"
+        class="about__link"
+       >
+        <ion-icon name="earth-outline"></ion-icon> Education Department
+       </a>
+      </div>
+     </div>
+     <div class="footer__contact-us">
+      <h2>Contact Us</h2>
+      <div class="footer__contact-us-links">
+       <a
+        href="javascript:void(0);"
+        id="copy-text-7"
+        class="about__contacts about__tel-desktop"
+       >
+        <ion-icon name="copy-outline"></ion-icon>
+        <div id="text-7">8 7212 60 44 79</div>
+       </a>
+       <a href="tel:87212604479" class="about__contacts-mobile">
+        <ion-icon name="copy-outline"></ion-icon>
+        <p>8 7212 60 44 79</p>
+       </a>
+       <a id="copy-text-8" class="about__contacts">
+        <ion-icon name="copy-outline"></ion-icon>
+        <div id="text-8">ddu_new@kargoo.kz</div>
+       </a>
+       <a
+        href="https://go.2gis.com/hnoom"
+        target="_blank"
+        class="about__link"
+        aria-label="Organisation's  adress"
+       >
+        <ion-icon name="navigate-outline"></ion-icon> 141 Acc. Qtr., Bldg. 690
+       </a>
+      </div>
      </div>
     </div>
     <div class="footer__credits">
-     <div>
-      <div class="footer__made-by">Made by Roma.V</div>
-      <div class="footer__copyrights">2024 © All rights reserved</div>
+     <div class="footer__copyrights">
+      © 2024 Palace of Schoolchildren, Karaganda City. All rights reserved.
      </div>
+     <div class="footer__made-by">Crafted with care by Roma V.</div>
     </div>
    </div>
   </footer>
