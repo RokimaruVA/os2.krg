@@ -39,7 +39,7 @@ hr {
  color: inherit;
 }
 .selected {
- font-weight: var(--fw-b) !important;
+ font-weight: var(--fw-b);
 }
 .animation-hidden {
  opacity: 0;
