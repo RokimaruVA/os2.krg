@@ -135,8 +135,6 @@
  .sidebar {
   overflow-x: auto;
   background-color: var(--filling-space);
-  /* background-color: rgba(5, 9, 15, 0.841);
-		backdrop-filter: blur(0.5rem); */
   position: fixed;
   width: 17rem;
   gap: var(--spacer-sm);
