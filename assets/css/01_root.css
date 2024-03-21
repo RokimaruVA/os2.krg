@@ -19,16 +19,6 @@ html {
   font-size: 200%;
  }
 }
-@media screen and (min-width: 2560px) {
- html {
-  font-size: 130%;
- }
-}
-@media screen and (min-width: 3840px) {
- html {
-  font-size: 200%;
- }
-}
 
 :root {
  /* font block  */

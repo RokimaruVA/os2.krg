@@ -43,8 +43,20 @@
 .direction__card:nth-child(6) {
  grid-area: language;
 }
-.directions__grid > div:nth-child(5) {
+.directions__grid > div:nth-child(1) {
+ background-position: right 100% bottom 4rem;
+}
+.directions__grid > div:nth-child(2) {
  background-position: right 100% bottom 6rem;
+}
+.directions__grid > div:nth-child(3) {
+ background-position: right 100% ;
+}
+.directions__grid > div:nth-child(4) {
+ background-position: right 100% bottom 7rem;
+}
+.directions__grid > div:nth-child(5) {
+ background-position: right 100% bottom 9rem;
 }
 .directions__grid > div:nth-child(6) {
  background-position: right 50% bottom 6rem;
