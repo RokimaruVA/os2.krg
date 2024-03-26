@@ -2,7 +2,6 @@
  display: grid;
  grid-template-columns: 1fr 2fr;
  gap: var(--spacer-sm);
- transition-delay: var(--transition-delay-1);
  overflow: clip;
  box-shadow: var(--panel-shadow-setup);
  border-radius: 1rem;
@@ -26,7 +25,7 @@
 .about-links__row {
  display: grid;
  gap: var(--spacer-sm);
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1.2fr 1fr;
 }
 .about__links {
  display: flex;

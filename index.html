@@ -15,7 +15,7 @@
    content="Supplementary education, After-school programs, Enrichment programs, Educational activities, Extracurricular activities, Learning resources, Academic enrichment, Skill development, Creative learning, Enrichment classes, Educational workshops, Specialized education, Learning centers, Enrichment courses, Academic support, Tutoring services, STEM education, Arts education, Physical education, Language learning"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
+  <meta property="og:url" content="http://krg.os2.kz/index.html" />
   <meta
    property="og:title"
    content="Palace of Schoolchildren №2. Education for children."
@@ -52,40 +52,64 @@
   <link rel="stylesheet" href="assets/css/12_vacancies.css" />
   <link rel="stylesheet" href="assets/css/13_footer.css" />
   <link rel="stylesheet" href="assets/css/14_team.css" />
+  <script src="assets/js/darkToggle.js"></script>
  </head>
  <body>
   <div class="wrapper">
    <main>
-    <nav class="sidebar animation-hidden">
+    <nav class="sidebar ">
      <div>
       <a href="#" class="close-button" aria-label="Close side-menu">
        <ion-icon name="close-outline"></ion-icon>
       </a>
      </div>
-     <div><a class="sidebar__li" href="#about">About us</a></div>
+     <div><a class="sidebar__li lang-nav-about" href="#about">About us</a></div>
      <div>
-      <a class="sidebar__li" href="#how_to_regestrate">How to sign up</a>
+      <a class="sidebar__li lang-nav-sign-in" href="#how_to_regestrate"
+       >How to sign up</a
+      >
      </div>
-     <div><a class="sidebar__li" href="#directions">What do we teach</a></div>
-     <div><a class="sidebar__li" href="#news">News and Events</a></div>
-     <div><a class="sidebar__li" href="#qna">Q&A Section</a></div>
-     <div><a class="sidebar__li" href="#competitions">!!! Competitions</a></div>
-     <div><a class="sidebar__li" href="#magazine">!!! Our magazine</a></div>
-     <div><a class="sidebar__li" href="#">!!! Seminars</a></div>
-     <div><a class="sidebar__li" href="#team">!!! Team</a></div>
+     <div>
+      <a class="sidebar__li lang-nav-direction" href="#directions"
+       >What do we teach</a
+      >
+     </div>
+     <div>
+      <a class="sidebar__li lang-nav-news" href="#news">News and Events</a>
+     </div>
+     <div><a class="sidebar__li lang-nav-qna" href="#qna">Q&A Section</a></div>
+     <div>
+      <a class="sidebar__li lang-nav-competitions" href="#competitions"
+       >Competitions</a
+      >
+     </div>
+     <div>
+      <a class="sidebar__li lang-nav-magazine" href="#magazine">Our magazine</a>
+     </div>
+     <div>
+      <a class="sidebar__li lang-nav-seminars" href="#">Seminars</a>
+     </div>
+     <div><a class="sidebar__li lang-nav-team" href="#team">Team</a></div>
 
      <div>
-      <a class="sidebar__li" href="#documentation">!!! Documentation</a>
+      <a class="sidebar__li lang-nav-documents" href="#documentation"
+       >Documentation</a
+      >
      </div>
-     <div><a class="sidebar__li" href="#vacancies">!!! Vacancies</a></div>
+     <div>
+      <a class="sidebar__li lang-nav-vacancies" href="#vacancies">Vacancies</a>
+     </div>
     </nav>
     <div class="content">
      <div class="top-panel hidden-desktop">
-      <div class="lang__row">
-       <a class="lang__item" href="#">kz</a>
-       <a class="lang__item" href="#">ru</a>
-       <a class="lang__item selected" href="#">en</a>
-      </div>
+      <form class="lang__row">
+       <input type="radio" name="language" value="kz" id="kz" />
+       <label class="lang__item" for="kz"> kz </label>
+       <input type="radio" name="language" value="ru" id="ru" />
+       <label class="lang__item" for="ru"> ru </label>
+       <input type="radio" name="language" value="en" id="en" />
+       <label class="lang__item" for="en"> en </label>
+      </form>
       <div class="header__icons">
        <a class="icon-container" aria-label="Dark-light mod changer">
         <ion-icon
@@ -99,20 +123,23 @@
        </a>
       </div>
      </div>
-     <div class="header animation-hidden" id="about">
+     <div class="header " id="about">
       <a class="logo" href="index.html"
        ><div class="logo__img" alt="bg-logo"></div>
        <div class="logo__text">
-        <div class="city-name">Karaganda City</div>
-        Palace of Schoolchildren №2
+        <div class="city-name lang-city">Karaganda City</div>
+        <div class="lang-organization-name">Palace of Schoolchildren №2</div>
        </div></a
       >
-      <div class="header__row animation-hidden hidden-mobile">
-       <div class="lang__row">
-        <a class="lang__item" href="#">kz</a>
-        <a class="lang__item" href="#">ru</a>
-        <a class="lang__item selected" href="#">en</a>
-       </div>
+      <div class="header__row  hidden-mobile">
+       <form class="lang__row">
+        <input type="radio" name="language" value="kz" id="kz" />
+        <label class="lang__item" for="kz"> kz </label>
+        <input type="radio" name="language" value="ru" id="ru" />
+        <label class="lang__item" for="ru"> ru </label>
+        <input type="radio" name="language" value="en" id="en" />
+        <label class="lang__item" for="en"> en </label>
+       </form>
        <div class="header__icons">
         <a class="icon-container">
          <ion-icon
@@ -129,7 +156,7 @@
      </div>
 
      <div class="sections">
-      <section class="about animation-hidden">
+      <section class="about ">
        <div class="about__img">
         <img
          src="assets/images/entry.jpg"
@@ -137,14 +164,19 @@
         />
        </div>
        <div class="about__content">
-        <h1 class="text-right-alignment">About Us</h1>
-        <p>
+        <h1 class="text-right-alignment lang-header-about">About Us</h1>
+        <p class="lang-about-paragraph">
          The Palace of Schoolchildren №2 is a multifunctional institution that
          operates during the school year and during vacation periods. Our
          students develop their creative abilities, broaden their horizons,
          learn new skills, and make new friends.
         </p>
-        <h1 class="text-right-alignment" id="contacts__scroll">Contacts</h1>
+        <h1
+         class="text-right-alignment lang-header-contacts"
+         id="contacts__scroll"
+        >
+         Contacts
+        </h1>
         <div class="about-links__row">
          <div class="about__links">
           <a id="copy-text-1" class="about__contacts about__tel-desktop">
@@ -164,8 +196,8 @@
            target="_blank"
            class="about__link"
           >
-           <ion-icon name="navigate-outline"></ion-icon> 141 Acc. Qtr., Bldg.
-           690
+           <ion-icon name="navigate-outline"></ion-icon>
+           <div class="lang-address">141 Acc. Qtr., Bldg. 690</div>
           </a>
          </div>
          <div class="about__social-media">
@@ -188,11 +220,12 @@
            target="_blank"
            class="about__link"
           >
-           <ion-icon name="earth-outline"></ion-icon> Education Department
+           <ion-icon name="earth-outline"></ion-icon>
+           <div class="lang-edu-depart-link">Education Department</div>
           </a>
          </div>
         </div>
-        <p>
+        <p class="lang-our-location">
          We are located in the southeast of the city, between Sarayarka Street
          and Miners Avenue, behind the 'House of Friendship of Nations'. The
          entrance is located on Sarayarka Street side. We will be glad to see
@@ -200,7 +233,7 @@
         </p>
        </div>
       </section>
-      <section class="instruction animation-hidden" id="how_to_regestrate">
+      <section class="instruction " id="how_to_regestrate">
        <h1 class="text-right-alignment">How to sign up</h1>
        <div class="instruction__row">
         <div class="video-tutorial">
@@ -230,7 +263,7 @@
         </div>
        </div>
       </section>
-      <section class="directions animation-hidden" id="directions">
+      <section class="directions " id="directions">
        <h1 class="text-right-alignment">What do we teach</h1>
        <p>
         Please take the opportunity to peruse our diverse range of classes and
@@ -355,7 +388,7 @@
        </div>
       </section>
       <section
-       class="news animation-hidden"
+       class="news "
        style="margin-bottom: -1rem"
        id="news"
       >
@@ -371,7 +404,7 @@
         style="width: 100%; border: 0; overflow: visible"
        ></iframe>
       </section>
-      <section class="qna animation-hidden" id="qna">
+      <section class="qna " id="qna">
        <h1 class="text-right-alignment">Questions and Answers</h1>
        <p class="qna__message">
         If you have any questions, you can find them here or ask by <br />
@@ -390,7 +423,7 @@
        </p>
        <div class="accordion">
         <div class="accordion__tab">
-         <input type="checkbox" id="rd5" name="rd" />
+         <input type="checkbox" id="rd5" name="qna" />
          <label class="accordion__tab-label" for="rd5"
           >How to sign up for classes?</label
          >
@@ -403,7 +436,7 @@
         </div>
 
         <div class="accordion__tab">
-         <input type="checkbox" id="rd6" name="rd" />
+         <input type="checkbox" id="rd6" name="qna" />
          <label class="accordion__tab-label" for="rd6"
           >Why don't I see the sign-up button next to the selected club on the
           e-daryn website?</label
@@ -416,7 +449,7 @@
         </div>
 
         <div class="accordion__tab">
-         <input type="checkbox" id="rd7" name="rd" />
+         <input type="checkbox" id="rd7" name="qna" />
          <label class="accordion__tab-label" for="rd7"
           >When can we receive the contract for educational services if we have
           already signed up for classes?</label
@@ -428,7 +461,7 @@
         </div>
 
         <div class="accordion__tab">
-         <input type="checkbox" id="rd8" name="rd" />
+         <input type="checkbox" id="rd8" name="qna" />
          <label class="accordion__tab-label" for="rd8"
           >How can I find out the contact number of the teacher?</label
          >
@@ -439,7 +472,7 @@
         </div>
 
         <div class="accordion__tab">
-         <input type="checkbox" id="rd9" name="rd" />
+         <input type="checkbox" id="rd9" name="qna" />
          <label class="accordion__tab-label" for="rd9"
           >Can I accompany my child to the classroom door?</label
          >
@@ -450,7 +483,7 @@
          </div>
         </div>
         <!-- <div class="accordion__tab" for="rd1">
-	         <input type="checkbox" id="rd1" name="rd" />
+	         <input type="checkbox" id="rd1" name="qna" />
 	         <label class="accordion__tab-label" for="rd1">section #1</label>
 	         <div class="accordion__tab-content">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
@@ -459,7 +492,7 @@
 	         </div>
 	        </div>
 	        <div class="accordion__tab">
-	         <input type="checkbox" id="rd2" name="rd" />
+	         <input type="checkbox" id="rd2" name="qna" />
 	         <label class="accordion__tab-label" for="rd2">section #1</label>
 	         <div class="accordion__tab-content">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
@@ -469,7 +502,7 @@
 	        </div>
 	
 	        <div class="accordion__tab">
-	         <input type="checkbox" id="rd3" name="rd" />
+	         <input type="checkbox" id="rd3" name="qna" />
 	         <label class="accordion__tab-label" for="rd3"
 	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
 	         >
@@ -481,7 +514,7 @@
 	        </div>
 	
 	        <div class="accordion__tab">
-	         <input type="checkbox" id="rd4" name="rd" />
+	         <input type="checkbox" id="rd4" name="qna" />
 	         <label class="accordion__tab-label" for="rd4"
 	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
 	         >
@@ -492,7 +525,7 @@
 	         </div>
 	        </div>
 	        <div class="accordion__tab">
-	         <input type="checkbox" id="rd10" name="rd" />
+	         <input type="checkbox" id="rd10" name="qna" />
 	         <label class="accordion__tab-label" for="rd10"
 	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
 	         >
@@ -504,7 +537,7 @@
 	        </div> -->
        </div>
       </section>
-      <section class="competitions animation-hidden" id="competitions">
+      <section class="competitions " id="competitions">
        <h1 class="text-right-alignment">Competitions</h1>
        <p class="text-right-alignment">
         We offer a variety of contests, competitions, and projects that
@@ -638,7 +671,7 @@
         </div>
        </div>
       </section>
-      <section class="magazine animation-hidden" id="magazine">
+      <section class="magazine " id="magazine">
        <h1 class="text-right-alignment">Magazine</h1>
        <p class="text-right-alignment">
         Our organization publishes a journal focusing on education, aiming to
@@ -724,7 +757,7 @@
         </div>
        </div>
       </section>
-      <section class="documentation animation-hidden" id="documentation">
+      <section class="documentation " id="documentation">
        <h1 class="text-right-alignment">Documentation</h1>
        <div class="docs__row">
         <div class="docs__files">
@@ -1060,7 +1093,7 @@
         </div>
        </div>
       </section>
-      <section class="vacancies animation-hidden" id="vacancies">
+      <section class="vacancies " id="vacancies">
        <h1 class="text-right-alignment">Vacancies</h1>
        <div class="vacancies-text">
         <p>
@@ -1187,10 +1220,11 @@
    nomodule
    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
   ></script>
-  <script src="assets/js/scroll-animation.js"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/lang.js"></script>
+  <!-- <script src="assets/js/scroll-animation.js"></script> -->
   <script src="assets/js/menu.js"></script>
   <script src="assets/js/clipboard.js"></script>
-  <script src="assets/js/darkToggle.js"></script>
   <script src="assets/js/youtube.js"></script>
  </body>
 </html>

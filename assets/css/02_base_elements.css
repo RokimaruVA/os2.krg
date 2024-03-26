@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
  width: 1rem; /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
- background: transparent; /* color of the tracking area */
+ background: var(--background); /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
  background-color: var(--accent); /* color of the scroll thumb */
@@ -38,16 +38,33 @@ hr {
  content: "• ";
  color: inherit;
 }
-.selected {
- font-weight: var(--fw-b) !important;
+
+section,
+body {
+ transition: ease-in-out 0.2s;
 }
-.animation-hidden {
+
+body {
+ animation: fade-sections 1.5s 1;
+}
+@keyframes fade-sections {
+ 0% {
+  opacity: 0;
+ }
+ 50% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+/* .animation-hidden {
  opacity: 0;
  transition: var(--scroll-animation-speed);
 }
 .animation-show {
  opacity: 1;
-}
+} */
 @media (prefers-reduced-motion) {
  .animation-hidden {
   transform: none;

@@ -28,7 +28,7 @@
 .logo__text {
  font-weight: var(--fw-b);
  font-size: var(--fs-lg);
- line-height: var(--lh-sm);
+ line-height: var(--lh-md);
  color: var(--accent);
 }
 .city-name {
@@ -56,11 +56,16 @@
  transition: 0.3s ease;
  padding: 0.3rem;
  padding-block: 0.5rem;
+ cursor: pointer;
 }
 .lang__item:hover,
 .lang__item:focus {
  border-bottom: solid var(--accent) 0.1875rem;
 }
+.lang__row input:checked + label {
+ font-weight: var(--fw-b);
+}
+
 .header__icons {
  color: var(--accent);
  display: flex;
@@ -118,7 +123,6 @@
  gap: var(--spacer-xs);
  top: 8rem;
  min-width: 11rem;
- transition-delay: var(--transition-delay-2);
 }
 .sidebar > * {
  width: fit-content;

@@ -42,6 +42,15 @@ input,
 select {
  margin: 0;
 }
+button {
+ border: none;
+ background: none;
+ font: inherit;
+ color: inherit;
+ cursor: pointer;
+ outline: none;
+}
+
 html {
  box-sizing: border-box;
 }
