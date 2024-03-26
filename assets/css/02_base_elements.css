@@ -45,13 +45,10 @@ body {
 }
 
 body {
- animation: fade-sections 1.5s 1;
+ animation: fade-sections 1s 1;
 }
 @keyframes fade-sections {
  0% {
-  opacity: 0;
- }
- 50% {
   opacity: 0;
  }
  100% {
