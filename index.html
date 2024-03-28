@@ -60,10 +60,22 @@
     <nav class="sidebar">
      <div>
       <a href="#" class="close-button" aria-label="Close side-menu">
-       <ion-icon name="close-outline"></ion-icon>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <rect width="512" height="512" fill="none" />
+        <path
+         fill="none"
+         stroke="currentColor"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="32"
+         d="M368 368L144 144m224 0L144 368"
+        />
+       </svg>
       </a>
      </div>
-     <div><a class="sidebar__li lang-nav-about" href="#about">About us</a></div>
+     <div>
+      <a class="sidebar__li lang-nav-about" href="#about">About us </a>
+     </div>
      <div>
       <a class="sidebar__li lang-nav-sign-in" href="#how_to_regestrate"
        >How to sign up</a
@@ -111,15 +123,35 @@
        <label class="lang__item" for="en"> en </label>
       </form>
       <div class="header__icons">
-       <a class="icon-container" aria-label="Dark-light mod changer">
-        <ion-icon
-         name="contrast-outline"
-         class="theme-switcher"
-         onclick="toggleTheme() "
-        ></ion-icon>
+       <a
+        class="header-icon-container"
+        aria-label="Dark-light mod changer"
+        onclick="toggleTheme() "
+       >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+         <rect width="20" height="20" fill="none" />
+         <path
+          fill="currentColor"
+          d="M10 3.5a6.5 6.5 0 1 1 0 13zM10 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16"
+         />
+        </svg>
        </a>
-       <a class="icon-container" aria-label="Open menu button">
-        <ion-icon name="reorder-three-outline" class="menu-button"></ion-icon>
+       <a class="header-icon-container" aria-label="Open menu button">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 512 512"
+         class="menu-button"
+        >
+         <rect width="512" height="512" fill="none" />
+         <path
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-miterlimit="10"
+          stroke-width="32"
+          d="M88 152h336M88 256h336M88 360h336"
+         />
+        </svg>
        </a>
       </div>
      </div>
@@ -141,15 +173,34 @@
         <label class="lang__item" for="en"> en </label>
        </form>
        <div class="header__icons">
-        <a class="icon-container">
-         <ion-icon
-          name="contrast-outline"
-          class="theme-switcher"
-          onclick="toggleTheme() "
-         ></ion-icon>
+        <a
+         class="header-icon-container"
+         aria-label="Dark-light mod changer"
+         onclick="toggleTheme() "
+        >
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <rect width="20" height="20" fill="none" />
+          <path
+           fill="currentColor"
+           d="M10 3.5a6.5 6.5 0 1 1 0 13zM10 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16"
+          />
+         </svg>
         </a>
-        <a class="icon-container">
-         <ion-icon name="reorder-three-outline" class="menu-button"></ion-icon>
+        <a
+         class="header-icon-container menu-button"
+         aria-label="Open menu button"
+        >
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <rect width="512" height="512" fill="none" />
+          <path
+           fill="none"
+           stroke="currentColor"
+           stroke-linecap="round"
+           stroke-miterlimit="10"
+           stroke-width="32"
+           d="M88 152h336M88 256h336M88 360h336"
+          />
+         </svg>
         </a>
        </div>
       </div>
@@ -180,15 +231,87 @@
         <div class="about-links__row">
          <div class="about__links">
           <a id="copy-text-1" class="about__contacts about__tel-desktop">
-           <ion-icon name="copy-outline"></ion-icon>
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <rect
+              width="336"
+              height="336"
+              x="128"
+              y="128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="48"
+              rx="57"
+              ry="57"
+             />
+             <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="m383.5 128l.5-24a56.16 56.16 0 0 0-56-56H112a64.19 64.19 0 0 0-64 64v216a56.16 56.16 0 0 0 56 56h24"
+             />
+            </svg>
+           </div>
            <div id="text-1">8 7212 60 44 79</div>
           </a>
           <a href="tel:87212604479" class="about__contacts-mobile">
-           <ion-icon name="copy-outline"></ion-icon>
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <rect
+              width="336"
+              height="336"
+              x="128"
+              y="128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="48"
+              rx="57"
+              ry="57"
+             />
+             <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="m383.5 128l.5-24a56.16 56.16 0 0 0-56-56H112a64.19 64.19 0 0 0-64 64v216a56.16 56.16 0 0 0 56 56h24"
+             />
+            </svg>
+           </div>
            <p>8 7212 60 44 79</p>
           </a>
           <a id="copy-text-2" class="about__contacts">
-           <ion-icon name="copy-outline"></ion-icon>
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <rect
+              width="336"
+              height="336"
+              x="128"
+              y="128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linejoin="round"
+              stroke-width="48"
+              rx="57"
+              ry="57"
+             />
+             <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="m383.5 128l.5-24a56.16 56.16 0 0 0-56-56H112a64.19 64.19 0 0 0-64 64v216a56.16 56.16 0 0 0 56 56h24"
+             />
+            </svg>
+           </div>
            <div id="text-2">ddu_new@kargoo.kz</div>
           </a>
           <a
@@ -196,7 +319,19 @@
            target="_blank"
            class="about__link"
           >
-           <ion-icon name="navigate-outline"></ion-icon>
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="M448 64L64 240.14h200a8 8 0 0 1 8 8V448Z"
+             />
+            </svg>
+           </div>
            <div class="lang-address">141 Acc. Qtr., Bldg. 690</div>
           </a>
          </div>
@@ -206,21 +341,52 @@
            target="_blank"
            class="about__link"
           >
-           <ion-icon name="logo-instagram"></ion-icon> Instagram
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <path
+              fill="currentColor"
+              d="M349.33 69.33a93.62 93.62 0 0 1 93.34 93.34v186.66a93.62 93.62 0 0 1-93.34 93.34H162.67a93.62 93.62 0 0 1-93.34-93.34V162.67a93.62 93.62 0 0 1 93.34-93.34zm0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32"
+             />
+             <path
+              fill="currentColor"
+              d="M377.33 162.67a28 28 0 1 1 28-28a27.94 27.94 0 0 1-28 28M256 181.33A74.67 74.67 0 1 1 181.33 256A74.75 74.75 0 0 1 256 181.33m0-37.33a112 112 0 1 0 112 112a112 112 0 0 0-112-112"
+             />
+            </svg>
+           </div>
+           Instagram
           </a>
           <a
            href="https://www.facebook.com/people/Екінші-Оқушылар-Сарайы/pfbid02xSaTc4MMTSMSRtzxFfpQu8tyn9pfZikjS3DmL4g7y3iui6e4SYggtcMeVs8x3V9Vl/"
            target="_blank"
            class="about__link"
           >
-           <ion-icon name="logo-facebook"></ion-icon> Facebook
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31"
+             />
+            </svg>
+           </div>
+           Facebook
           </a>
           <a
            href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
            target="_blank"
            class="about__link"
           >
-           <ion-icon name="earth-outline"></ion-icon>
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <path
+              fill="currentColor"
+              d="M414.39 97.74A224 224 0 1 0 97.61 414.52A224 224 0 1 0 414.39 97.74M64 256.13a191.63 191.63 0 0 1 6.7-50.31c7.34 15.8 18 29.45 25.25 45.66c9.37 20.84 34.53 15.06 45.64 33.32c9.86 16.21-.67 36.71 6.71 53.67c5.36 12.31 18 15 26.72 24c8.91 9.08 8.72 21.52 10.08 33.36a305.36 305.36 0 0 0 7.45 41.27c0 .1 0 .21.08.31C117.8 411.13 64 339.8 64 256.13m192 192a193.12 193.12 0 0 1-32-2.68c.11-2.71.16-5.24.43-7c2.43-15.9 10.39-31.45 21.13-43.35c10.61-11.74 25.15-19.68 34.11-33c8.78-13 11.41-30.5 7.79-45.69c-5.33-22.44-35.82-29.93-52.26-42.1c-9.45-7-17.86-17.82-30.27-18.7c-5.72-.4-10.51.83-16.18-.63c-5.2-1.35-9.28-4.15-14.82-3.42c-10.35 1.36-16.88 12.42-28 10.92c-10.55-1.41-21.42-13.76-23.82-23.81c-3.08-12.92 7.14-17.11 18.09-18.26c4.57-.48 9.7-1 14.09.68c5.78 2.14 8.51 7.8 13.7 10.66c9.73 5.34 11.7-3.19 10.21-11.83c-2.23-12.94-4.83-18.21 6.71-27.12c8-6.14 14.84-10.58 13.56-21.61c-.76-6.48-4.31-9.41-1-15.86c2.51-4.91 9.4-9.34 13.89-12.27c11.59-7.56 49.65-7 34.1-28.16c-4.57-6.21-13-17.31-21-18.83c-10-1.89-14.44 9.27-21.41 14.19c-7.2 5.09-21.22 10.87-28.43 3c-9.7-10.59 6.43-14.06 10-21.46c1.65-3.45 0-8.24-2.78-12.75q5.41-2.28 11-4.23a15.6 15.6 0 0 0 8 3c6.69.44 13-3.18 18.84 1.38c6.48 5 11.15 11.32 19.75 12.88c8.32 1.51 17.13-3.34 19.19-11.86c1.25-5.18 0-10.65-1.2-16a190.83 190.83 0 0 1 105 32.21c-2-.76-4.39-.67-7.34.7c-6.07 2.82-14.67 10-15.38 17.12c-.81 8.08 11.11 9.22 16.77 9.22c8.5 0 17.11-3.8 14.37-13.62c-1.19-4.26-2.81-8.69-5.42-11.37a193.27 193.27 0 0 1 18 14.14c-.09.09-.18.17-.27.27c-5.76 6-12.45 10.75-16.39 18.05c-2.78 5.14-5.91 7.58-11.54 8.91c-3.1.73-6.64 1-9.24 3.08c-7.24 5.7-3.12 19.4 3.74 23.51c8.67 5.19 21.53 2.75 28.07-4.66c5.11-5.8 8.12-15.87 17.31-15.86a15.4 15.4 0 0 1 10.82 4.41c3.8 3.94 3.05 7.62 3.86 12.54c1.43 8.74 9.14 4 13.83-.41a192.12 192.12 0 0 1 9.24 18.77c-5.16 7.43-9.26 15.53-21.67 6.87c-7.43-5.19-12-12.72-21.33-15.06c-8.15-2-16.5.08-24.55 1.47c-9.15 1.59-20 2.29-26.94 9.22c-6.71 6.68-10.26 15.62-17.4 22.33c-13.81 13-19.64 27.19-10.7 45.57c8.6 17.67 26.59 27.26 46 26c19.07-1.27 38.88-12.33 38.33 15.38c-.2 9.81 1.85 16.6 4.86 25.71c2.79 8.4 2.6 16.54 3.24 25.21a158 158 0 0 0 4.74 30.07A191.75 191.75 0 0 1 256 448.13"
+             />
+            </svg>
+           </div>
            <div class="lang-edu-depart-link">Education Department</div>
           </a>
          </div>
@@ -234,38 +400,43 @@
        </div>
       </section>
       <section class="instruction" id="how_to_regestrate">
-       <h1 class="text-right-alignment">How to sign up</h1>
+       <h1 class="text-right-alignment lang-h-one-sign-up">How to sign up</h1>
        <div class="instruction__row">
         <div class="video-tutorial">
          <div class="youtube-player" data-id="y2feQEVNcKA"></div>
-         <p>
+         <p class="lang-instr-video-sign-up">
           This step-by-step video tutorial will help you apply for enrollment
           for your child.
          </p>
         </div>
         <div class="instruction__content">
-         <h2>Documents required for enrollment</h2>
+         <h2 class="lang-required-sign-up">
+          Documents required for enrollment
+         </h2>
          <ul class="instruction__doc-list">
-          <li>
+          <li class="lang-med-papper">
            Medical certificate No. 027/u* or
            <a
-            class="link link-in-text"
+            class="link link-in-text lang-med-papper-link"
             href="https://egov.kz/cms/ru/services/health_care/2F128_mzsr"
             target="_blank"
-            >medical certificates from egov.kz</a
            >
+            medical certificates from egov.kz
+           </a>
            in the child's name*;
           </li>
-          <li>Child's birth certificate*;</li>
-          <li>Parent's identity document*;</li>
-          <li>Child's photograph (e.g., 3x4)</li>
+          <li class="lang-birth-papper">Child's birth certificate*;</li>
+          <li class="lang-parent-id">Parent's identity document*;</li>
+          <li class="lang-child-photo">Child's photograph (e.g., 3x4)</li>
          </ul>
         </div>
        </div>
       </section>
       <section class="directions" id="directions">
-       <h1 class="text-right-alignment">What do we teach</h1>
-       <p>
+       <h1 class="text-right-alignment lang-h-one-directions">
+        What do we teach
+       </h1>
+       <p class="lang-directions-intro">
         Please take the opportunity to peruse our diverse range of classes and
         educational clubs. We encourage you to explore and select the options
         that resonate with your interests and aspirations.
@@ -286,8 +457,9 @@
            target="_blank"
            class="link"
            href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=113,4,11,110,117&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
-           >Learn and sign up</a
           >
+           Learn and sign up
+          </a>
          </div>
         </div>
         <div
@@ -302,8 +474,8 @@
            target="_blank"
            class="link"
            href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=112,8,5,4,2&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
-           >Learn and sign up</a
-          >
+           >Learn and sign up
+          </a>
          </div>
         </div>
         <div
@@ -321,8 +493,8 @@
            target="_blank"
            class="link"
            href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=13,118&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
-           >Learn and sign up</a
-          >
+           >Learn and sign up
+          </a>
          </div>
         </div>
         <div
@@ -339,8 +511,8 @@
            target="_blank"
            class="link"
            href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=6,7,1,4&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
-           >Learn and sign up</a
-          >
+           >Learn and sign up
+          </a>
          </div>
         </div>
         <div
@@ -358,8 +530,8 @@
            target="_blank"
            class="link"
            href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=6,7,1,4&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
-           >Learn and sign up</a
-          >
+           >Learn and sign up
+          </a>
          </div>
         </div>
         <div
@@ -379,8 +551,8 @@
            target="_blank"
            class="link"
            href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=9,109,12&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"
-           >Learn and sign up</a
-          >
+           >Learn and sign up
+          </a>
          </div>
         </div>
        </div>
@@ -1206,14 +1378,6 @@
     </div>
    </div>
   </footer>
-  <script
-   type="module"
-   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-  ></script>
-  <script
-   nomodule
-   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-  ></script>
   <script src="assets/js/translations.js"></script>
   <script src="assets/js/lang.js"></script>
   <script src="assets/js/menu.js"></script>

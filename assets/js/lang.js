@@ -41,9 +41,11 @@ function changeLanguage() {
   .setAttribute("content", langArr["meta-description"][hash]);
  changeHtmlLang(hash);
  for (let key in langArr) {
-  let elem = document.querySelector(".lang-" + key);
-  if (elem) {
-   elem.innerHTML = langArr[key][hash];
+  let elem = document.querySelectorAll(".lang-" + key);
+  if (elem.length > 0) {
+   elem.forEach((el) => {
+    el.innerHTML = langArr[key][hash];
+   });
   }
  }
 }

@@ -68,7 +68,9 @@
  padding-bottom: var(--spacer-sm);
 }
 .docs__name {
+ flex: 1 1 auto;
 }
 .docs__langblock {
  align-self: start;
+ flex: 0 0 auto;
 }

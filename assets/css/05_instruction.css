@@ -75,10 +75,6 @@
  flex-direction: column;
  gap: var(--spacer-sm);
 }
-.instruction__doc-list li::before {
- content: "◦";
- padding-inline: var(--spacer-xs);
-}
 @media (max-width: 39em) {
  .instruction__row {
   grid-template-columns: 1fr;

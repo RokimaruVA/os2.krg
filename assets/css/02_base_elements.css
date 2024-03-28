@@ -3,10 +3,12 @@ ion-icon {
  flex-shrink: 0;
 }
 svg {
- display: inline-block;
+ display: grid;
+ align-items: center;
+ width: 100%;
 }
-.icon-inner {
- display: inline;
+.one-rem-icon {
+ width: 1rem;
 }
 body {
  display: flex;
@@ -95,7 +97,9 @@ a {
  color: currentColor;
  display: block;
 }
-
+:root {
+ --link-icon-font-size: 0.7rem;
+}
 .link {
  color: var(--accent);
  font-weight: var(--fw-m);
@@ -103,20 +107,44 @@ a {
  text-underline-offset: 0.3125rem;
  transition: 0.3s ease;
  cursor: pointer;
+ text-wrap: balance;
+ /* font-size: var(--link-font-icon-size); */
 }
 .link:hover,
 .link:focus {
  text-decoration: underline solid var(--accent) 0.1875rem;
 }
+/* .link::after {
+ content: "";
+ margin: 0 0 0.25rem 0.25rem;
+ display: inline-block;
+ -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='none' /><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M388.364 242.764v178.691A42.547 42.547 0 0 1 345.818 464H90.546A42.544 42.544 0 0 1 48 421.455V166.182a42.543 42.543 0 0 1 42.546-42.546h178.69M464 180.364V48H331.636M216 296L464 48' /></svg>")
+  no-repeat 50% 50%;
+ mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='none' /><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M388.364 242.764v178.691A42.547 42.547 0 0 1 345.818 464H90.546A42.544 42.544 0 0 1 48 421.455V166.182a42.543 42.543 0 0 1 42.546-42.546h178.69M464 180.364V48H331.636M216 296L464 48' /></svg>")
+  no-repeat 50% 50%;
+ -webkit-mask-size: cover;
+ mask-size: cover;
+ background-color: currentColor;
+
+ width: var(--link-icon-font-size);
+ height: var(--link-icon-font-size);
+} */
 .link-in-text {
  display: inline;
 }
-ion-icon {
-}
-.icon-container {
+
+.header-icon-container {
  display: flex;
+ align-items: center;
+ justify-content: center;
  cursor: pointer;
+ width: 1.5rem;
 }
+.header-icon-container > svg {
+ color: currentColor;
+ fill: currentColor;
+}
+
 .wrapper {
  display: flex;
  justify-content: start;
