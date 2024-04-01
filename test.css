@@ -22,12 +22,89 @@
  display: block;
  width: var(--font-icon-link-size);
  height: var(--font-icon-link-size);
- -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='none' /><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M388.364 242.764v178.691A42.547 42.547 0 0 1 345.818 464H90.546A42.544 42.544 0 0 1 48 421.455V166.182a42.543 42.543 0 0 1 42.546-42.546h178.69M464 180.364V48H331.636M216 296L464 48' /></svg>") no-repeat 50% 50%;
- mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='none' /><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M388.364 242.764v178.691A42.547 42.547 0 0 1 345.818 464H90.546A42.544 42.544 0 0 1 48 421.455V166.182a42.543 42.543 0 0 1 42.546-42.546h178.69M464 180.364V48H331.636M216 296L464 48' /></svg>") no-repeat 50% 50%;
+ -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='none' /><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M388.364 242.764v178.691A42.547 42.547 0 0 1 345.818 464H90.546A42.544 42.544 0 0 1 48 421.455V166.182a42.543 42.543 0 0 1 42.546-42.546h178.69M464 180.364V48H331.636M216 296L464 48' /></svg>")
+  no-repeat 50% 50%;
+ mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='none' /><path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M388.364 242.764v178.691A42.547 42.547 0 0 1 345.818 464H90.546A42.544 42.544 0 0 1 48 421.455V166.182a42.543 42.543 0 0 1 42.546-42.546h178.69M464 180.364V48H331.636M216 296L464 48' /></svg>")
+  no-repeat 50% 50%;
  -webkit-mask-size: cover;
  mask-size: cover;
  background-color: currentColor;
 }
 svg path {
  fill: currentColor;
+}
+
+img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+h1 {
+ margin: 0;
+ font-size: 3rem;
+}
+.team-row {
+ display: grid;
+ gap: 1rem;
+ width: fit-content;
+ margin-inline: auto;
+ background-color: white;
+ box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.127);
+ padding: 2rem;
+ border-radius: 1rem;
+}
+.team-block-list {
+ display: grid;
+ grid-template-columns: repeat(6, 4rem);
+ gap: 1.5rem;
+ position: static;
+ /* margin-left: 2rem; */
+}
+.teacher {
+ position: static;
+ width: auto;
+ transform: scale(1);
+ transition: 0.3s ease;
+ /* margin-left: -2rem; */
+}
+.tooltip-trigger {
+ overflow: clip;
+ border-radius: 300rem;
+ display: flex;
+ box-shadow: 0 0 0 0.3rem rgb(255, 255, 255), 0 0 0 0.4rem #00000017,
+  0 0 1rem 0.4rem #00000018;
+}
+.tooltip {
+ position: absolute;
+ visibility: hidden;
+ bottom: -150%;
+ left: 0%;
+ padding: 1rem;
+ z-index: 1;
+ opacity: 0;
+ transition: 0.3s ease;
+ border-radius: 1rem;
+ background-color: #fff;
+ color: #000;
+ text-align: start;
+}
+.teacher:hover .tooltip {
+ visibility: visible;
+ transition: 0.3s 0.3s ease;
+ opacity: 1;
+}
+.teacher:hover {
+ transition: 0.3s ease;
+ transform: scale(1.25);
+}
+
+.tooltip-teachers-name {
+ width: fit-content;
+ text-wrap: nowrap;
+ font-weight: 600;
+ font-size: 1.5rem;
+}
+.tooltip-teachers-level {
+ text-wrap: nowrap;
+ width: fit-content;
 }

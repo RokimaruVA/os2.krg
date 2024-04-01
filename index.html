@@ -77,7 +77,7 @@
       <a class="sidebar__li lang-nav-about" href="#about">About us </a>
      </div>
      <div>
-      <a class="sidebar__li lang-nav-sign-in" href="#how_to_regestrate"
+      <a class="sidebar__li lang-nav-sign-in" href="#instruction"
        >How to sign up</a
       >
      </div>
@@ -399,7 +399,7 @@
         </p>
        </div>
       </section>
-      <section class="instruction" id="how_to_regestrate">
+      <section class="instruction" id="instruction">
        <h1 class="text-right-alignment lang-h-one-sign-up">How to sign up</h1>
        <div class="instruction__row">
         <div class="video-tutorial">
@@ -447,7 +447,7 @@
          style="background-image: url(assets/images/science-direction.jpg)"
         >
          <div class="direction__card-bg-holder"></div>
-         <div class="direction__content">
+         <div class="direction__content lang-technical-content">
           <h2 class="direction__title">Scientific and Technical Direction</h2>
           <p class="direction__tags">
            Robotics | Computer Graphics <br />Engineering | Additional
@@ -467,7 +467,7 @@
          style="background-image: url(assets/images/art_direction.jpg)"
         >
          <div class="direction__card-bg-holder"></div>
-         <div class="direction__content">
+         <div class="direction__content lang-creativity-content">
           <h2 class="direction__title">Creativity</h2>
           <p class="direction__tags">Visual and <br />Aesthetic Creativity</p>
           <a
@@ -483,7 +483,7 @@
          style="background-image: url(assets/images/EarlyDevelopment.jpg)"
         >
          <div class="direction__card-bg-holder"></div>
-         <div class="direction__content">
+         <div class="direction__content lang-shamshyraq-content">
           <h2 class="direction__title">
            SHAMSHYRAQ <br />
            Early Development Complex
@@ -502,7 +502,7 @@
          style="background-image: url(assets/images/music_direction.jpg)"
         >
          <div class="direction__card-bg-holder"></div>
-         <div class="direction__content">
+         <div class="direction__content lang-music-content">
           <h2 class="direction__title">Music Choreography Theater</h2>
           <p class="direction__tags">
            Vocal | Dance | Theater <br />Instrumental Performance
@@ -520,7 +520,7 @@
          style="background-image: url(assets/images/chess.jpg)"
         >
          <div class="direction__card-bg-holder"></div>
-         <div class="direction__content">
+         <div class="direction__content lang-social-content">
           <h2 class="direction__title">Sports and Board Games</h2>
           <p class="direction__tags">
            Checkers | Chess | Gymnastics <br />
@@ -541,7 +541,7 @@
          "
         >
          <div class="direction__card-bg-holder"></div>
-         <div class="direction__content">
+         <div class="direction__content lang-linguistics-content">
           <h2 class="direction__title">Linguistics</h2>
           <p class="direction__tags">
            Language Studies <br />
@@ -558,7 +558,7 @@
        </div>
       </section>
       <section class="news" style="margin-bottom: -1rem" id="news">
-       <h1 class="text-right-alignment">News and Events</h1>
+       <h1 class="text-right-alignment lang-h-one-news">News and Events</h1>
        <!-- LightWidget WIDGET -->
        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
        <iframe
@@ -571,8 +571,10 @@
        ></iframe>
       </section>
       <section class="qna" id="qna">
-       <h1 class="text-right-alignment">Questions and Answers</h1>
-       <p class="qna__message">
+       <h1 class="text-right-alignment lang-h-one-qna">
+        Questions and Answers
+       </h1>
+       <p class="qna__message lang-qna-intro">
         If you have any questions, you can find them here or ask by <br />
         phone
         <a href="tel:87212604479" class="link link-in-text hidden-desktop">
@@ -590,24 +592,26 @@
        <div class="accordion">
         <div class="accordion__tab">
          <input type="checkbox" id="rd5" name="qna" />
-         <label class="accordion__tab-label" for="rd5"
+         <label class="accordion__tab-label lang-question-one" for="rd5"
           >How to sign up for classes?</label
          >
-         <div class="accordion__tab-content">
-          The website features a section with videos explaining how to sign up
-          for classes at Palace of Schoolchildren №2. Additionally, various
-          directions of classes are displayed, and by clicking on them, you can
-          see the full list of our clubs.
+         <div class="accordion__tab-content lang-answer-one">
+          The website features a
+          <a href="#instruction" class="link link-in-text">section</a> with
+          videos explaining how to sign up for classes at Palace of
+          Schoolchildren №2. Additionally, various directions of classes are
+          displayed, and by clicking on them, you can see the full list of our
+          clubs.
          </div>
         </div>
 
         <div class="accordion__tab">
          <input type="checkbox" id="rd6" name="qna" />
-         <label class="accordion__tab-label" for="rd6"
+         <label class="accordion__tab-label lang-question-two" for="rd6"
           >Why don't I see the sign-up button next to the selected club on the
           e-daryn website?</label
          >
-         <div class="accordion__tab-content">
+         <div class="accordion__tab-content lang-answer-two">
           When the sign-up button is not displayed on the website, it may be
           because you are not within the age range for classes in that club, or
           enrollment in the club is currently closed.
@@ -616,11 +620,11 @@
 
         <div class="accordion__tab">
          <input type="checkbox" id="rd7" name="qna" />
-         <label class="accordion__tab-label" for="rd7"
+         <label class="accordion__tab-label lang-question-three" for="rd7"
           >When can we receive the contract for educational services if we have
           already signed up for classes?</label
          >
-         <div class="accordion__tab-content">
+         <div class="accordion__tab-content lang-answer-three">
           After signing up for a club, the teacher will provide the contract for
           services within a few classes.
          </div>
@@ -628,10 +632,10 @@
 
         <div class="accordion__tab">
          <input type="checkbox" id="rd8" name="qna" />
-         <label class="accordion__tab-label" for="rd8"
+         <label class="accordion__tab-label lang-question-four" for="rd8"
           >How can I find out the contact number of the teacher?</label
          >
-         <div class="accordion__tab-content">
+         <div class="accordion__tab-content lang-answer-four">
           When selecting clubs on the e-daryn website, the contact number of the
           teacher is provided along with other information about the classes.
          </div>
@@ -639,10 +643,10 @@
 
         <div class="accordion__tab">
          <input type="checkbox" id="rd9" name="qna" />
-         <label class="accordion__tab-label" for="rd9"
+         <label class="accordion__tab-label lang-question-five" for="rd9"
           >Can I accompany my child to the classroom door?</label
          >
-         <div class="accordion__tab-content">
+         <div class="accordion__tab-content lang-answer-five">
           No. According to modern safety standards, parents are only allowed in
           the vestibule area (the area near the entrance and cloakroom) without
           special permission.
@@ -650,8 +654,8 @@
         </div>
         <!-- <div class="accordion__tab" for="rd1">
 	         <input type="checkbox" id="rd1" name="qna" />
-	         <label class="accordion__tab-label" for="rd1">section #1</label>
-	         <div class="accordion__tab-content">
+	         <label class="accordion__tab-label lang-question-six" for="rd1">section #1</label>
+	         <div class="accordion__tab-content lang-answer-six">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
 	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
 	          doloribus!
@@ -659,8 +663,8 @@
 	        </div>
 	        <div class="accordion__tab">
 	         <input type="checkbox" id="rd2" name="qna" />
-	         <label class="accordion__tab-label" for="rd2">section #1</label>
-	         <div class="accordion__tab-content">
+	         <label class="accordion__tab-label lang-question-seven" for="rd2">section #1</label>
+	         <div class="accordion__tab-content lang-answer-seven">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
 	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
 	          doloribus!
@@ -669,10 +673,10 @@
 	
 	        <div class="accordion__tab">
 	         <input type="checkbox" id="rd3" name="qna" />
-	         <label class="accordion__tab-label" for="rd3"
+	         <label class="accordion__tab-label lang-question-eight" for="rd3"
 	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
 	         >
-	         <div class="accordion__tab-content">
+	         <div class="accordion__tab-content lang-answer-eight">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
 	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
 	          doloribus!
@@ -681,10 +685,10 @@
 	
 	        <div class="accordion__tab">
 	         <input type="checkbox" id="rd4" name="qna" />
-	         <label class="accordion__tab-label" for="rd4"
+	         <label class="accordion__tab-label lang-question-nine" for="rd4"
 	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
 	         >
-	         <div class="accordion__tab-content">
+	         <div class="accordion__tab-content lang-answer-nine">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
 	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
 	          doloribus!
@@ -692,10 +696,10 @@
 	        </div>
 	        <div class="accordion__tab">
 	         <input type="checkbox" id="rd10" name="qna" />
-	         <label class="accordion__tab-label" for="rd10"
+	         <label class="accordion__tab-label lang-question-ten" for="rd10"
 	          >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
 	         >
-	         <div class="accordion__tab-content">
+	         <div class="accordion__tab-content lang-answer-ten">
 	          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
 	          iure maiores ipsa temporibus adipisci nobis consequuntur ipsam odit
 	          doloribus!
@@ -704,8 +708,10 @@
        </div>
       </section>
       <section class="competitions" id="competitions">
-       <h1 class="text-right-alignment">Competitions</h1>
-       <p class="text-right-alignment">
+       <h1 class="text-right-alignment lang-h-one-competitions">
+        Competitions
+       </h1>
+       <p class="text-right-alignment lang-competitions-intro">
         We offer a variety of contests, competitions, and projects that
         contribute not only to academic growth but also to personal development.
         Here you will find engaging and educational events specifically designed
@@ -907,20 +913,365 @@
        </div>
       </section>
       <section class="team" id="team">
-       <h1>Team</h1>
-       <p class="text-right-alignment">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maiores
-        ab, doloribus eaque deserunt debitis. Ducimus nulla quaerat accusamus ut
-        error pariatur non, vitae aperiam a culpa eaque nesciunt itaque?
-       </p>
+       <h1 class="lang-h-one-team">Team</h1>
+       <div class="team__intro-stats">
+        <p class="text-right-alignment lang-team-intro">
+         Наш коллектив специалистов направлен на успешное обучение и развитие
+         каждого ученика. Мы уделяем особое внимание индивидуальным потребностям
+         и поддержке на пути к достижению личных и учебных целей.
+        </p>
+        <div>
+         <p></p>
+        </div>
+       </div>
        <div class="team__grid">
-        <div class="team__img">
+        <div class="team__principal">
+         <div class="team__principal-img">
+          <img src="https://avatar.iran.liara.run/public/68" alt="" />
+         </div>
+         <div class="team__principal-content">
+          <div class="lang-principal__post">Директор</div>
+          <div class="lang-principal__name">
+           Алтынбекова <br />
+           Шариза Далабаевна
+          </div>
+          <a
+           class="principal-facebook about__link"
+           href="https://www.facebook.com/altynbekova.sh/"
+           target="_blank"
+          >
+           <div class="one-rem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <rect width="512" height="512" fill="none" />
+             <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31"
+             />
+            </svg>
+           </div>
+           facebook</a
+          >
+         </div>
+        </div>
+        <div class="team__crew">
+         <div class="team__row">
+          <h3 class="lang-team__h3-administration">Administration</h3>
+          <div class="team__methodists-row">
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-admin-post-1">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-admin-name-1">
+              Есмагамбетова Кымбат Сапаргазиевна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-admin-post-2">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-admin-name-2">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-admin-post-3">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-admin-name-3">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-admin-post-4">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-admin-name-4">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-admin-post-5">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-admin-name-5">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-admin-post-6">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-admin-name-6">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="team__row">
+          <h3 class="lang-team__h3-methodists">Methodists</h3>
+          <div class="team__methodists-row">
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-metodist-post-1">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-metodist-name-1">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-metodist-post-2">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-metodist-name-2">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-metodist-post-3">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-metodist-name-3">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-metodist-post-4">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-metodist-name-4">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-metodist-post-5">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-metodist-name-5">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+           <div class="team__uno-methodist">
+            <div class="team__uno-methodist-trigger">
+             <img src="https://avatar.iran.liara.run/public/girl" alt="" />
+            </div>
+            <div class="team__uno-methodist-tooltip">
+             <div class="uno-methodist-post lang-metodist-post-6">
+              Заместитель деректора по всякому
+             </div>
+             <div class="uno-methodist-name lang-metodist-name-6">
+              Алдабергенова Аяш Султанбековна
+             </div>
+             <div class="uno-methodist-contacts"></div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="team__info-zone span__2"></div>
+       </div>
+       <div class="team__credits">
+        <h3 class="lang-team__edu-technical-staff">Техническое направление</h3>
+        <div class="team__credits-flexlist lang-team__edu-technical-staff-list">
+         <div>Қабыл Замира Әскерқызы</div>
+         <div>Бектөре Сымбат Сәтбайқызы</div>
+         <div>Жагай Ажар</div>
+         <div>Жаксыбекова Аманбике Сагатовна</div>
+         <div>Жамсат Аружан Жанболатқызы</div>
+         <div>Конысбаев Даулет Болатович</div>
+         <div>Қыстаухан Динара Серікбайқызы</div>
+         <div>Омарова Эльмира Каленбаевна</div>
+         <div>Тогамбекова Айнаш Сабитовна</div>
+         <div>Хамитхожаева Алия Сериковна</div>
+         <div>Ыбырай Нұрлан Шәпенұлы</div>
+         <div>Артық Айгерим Полатқызы</div>
+         <div>Кожахметова Акгуль Куанышевна</div>
+         <div>Айтжан Жайнагүл Нұрболқызы</div>
+         <div>Хазез Айнур</div>
+         <div>Абдильдина Гулбану Ахметжановна</div>
+         <div>Байғали Руслан Қанатұлы</div>
+        </div>
+        <h3 class="lang-team__music-staff">Музыкальное напарвление</h3>
+        <div class="team__credits-flexlist lang-team__music-staff-list">
+         <div>Абдрахманова Сабина Бауыржановна</div>
+         <div>Алимжанов Ергазы Аубакирович</div>
+         <div>Анишева Айгерим Сериковна</div>
+         <div>Аульбекова Адема Абуталиповна</div>
+         <div>Айтжан Жайнагүл Нұрболқызы</div>
+         <div>Ахметова Эльмира Пазылбековна</div>
+         <div>Әмірқаш Гүлдана Сабыржанқызы</div>
+         <div>Абдрахманова Сабина Бауыржановна</div>
+         <div>Бейспеков Оразалы Кайсарович</div>
+         <div>Тлеуханова Бибигуль Егинбаевна</div>
+         <div>Чернова Людмила Максимовна</div>
+         <div>Жамауова Жанерке Омиржановна</div>
+         <div>Әбдірахман Қаламқас Бауыржанқызы</div>
+         <div>Боранбаев Сапаргали Жарылкасынович</div>
+         <div>Вебер Надежда Владимировна</div>
+         <div>Дзигалюк Александр Сергеевич</div>
+         <div>Ермаханова Гүлжайсан Сарсенбаевна</div>
+         <div>Картечева Дарья Сергеевна</div>
+         <div>Литвинова Ольга Владимировна</div>
+         <div>Морева Анастасия Владимировна</div>
+         <div>Сулейменова Айгуль Амангельдиевна</div>
+         <div>Тендикова Эльмира Тендиковна</div>
+        </div>
+
+        <h3 class="lang-team__linguistic-staff">Лингвистическое напарвление</h3>
+        <div class="team__credits-flexlist lang-team__linguistic-staff-staff">
+         <div>Аульбекова Адема Абуталиповна</div>
+         <div>Карабекова Гульмира Сайлауовна</div>
+         <div>Оразалы Гүллай Оразалықызы</div>
+         <div>Рахимбекова Дана Сайлаубаевна</div>
+         <div>Тулеубаева Алия Кайдаровна</div>
+         <div>Ахметова Дидар Зейноллақызы</div>
+         <div>Голунова Ирина Николаевна</div>
+         <div>Жумажанов Дархан Есимханулы</div>
+         <div>Ли Евгения Валерьевна</div>
+        </div>
+
+        <h3 class="lang-team__earlydev-staff">Направление ранего развития</h3>
+        <div class="team__credits-flexlist lang-team__earlydev-staff-list">
+         <div>Аманжол Ляззат Сержанқызы</div>
+         <div>Әмірқаш Гүлдана Сабыржанқызы</div>
+         <div>Бекетбаева Венера Рахметоллаевна</div>
+         <div>Жаманадина Жанар Аитахыновна</div>
+         <div>Нұржан Айнұр Дәуітбайқызы</div>
+         <div>Сағат Айбану Сағатқызы</div>
+         <div>Алькеева Орал Рамазановна</div>
+         <div>Туганбаева Гулдана Кусаиновна</div>
+         <div>Жасымбекова Асем Кабдоллаевна</div>
+        </div>
+
+        <h3 class="lang-team__socialdev-staff">
+         Направление социального развития
+        </h3>
+        <div class="team__credits-flexlist lang-team__socialdev-staff-list">
+         <div>Алимжанов Ергазы Аубакирович</div>
+         <div>Какибаева Мереке Кайратовна</div>
+         <div>Нурпеисов Адильжан Кабыкешович</div>
+         <div>Русия Любовь Шелбиевна</div>
+         <div>Рысбеков Берикбай Карымсакович</div>
+         <div>Уаш Еркежан Ерболатқызы</div>
+         <div>Утебаев Ерлан Жаканович</div>
+         <div>Кенжеұлы Жастулек</div>
+         <div>Нечипоренко Татьяна Александровна</div>
+        </div>
+
+        <h3 class="lang-team__art-staff">Художественное направление</h3>
+        <div class="team__credits-flexlist lang-team__art-staff-list">
+         <div>Әділғазықызы Ақниет</div>
+         <div>Белоног Оксана Сергеевна</div>
+         <div>Тиштық Баян Талғатқызы</div>
+         <div>Анишева Айгерим Сериковна</div>
+         <div>Ахметова Эльмира Пазылбековна</div>
+         <div>Бозтаева Индира Муратовна</div>
+         <div>Дюсембаева Назира Боранкуловна</div>
+         <div>Мукатаева-Исатаева Улпан Омирхановна</div>
+         <div>Нурумбетова Аружан Мухтаровна</div>
+         <div>Шаймурат Лира</div>
+         <div>Багдат Юра</div>
+         <div>Канашвили Инга Гогиевна</div>
+         <div>Снегирев Константин Николаевич</div>
+        </div>
+
+        <h3 class="lang-tech-staff">Технический персонал</h3>
+        <div class="team__credits-flexlist lang-tech-staff-list">
+         <div>Абдиманова Айгуль Джамбуловна</div>
+         <div>Айтжан Жайнагүл Нұрболқызы</div>
+         <div>Аманжол Ляззат Сержанқызы</div>
+         <div>Амерханов Ануар Амерханович</div>
+         <div>Багаутдинов Набиулла Владимирович</div>
+         <div>Байменов Айткен Тлеубекович</div>
+         <div>Бекпаев Темирлан Ерланович</div>
+         <div>Волков Роман Алексеевич</div>
+         <div>Дарманкулова Айгул Шопбаевна</div>
+         <div>Жақсыбаев Жайнат Дәуітжанұлы</div>
+         <div>Махамбетчин Айдын Тайтолеуулы</div>
+         <div>Миллер Татьяна Петровна</div>
+         <div>Мухомеджанов Алишер Исматович</div>
+         <div>Нурмаганбетова Саягуль Маратовна</div>
+         <div>Орныхан Бекзат</div>
+         <div>Оспанов Максат Бектурсынович</div>
+         <div>Рамазанова Зухра Женисовна</div>
+         <div>Тулеугазина Корлыхан Маусымбековна</div>
+         <div>Хазез Айнур</div>
+         <div>Широков Олег Сергеевич</div>
+         <div>Шугаева Салтанат Маралкызы</div>
+        </div>
+        <!-- <div class="team__img">
          <img
           loading="lazy"
           src="assets/images/team.jpg"
           alt="Our's team photo"
          />
-        </div>
+        </div> -->
        </div>
       </section>
       <section class="documentation" id="documentation">
@@ -1129,7 +1480,7 @@
            </div>
           </div>
          </div>
-         <div class="docs__section">
+         <!-- <div class="docs__section">
           <h2>Гос. закупки и бюджет</h2>
           <div class="docs__files-block">
            <div class="docs__name">Поле для заполнения</div>
@@ -1176,7 +1527,7 @@
             <a class="link" href="#" target="_blank">рус</a>
            </div>
           </div>
-         </div>
+         </div> -->
         </div>
         <div class="docs__pass">
          <div class="docs__pass-block">

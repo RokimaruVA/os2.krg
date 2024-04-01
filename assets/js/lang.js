@@ -16,9 +16,9 @@ function changeLanguage() {
  let hash = window.location.hash.substr(1);
  console.log(hash);
  if (!allLang.includes(hash)) {
-  location.href = window.location.pathname + "#en";
+  location.href = window.location.pathname + "#kz";
   location.reload();
-  hash = "en"; // Установка языка по умолчанию в случае некорректного значения в хеше
+  hash = "kz"; // Установка языка по умолчанию в случае некорректного значения в хеше
  }
  // Выбираем все радио-инпуты
  document.querySelectorAll('input[type="radio"]').forEach((input) => {
