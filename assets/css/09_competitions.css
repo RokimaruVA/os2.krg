@@ -18,7 +18,7 @@
  /* text-align: end; */
 }
 .competition__parameters,
-.competition__subject,
+.lang-competition__subject,
 .competition__links {
  text-align: start;
  margin-left: var(--spacer-sm);
@@ -36,21 +36,10 @@
  display: flex;
  flex-wrap: wrap;
  gap: var(--spacer-xs);
-}
-.span__2 {
- grid-column: span 2;
-}
-.span__3 {
- grid-column: span 3;
+ margin-top: 1rem;
 }
 @media (max-width: 39em) {
  .competition__grid {
   grid-template-columns: 1fr;
- }
- .span__2 {
-  grid-column: span 1;
- }
- .span__3 {
-  grid-column: span 1;
  }
 }

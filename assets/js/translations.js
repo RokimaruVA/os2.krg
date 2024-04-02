@@ -374,13 +374,659 @@ const langArr = {
   "ru": "Соревнования",
   "en": "Competitions",
  },
- "": {
+ "competitions-intro": {
   "kz":
    "Біз дағдыларды дамытуға ғана емес, сонымен қатар жеке өсуге де ықпал ететін көптеген конкурстар, жарыстар мен жобаларды ұсынамыз. Мұнда сіз оқушылардың таланттары мен дағдыларын дамытуға арналған іс-шараларды таба аласыз.",
   "ru":
    "Мы предлагаем множество конкурсов, соревнований и проектов, которые способствуют не только развиитию навыков , но и личностному росту. Здесь вы найдете  мероприятия, специально разработанные для развития талантов и навыков учащихся.",
   "en":
    " We offer a variety of contests, competitions, and projects that contribute not only to academic growth but also to personal development. Here you will find engaging and educational events specifically designed to develop the talents and skills of students.",
+ },
+ "competition-level-term": {
+  "kz": "",
+  "ru": "Уровень:",
+  "en": "Level:",
+ },
+ "competition-language-term": {
+  "kz": "",
+  "ru": "Язык:",
+  "en": "Languages:",
+ },
+ "competition-period-term": {
+  "kz": "",
+  "ru": "Время проведения:",
+  "en": "Time of the event:",
+ },
+ "competition-age-term": {
+  "kz": "",
+  "ru": "Возраст участия",
+  "en": "Age Category:",
+ },
+ "competition__links": {
+  "kz": "",
+  "ru": "Положение",
+  "en": "Regulation",
+ },
+ "competition__subject-1": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-name-1": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-level-definition-1": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-language-definition-1": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-period-definition-1": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-age-definition-1": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition__description-1": {
+  "kz":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "ru":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "en":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+ },
+ "competition__subject-2": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-name-2": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-level-definition-2": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-language-definition-2": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-period-definition-2": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-age-definition-2": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition__description-2": {
+  "kz":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "ru":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "en":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+ },
+ "competition__subject-3": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-name-3": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-level-definition-3": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-language-definition-3": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-period-definition-3": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-age-definition-3": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition__description-3": {
+  "kz":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "ru":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "en":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+ },
+ "competition__subject-4": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-name-4": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-level-definition-4": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-language-definition-4": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-period-definition-4": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition-age-definition-4": {
+  "kz": "",
+  "ru": "Нет данных сейчас",
+  "en": "No data yet",
+ },
+ "competition__description-4": {
+  "kz":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "ru":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+  "en":
+   " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
+ },
+
+ "h-one-magazine": {
+  "kz": "",
+  "ru": "Журнал",
+  "en": "Magazine",
+ },
+ "magazine-intro": {
+  "kz": "",
+  "ru":
+   "Мы издаем журнал, посвященный развитию нашей организации, её событиями и новшествами в  преподавании. В нашей организации мы стремимся быть надежным источником информации и вдохновения для людей, интересующихся сферой образования.",
+  "en":
+   "We publish a magazine dedicated to the development of our organization, its events and innovations in teaching. In our organization, we strive to be a reliable source of information and inspiration for people interested in the field of education.",
+ },
+ "magazine-more-link": {
+  "kz": "View All Journal Issues",
+  "ru": "Все выпуски",
+  "en": "View All Journal Issues",
+ },
+ "magazine__card-link": {
+  "kz": "",
+  "ru": "Читать",
+  "en": "Read",
+ },
+ "magazine__card-title-1": {
+  "kz": "Volume №1",
+  "ru": "Выпуск №1",
+  "en": "Volume №1",
+ },
+ "magazine__card-title-2": {
+  "kz": "Volume №2",
+  "ru": "Выпуск №2",
+  "en": "Volume №2",
+ },
+ "magazine__card-title-3": {
+  "kz": "Volume №3",
+  "ru": "Выпуск №3",
+  "en": "Volume №3",
+ },
+ "h-one-team": {
+  "kz": "",
+  "ru": "Коллектив",
+  "en": "Team",
+ },
+ "team-intro": {
+  "kz": "",
+  "ru":
+   " Наш коллектив специалистов направлен на успешное обучение и развитие каждого ученика. Мы уделяем особое внимание индивидуальным потребностям и поддержке на пути к достижению личных и учебных целей. ",
+  "en":
+   "Our team of specialists is focused on the successful education and development of each student. We pay special attention to individual needs and provide support on the path to achieving personal and academic goals.",
+ },
+ "principal__post": {
+  "kz": "",
+  "ru": "Директор",
+  "en": "Principal",
+ },
+ "principal__name": {
+  "kz": "Алтынбекова <br />Шариза Далабаевна",
+  "ru": "Алтынбекова <br />Шариза Далабаевна",
+  "en": "Altynbekova <br />Shariza Dalabayevna",
+ },
+ "team__h3-administration": {
+  "kz": "",
+  "ru": "Администрация",
+  "en": "Administration",
+ },
+ "admin-post-1": {
+  "kz": "",
+  "ru": "Заместитель деректора по всякому",
+  "en": "",
+ },
+ "admin-name-1": {
+  "kz": "",
+  "ru": "Есмагамбетова Кымбат Сапаргазиевна",
+  "en": "",
+ },
+ "admin-post-2": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-name-2": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-post-3": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-name-3": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-post-4": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-name-4": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-post-5": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-name-5": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-post-6": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "admin-name-6": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+
+ "team__h3-methodists": {
+  "kz": "",
+  "ru": "Методисты",
+  "en": "Methodists",
+ },
+ "metodist-post-1": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-name-1": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-post-2": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-name-2": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-post-3": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-name-3": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-post-4": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-name-4": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-post-5": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-name-5": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-post-6": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+ "metodist-name-6": {
+  "kz": "No info",
+  "ru": "No info",
+  "en": "No info",
+ },
+
+ "team__edu-technical-staff": {
+  "kz": "",
+  "ru": "Техническое направление",
+  "en": "Technical Direction",
+ },
+ "team__music-staff": {
+  "kz": "",
+  "ru": "Музыкальное напарвление",
+  "en": "Musical Direction",
+ },
+ "team__linguistic-staff": {
+  "kz": "",
+  "ru": "Лингвистическое напарвление",
+  "en": "Linguistic Direction",
+ },
+ "team__earlydev-staff": {
+  "kz": "",
+  "ru": "Направление ранего развития",
+  "en": "Early Development Direction",
+ },
+ "team__socialdev-staff": {
+  "kz": "",
+  "ru": "Направление социального развития",
+  "en": "Social Development Direction",
+ },
+ "team__art-staff": {
+  "kz": "",
+  "ru": "Художественное направление",
+  "en": "Artistic Direction",
+ },
+ "tech-staff": {
+  "kz": "",
+  "ru": "Технический персонал",
+  "en": "Technical Staff",
+ },
+ "h-one-documentation": {
+  "kz": "",
+  "ru": "",
+  "en": "Documentation",
+ },
+ "regulatory-docs": {
+  "kz": "",
+  "ru": "Нормативные акты организации",
+  "en": "Regulatory documents of the organization",
+ },
+ "charter-organization": {
+  "kz": "",
+  "ru": "Устав организации",
+  "en": "Charter of the organization",
+ },
+ "contract-educational": {
+  "kz": "",
+  "ru": "Договор оказания образовательных услуг",
+  "en": "Contract for the provision of educational services",
+ },
+ "cooperation-agreement": {
+  "kz": "",
+  "ru": "Договор сотрудничества организаций образования",
+  "en": "Cooperation agreement between educational organizations",
+ },
+ "regulatory-acts": {
+  "kz": "",
+  "ru": "Основные законодательные и нормативные акты",
+  "en": "Key legislative and regulatory acts",
+ },
+ "anti-corruption": {
+  "kz": "",
+  "ru": "О противодействии коррупции",
+  "en": "Anti-corruption legislation",
+ },
+ "regulation-education": {
+  "kz": "",
+  "ru":
+   "Законодательные и нормативные правовые акты, регулирующие образовательный процесс дополнительного образования детей в РК",
+  "en":
+   "Legislative and regulatory legal acts regulating the process of extracurricular education for children in Kazakhstan",
+ },
+ "teachers-status": {
+  "kz": "",
+  "ru": "№293-VI «О статусе педагога» от 27.12.2019 г.",
+  "en": "Law No. 293-VI On the Status of Teachers dated December 27, 2019",
+ },
+ "pedagogical-ethics": {
+  "kz": "",
+  "ru": "О некоторых вопросах педагогической этики",
+  "en": "On Certain Issues of Pedagogical Ethics",
+ },
+ "about-edication": {
+  "kz": "",
+  "ru": "№319-III «Об образовании» от 27.07.2007 г.",
+  "en": '№319-III "On Education" dated July 27, 2007.',
+ },
+ "child-rights": {
+  "kz": "",
+  "ru": "№345 «О правах ребенка в Республике Казахстан» от 08.08.2002 г.",
+  "en":
+   'No. 345 "On the Rights of the Child in the Republic of Kazakhstan" dated August 8, 2002.',
+ },
+ "gov-property": {
+  "kz": "",
+  "ru": "№413-IV «О государственном имуществе» от 01.03.2011 г.",
+  "en": 'No. 413-IV "On State Property" dated March 1, 2011',
+ },
+ "passport": {
+  "kz": "",
+  "ru": "Паспорт организации",
+  "en": "Organization passport",
+ },
+ "org-name-term": {
+  "kz": "",
+  "ru": "Наименование организации",
+  "en": "",
+ },
+ "org-name-description": {
+  "kz": "",
+  "ru":
+   'Коммунальное государственное учреждение<br /> "Дворец школьников №2"<br />акимата города Караганды <br />отдела образования города Караганды',
+  "en":
+   'Municipal State Institution "Palace of Schoolchildren No. 2" of the Akimat of the city of Karaganda, Department of Education of the city of Karaganda.',
+ },
+ "short-org-name-term": {
+  "kz": "",
+  "ru": "Краткое наименование организации",
+  "en": "Short name of the organization",
+ },
+ "short-org-name-decriprion": {
+  "kz": "",
+  "ru": 'КГУ "Дворец школьников №2"',
+  "en": 'MSI "Palace of Schoolchildren No. 2"',
+ },
+ "principal-term": {
+  "kz": "",
+  "ru": "Директор",
+  "en": "Principal",
+ },
+ "principal-description": {
+  "kz": "Алтынбекова Шариза Далабаевна",
+  "ru": "Алтынбекова Шариза Далабаевна",
+  "en": "Altynbekova Shariza Dalabayevna",
+ },
+ "contact-info-term": {
+  "kz": "",
+  "ru": "Контактные данные",
+  "en": "Contact information",
+ },
+ "contact-info-decription": {
+  "kz": "",
+  "ru":
+   " 8 (7212) 60-44-79 приемная <br /> 8 (7212) 60-44-83 бухгалтерия <br /> ddu_new@kargoo.kz ",
+  "en":
+   " 8 (7212) 60-44-79 reception <br /> 8 (7212) 60-44-83 accautment <br /> ddu_new@kargoo.kz ",
+ },
+ "education-language-term": {
+  "kz": "",
+  "ru": "Язык обучения",
+  "en": "Education language",
+ },
+ "education-language-description": {
+  "kz": "",
+  "ru": "казахский, русский",
+  "en": "kazakh, russian",
+ },
+ "work-time-term": {
+  "kz": "",
+  "ru": "Время работы",
+  "en": "Work time",
+ },
+ "work-time-description": {
+  "kz": "",
+  "ru": "с 9:00 до 20:00",
+  "en": "from 9:00AM to 8:00PM",
+ },
+ "project-capacity-term": {
+  "kz": "",
+  "ru": "Проектная мощность",
+  "en": "Projected capacity",
+ },
+ "project-capacity-description": {
+  "kz": "",
+  "ru": "3744 учебных мест",
+  "en": "3744 educational places",
+ },
+ "opening-date-term": {
+  "kz": "",
+  "ru": "Дата открытия",
+  "en": "Opening date",
+ },
+ "opening-date-description": {
+  "kz": "",
+  "ru": "1 сентября 2020 год",
+  "en": "September 1, 2020",
+ },
+ "financing-type-term": {
+  "kz": "",
+  "ru": "Тип финансирования",
+  "en": "Funding type",
+ },
+ "financing-type-description": {
+  "kz": "",
+  "ru": "Бюджетные средства",
+  "en": "Budget funds",
+ },
+ "staffing-term": {
+  "kz": "",
+  "ru": "Кадровое обеспечение",
+  "en": "Staffing",
+ },
+ "staffing-description": {
+  "kz": "",
+  "ru":
+   " по штатному расписанию АУП 5 ед. <br /> тех.персонал 30 ед. <br /> педагогический состав 85 ед. ",
+  "en":
+   "Administrative and managerial staff - 5 units. <br />Technical staff - 30 units. <br /> Teaching staff - 85 units.",
+ },
+ "adress-term": {
+  "kz": "",
+  "ru": "Адрес",
+  "en": "Adress",
+ },
+ "adress-description": {
+  "kz": "141 есеп кварталы, 690 ст-е",
+  "ru": "141-учёт. квартал, ст. 690",
+  "en": "141 Acc. Qtr., Bldg. 690",
+ },
+ "area-term": {
+  "kz": "",
+  "ru": "Общая площадь здания",
+  "en": "The total area of the building.",
+ },
+ "area-decription": {
+  "kz": "",
+  "ru": "3941,2 кв.м.",
+  "en": "3941.2 square meters.",
+ },
+ "heating-type-term": {
+  "kz": "",
+  "ru": "Тип отопления",
+  "en": "The type of heating",
+ },
+ "heating-type-description": {
+  "kz": "",
+  "ru": "Центральное",
+  "en": "Central",
+ },
+ "h-one-vacancies": {
+  "kz": "Бос орындар",
+  "ru": "Вакансии",
+  "en": "Vacancies",
+ },
+ "vacansies-intro": {
+  "kz":
+   '<p>Вы можете рассмотреть наши вакансии и увидеть статус заявок в окне ниже и подать заявку на вакансию, связавшись с нами по телефону <a href="tel:87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a><a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br />электронной почте<a href="javascript:void(0);" id="copy-text-6" class="link link-in-text"><span id="text-6">ddu_new@kargoo.kz</span></a><br />Также вы можете найти <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">наши вакансии на ENBEK.KZ</a></p>',
+  "ru":
+   '<p>Вы можете рассмотреть наши вакансии и увидеть статус заявок в окне ниже и подать заявку на вакансию, связавшись с нами по телефону <a href="tel:87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a><a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br />электронной почте<a href="javascript:void(0);" id="copy-text-6" class="link link-in-text"><span id="text-6">ddu_new@kargoo.kz</span></a><br />Также вы можете найти <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">наши вакансии на ENBEK.KZ</a></p>',
+  "en":
+   '<p> You can see our job vacancies and application status in the window below and apply for the vacancy by contacting us via phone <a href="tel:87212604479" class="link link-in-text hidden-desktop"> 8 7212 60 44 79</a > <a id="copy-text-5" class="link link-in-text hidden-mobile" ><span id="text-5">8 7212 60 44 79</span></a > <br /> email <a href="javascript:void(0);" id="copy-text-6" class="link link-in-text" ><span id="text-6">ddu_new@kargoo.kz</span></a > <br /> or find <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text" >Our vacancies on ENBEK.KZ</a > </p>',
+ },
+ "follow-us": {
+  "kz": "",
+  "ru": "Наши соцсети",
+  "en": "Follow Us",
+ },
+ "contact-us": {
+  "kz": "Байланыс ақпараты",
+  "ru": "Контакты",
+  "en": "Contact Us",
+ },
+ "": {
+  "kz": "",
+  "ru": "",
+  "en": "",
+ },
+ "": {
+  "kz": "",
+  "ru": "",
+  "en": "",
  },
  "": {
   "kz": "",

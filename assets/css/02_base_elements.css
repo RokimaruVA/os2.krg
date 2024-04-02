@@ -170,9 +170,14 @@ section {
 .sections {
  display: flex;
  flex-direction: column;
- gap: var(--spacer-xlg);
+ gap: 6rem;
 }
-
+.span__2 {
+ grid-column: span 2;
+}
+.span__3 {
+ grid-column: span 3;
+}
 @media (max-width: 39em) {
  .wrapper {
   margin: 0 auto;
@@ -184,6 +189,12 @@ section {
 @media (max-width: 39em) {
  .hidden-mobile {
   display: none;
+ }
+ .span__2 {
+  grid-column: span 1;
+ }
+ .span__3 {
+  grid-column: span 1;
  }
 }
 @media (min-width: 39.1em) {
