@@ -43,68 +43,42 @@ h1 {
  margin: 0;
  font-size: 3rem;
 }
-.team-row {
- display: grid;
- gap: 1rem;
- width: fit-content;
- margin-inline: auto;
- background-color: white;
- box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.127);
- padding: 2rem;
- border-radius: 1rem;
-}
-.team-block-list {
- display: grid;
- grid-template-columns: repeat(6, 4rem);
- gap: 1.5rem;
- position: static;
- /* margin-left: 2rem; */
-}
-.teacher {
- position: static;
- width: auto;
- transform: scale(1);
- transition: 0.3s ease;
- /* margin-left: -2rem; */
-}
-.tooltip-trigger {
- overflow: clip;
- border-radius: 300rem;
- display: flex;
- box-shadow: 0 0 0 0.3rem rgb(255, 255, 255), 0 0 0 0.4rem #00000017,
-  0 0 1rem 0.4rem #00000018;
-}
-.tooltip {
- position: absolute;
- visibility: hidden;
- bottom: -150%;
- left: 0%;
- padding: 1rem;
- z-index: 1;
- opacity: 0;
- transition: 0.3s ease;
- border-radius: 1rem;
- background-color: #fff;
- color: #000;
- text-align: start;
-}
-.teacher:hover .tooltip {
- visibility: visible;
- transition: 0.3s 0.3s ease;
- opacity: 1;
-}
-.teacher:hover {
- transition: 0.3s ease;
- transform: scale(1.25);
-}
 
-.tooltip-teachers-name {
- width: fit-content;
- text-wrap: nowrap;
- font-weight: 600;
- font-size: 1.5rem;
+.container {
+ max-width: 62rem;
+ background-color: beige;
+ margin-inline: auto;
 }
-.tooltip-teachers-level {
- text-wrap: nowrap;
- width: fit-content;
+.grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+ gap: 1rem;
+ padding: 1rem;
+}
+.grid__card {
+ background-color: cadetblue;
+ color: azure;
+ padding: 1rem;
+ font-weight: bolder;
+ font-size: 1.8rem;
+ text-align: start;
+ box-shadow: 0.5rem 0.5rem rgb(63, 0, 82);
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+.info {
+ display: flex;
+ gap: 1rem;
+ text-align: start;
+ font-weight: normal;
+ font-size: 1.2rem;
+ flex-direction: column;
+ padding: 1rem;
+ background-color: bisque;
+ color: black;
+}
+.info__link {
+ color: rgb(63, 0, 82);
+ font-weight: bold;
 }

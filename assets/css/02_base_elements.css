@@ -1,7 +1,3 @@
-ion-icon {
- font-size: inherit;
- flex-shrink: 0;
-}
 svg {
  display: grid;
  align-items: center;

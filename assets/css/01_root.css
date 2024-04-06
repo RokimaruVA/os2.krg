@@ -36,6 +36,7 @@ html {
  --lh-sm: 1;
  --lh-xs: 0.9;
  /* space block  */
+ --spacer-xxs: 0.25rem;
  --spacer-xs: 0.5rem;
  --spacer-sm: 1rem;
  --spacer-md: 1.5rem;

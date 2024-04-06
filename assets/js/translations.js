@@ -779,7 +779,7 @@ const langArr = {
  "team__art-staff": {
   "kz": "",
   "ru": "Художественное направление",
-  "en": "Artistic Direction",
+  "en": "Art Direction",
  },
  "tech-staff": {
   "kz": "",
@@ -1018,10 +1018,12 @@ const langArr = {
   "ru": "Контакты",
   "en": "Contact Us",
  },
- "": {
+ "footer-copyright": {
   "kz": "",
-  "ru": "",
-  "en": "",
+  "ru":
+   "© 2024 Дворец школьников №2, город Караганда. Все права защищены.<br />Сделано с заботой Roma V.",
+  "en":
+   "© 2024 Palace of Schoolchildren №2, Karaganda City. All rights reserved.<br />Crafted with care by Roma V.",
  },
  "": {
   "kz": "",
