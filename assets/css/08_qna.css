@@ -36,7 +36,6 @@
  transition: 0.3s ease;
 }
 .accordion__tab-content {
- font-size: var(--fs-md);
  font-weight: var(--fw-n);
  max-height: 0;
  opacity: 0;
