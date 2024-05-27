@@ -1,156 +1,162 @@
 .team__grid {
- display: grid;
- grid-template-columns: 1.2fr 1fr;
- gap: var(--spacer-lg);
- position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: var(--spacer-lg);
+  position: relative;
 }
 .team__principal {
- display: flex;
- /* grid-template-columns: 1fr auto; */
- gap: 1rem;
- align-items: start;
+  display: flex;
+  /* grid-template-columns: 1fr auto; */
+  gap: 1rem;
+  align-items: start;
+  min-width: 19rem;
 }
 .team__principal-img {
- flex: 1 1 auto;
- border-radius: 100rem;
- box-shadow: var(--panel-shadow-setup);
- display: flex;
- transition: 0.3s ease;
- transform: scale(1);
+  flex: 1 1 auto;
+  border-radius: 100rem;
+  box-shadow: var(--panel-shadow-setup);
+  display: flex;
+  transition: 0.3s ease;
+  transform: scale(1);
 }
 .team__principal-img img {
- object-fit: cover;
- aspect-ratio: 1 / 1;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
 }
 
 .team__principal-content {
- flex: 0 0 auto;
- display: grid;
- align-content: center;
- gap: var(--spacer-xs);
+  flex: 0 0 auto;
+  display: grid;
+  align-content: center;
+  gap: var(--spacer-xs);
 }
 .lang-principal__post {
 }
 .lang-principal__name {
- font-weight: var(--fw-b);
- font-size: var(--fs-md);
- line-height: var(--lh-sm);
+  font-weight: var(--fw-b);
+  font-size: var(--fs-md);
+  line-height: var(--lh-sm);
 }
 .principal-facebook {
- display: flex;
- align-items: center;
- gap: var(--spacer-xs);
+  display: flex;
+  align-items: center;
+  gap: var(--spacer-xs);
 }
 .team__row {
- display: grid;
- justify-items: end;
- gap: var(--spacer-sm);
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  gap: var(--spacer-sm);
 }
 .team__crew {
- display: grid;
- gap: 1rem;
- /* padding-bottom: 6rem; */
+  display: grid;
+  gap: 1rem;
+  max-width: 24rem;
+  /* padding-bottom: 6rem; */
 }
 .team__info-zone {
- height: 6rem;
- box-shadow: var(--panel-shadow-setup);
- border-radius: 1rem;
- background: linear-gradient(
-   color-mix(in srgb, var(--filling-space), transparent 10%),
-   color-mix(in srgb, var(--filling-space), transparent 10%)
-  ),
-  var(--logo-url); /* Adding a semi-transparent white layer on top of the background image */
- background-color: var(--filling-space);
- background-position: -130% 43%;
- background-size: 40rem;
- background-repeat: no-repeat;
+  height: 7rem;
+  box-shadow: var(--panel-shadow-setup);
+  border-radius: 1rem;
+  background: linear-gradient(
+      color-mix(in srgb, var(--filling-space), transparent 10%),
+      color-mix(in srgb, var(--filling-space), transparent 10%)
+    ),
+    var(--logo-url); /* Adding a semi-transparent white layer on top of the background image */
+  background-color: var(--filling-space);
+  background-position: -130% 43%;
+  background-size: 40rem;
+  background-repeat: no-repeat;
 }
 .team__methodists-row {
- display: flex;
- gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 .team__uno-metodist {
 }
 .team__uno-methodist-trigger {
- display: flex;
- border-radius: 100rem;
- box-shadow: var(--panel-shadow-setup);
- transition: 0.3s ease;
- transform: scale(1);
+  display: flex;
+  border-radius: 100rem;
+  box-shadow: var(--panel-shadow-setup);
+  transition: 0.3s ease;
+  transform: scale(1);
 }
 .team__uno-methodist-trigger img {
- object-fit: cover;
- aspect-ratio: 1 / 1;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
 }
 .team__uno-methodist-tooltip {
- position: absolute;
- visibility: hidden;
- bottom: 0.3125rem;
- right: 0;
- padding: 1rem;
- z-index: 10;
- opacity: 0;
- transition: 0.3s ease;
- text-align: end;
+  position: absolute;
+  visibility: hidden;
+  bottom: 0.3125rem;
+  right: 0;
+  padding: 1rem;
+  z-index: 10;
+  opacity: 0;
+  transition: 0.3s ease;
+  text-align: end;
 }
 .uno-methodist-name {
- font-weight: var(--fw-b);
- font-size: var(--fs-md);
- line-height: var(--lh-sm);
+  font-weight: var(--fw-b);
+  font-size: var(--fs-md);
+  line-height: var(--lh-sm);
 }
 .uno-methodist-post {
+  max-width: 24rem;
+  text-wrap: wrap;
 }
 .uno-methodist-contacts {
+  max-width: 36rem;
 }
 .team__uno-methodist:hover {
 }
 
 .team__uno-methodist:hover .team__uno-methodist-tooltip {
- visibility: visible;
- transition: 0.3s 0.2s ease;
- opacity: 1;
+  visibility: visible;
+  transition: 0.3s 0.2s ease;
+  opacity: 1;
 }
 .team__uno-methodist:hover .team__uno-methodist-trigger {
- transition: 0.3s ease;
- transform: scale(1.5);
+  transition: 0.3s ease;
+  transform: scale(1.5);
 }
 
 .team__img {
- overflow: clip;
- background-color: var(--filling-clr-light);
- box-shadow: var(--panel-shadow-setup);
- border-radius: 1rem;
- display: grid;
+  overflow: clip;
+  background-color: var(--filling-clr-light);
+  box-shadow: var(--panel-shadow-setup);
+  border-radius: 1rem;
+  display: grid;
 }
 .team__img img {
- object-fit: cover;
- aspect-ratio: 4 / 1;
- height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 1;
+  height: 100%;
 }
 .team__credits {
- display: grid;
- gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 .team__credits * {
- text-align: end;
+  text-align: end;
 }
 
 .team__credits-flexlist {
- display: flex;
- flex-wrap: wrap;
- justify-content: end;
- gap: 0 1rem;
- font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 0 1rem;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 62em) {
- .team__grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
- }
- .team__info-zone {
-  background-position: -60% 43%;
-  background-size: 20rem;
- }
+  .team__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .team__info-zone {
+    background-position: -60% 43%;
+    background-size: 20rem;
+  }
 }

@@ -1,0 +1,22 @@
+.section__menu {
+  @media (min-width: 62em) {
+    display: none;
+  }
+}
+.menu__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-rows: auto-fit;
+  gap: 1rem;
+}
+.menu__li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--filling-space);
+  box-shadow: var(--panel-shadow-setup);
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
