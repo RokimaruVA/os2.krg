@@ -383,8 +383,8 @@ const langArr = {
     "en": 'The aim of the competition is to create conditions for improving the skill level among specialized courses, studios, and lyceums that teach hairdressing, as well as to attract children and teenagers to the field of "Hairdressing Art." It also aims to enhance creative activity and the artistic and aesthetic quality of work, and to raise the prestige of the profession of "Hairdresser"',
   },
   "competition__subject-2": {
-    "kz": "исполнение кюйев юными домбристами",
-    "ru": "жас домбырашылардың күйлерді",
+    "kz": "жас домбырашылардың күйлерді",
+    "ru": "исполнение кюйев юными домбристами",
     "en": "performance of kyuis by young dombra players",
   },
   "competition-name-2": {
