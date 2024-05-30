@@ -223,8 +223,8 @@ const langArr = {
     "en": 'The website features a <a href="#instruction" class="link link-in-text">section</a> with videos explaining how to sign up for classes at Palace of Schoolchildren №2. Additionally, <a href="#directions" class="link link-in-text">various directions of classes are displayed</a>, and by clicking on them, you can see the full list of our clubs.',
   },
   "question-two": {
-    "kz": "E-daryn веб-сайтында таңдалған клубтың жанында тіркелу түймесін қалай көрмеймін?",
-    "ru": 'Неліктен мен e-daryn веб-сайтында таңдалған үйірменің жанында "жазылу" батырмасын көрмеймін?',
+    "kz": 'Неліктен мен e-daryn веб-сайтында таңдалған үйірменің жанында "жазылу" батырмасын көрмеймін?',
+    "ru": 'Почему я не вижу кнопку "записаться" рядом с выбранным кружком на сайте e-daryn?',
     "en": 'Why don\'t I see the "sign-up" button next to the selected club on the e-daryn website?',
   },
   "answer-two": {
@@ -383,9 +383,9 @@ const langArr = {
     "en": 'The aim of the competition is to create conditions for improving the skill level among specialized courses, studios, and lyceums that teach hairdressing, as well as to attract children and teenagers to the field of "Hairdressing Art." It also aims to enhance creative activity and the artistic and aesthetic quality of work, and to raise the prestige of the profession of "Hairdresser"',
   },
   "competition__subject-2": {
-    "kz": "жас домбырашылардың күйлерді",
-    "ru": "исполнение кюйев юными домбристами",
-    "en": "performance of kyuis by young dombra players",
+    "kz": "Жас домбырашылардың күйлерді",
+    "ru": "Исполнение кюйев юными домбристами",
+    "en": "Performance of kyuis by young dombra players",
   },
   "competition-name-2": {
     "kz": "Күй – мұра",
@@ -876,9 +876,9 @@ const langArr = {
     "en": "Staffing",
   },
   "staffing-description": {
-    "kz": "AУП штаттық кестесі бойынша 5 бірлік < BR / > техникалық персонал 30 бірлік < BR / > педагогикалық құрам 85 бірлік .",
-    "ru": "по штатному расписанию АУП 5 ед. <br /> тех.персонал 30 ед. <br /> педагогический состав 85 ед.",
-    "en": "Administrative and managerial staff - 5 units. <br />Technical staff - 30 units. <br /> Teaching staff - 85 units.",
+    "kz": "AУП штаттық кестесі бойынша 5 бірлік <br/> техникалық персонал 30 бірлік <br/> педагогикалық құрам 85 бірлік .",
+    "ru": "по штатному расписанию АУП 5 ед. <br/> тех.персонал 30 ед. <br/> педагогический состав 85 ед.",
+    "en": "Administrative and managerial staff - 5 units. <br/>Technical staff - 30 units. <br/> Teaching staff - 85 units.",
   },
   "adress-term": {
     "kz": "Мекенжай",

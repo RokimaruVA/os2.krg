@@ -19,4 +19,6 @@
   border-radius: 0.5rem;
   padding: 0.5rem 2rem;
   text-align: center;
+  line-height: 1.2;
+  text-underline-offset: 0.1rem;
 }

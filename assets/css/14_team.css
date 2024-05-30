@@ -103,7 +103,9 @@
 }
 .uno-methodist-post {
   max-width: 24rem;
-  text-wrap: wrap;
+  text-wrap: balance;
+	padding-bottom: 0.5rem;
+	line-height: var(--lh-sm);
 }
 .uno-methodist-contacts {
   max-width: 36rem;

@@ -100,7 +100,7 @@ a {
 .link {
  color: var(--accent);
  font-weight: var(--fw-m);
- text-decoration: underline solid transparent 0.1875rem;
+ text-decoration: underline solid transparent 0.13rem;
  text-underline-offset: 0.3125rem;
  transition: 0.3s ease;
  cursor: pointer;
@@ -109,7 +109,7 @@ a {
 }
 .link:hover,
 .link:focus {
- text-decoration: underline solid var(--accent) 0.1875rem;
+ text-decoration: underline solid var(--accent) 0.13rem;
 }
 /* .link::after {
  content: "";
