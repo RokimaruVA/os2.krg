@@ -14,6 +14,9 @@
   object-fit: cover;
   object-position: left top;
   min-height: 100%;
+  @media (max-width: 39em) {
+    object-position: -18rem top;
+  }
 }
 .about__content {
   display: flex;
