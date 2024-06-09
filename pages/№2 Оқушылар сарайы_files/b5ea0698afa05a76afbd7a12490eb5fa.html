@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://cdn.lightwidget.com/widgets/b5ea0698afa05a76afbd7a12490eb5fa.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>LightWidget - Responsive Widget for Instagram</title>
+    <link rel="canonical" href="https://cdn.lightwidget.com/widgets/b5ea0698afa05a76afbd7a12490eb5fa.html" />
+    <style data-style="lightwidget">
+      .lightwidget,
+      .lightwidget * {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+        border: 0;
+        box-sizing: border-box;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+      }
+      .lightwidget {
+        font-size: var(--lightwidget-font-size);
+      }
+      .lightwidget__tile {
+        list-style: none;
+        padding: var(--lightwidget-padding);
+      }
+      .lightwidget__tile--hidden {
+        display: none;
+      }
+      .lightwidget__image-wrapper {
+        display: block;
+        font-size: 0;
+        line-height: 0;
+      }
+      .lightwidget__link {
+        background-color: transparent;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        text-decoration: none;
+      }
+      .lightwidget__caption,
+      .lightwidget__reactions {
+        color: var(--lightwidget-text-color);
+        line-height: 1.5;
+        overflow: hidden;
+        padding: 0.1rem;
+      }
+      .lightwidget__caption {
+        display: var(--lightwidget-caption);
+      }
+      .lightwidget__reactions {
+        display: none;
+      }
+      .lightwidget__image {
+        border: 0;
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+      }
+      .lightwidget__posts {
+        display: -webkit-flex;
+        display: flex;
+      }
+      .lightwidget__image-wrapper--carousel,
+      .lightwidget__image-wrapper--video {
+        position: relative;
+      }
+      .lightwidget__image-wrapper--carousel:before,
+      .lightwidget__image-wrapper--video:before {
+        background: no-repeat 97% 3% / max(5%, 1rem) auto;
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.9;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      }
+      .lightwidget__image-wrapper--carousel:before {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 50 50'%3E%3Cpath fill='%23fff' d='M2 15.1h31a2 2 0 0 1 2 2v31a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-31c0-1.1.9-2 2-2z'/%3E%3Cpath fill='%23fff' d='M50 32.9V2a2 2 0 0 0-2-2H17a2 2 0 0 0-2 2v.7c0 1.1.9 2 2 2h27.3c.5 0 1 .5 1 1V33c0 1.1.9 2 2 2h.7c1.1-.1 2-1 2-2.1z'/%3E%3Cpath fill='%23fff' d='M42.5 40.5v-31a2 2 0 0 0-2-2h-31a2 2 0 0 0-2 2v.8c0 1.1.9 2 2 2h27.3c.6 0 1 .4 1 1v27.3c0 1.1.9 2 2 2h.7c1.1-.1 2-1 2-2.1z'/%3E%3C/svg%3E");
+      }
+      .lightwidget__image-wrapper--video:before {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 512 512'%3E%3Cpath fill='%23fff' d='M116 512h280V0H116v512zm229-256-154 89V167l154 89zM492 0h-66v81h86V20c0-11-9-20-20-20zM0 20v61h86V0H20C9 0 0 9 0 20zm0 91h86v77H0v-77zm0 107h86v76H0v-76zm0 106h86v77H0v-77zm0 107v61c0 11 9 20 20 20h66v-81H0zm426-213h86v76h-86v-76zm0-107h86v77h-86v-77zm0 320v81h66c11 0 20-9 20-20v-61h-86zm0-107h86v77h-86v-77z'/%3E%3Cpath fill='%23fff' d='M221 219v74l64-37-64-37z'/%3E%3C/svg%3E");
+      }
+      .lightwidget__focus {
+        position: relative;
+      }
+      .lightwidget__focus:focus {
+        outline: none;
+      }
+      .lightwidget__focus:after {
+        box-shadow: inset 0 0 0 0.4vw var(--lightwidget-focus-color);
+        content: "";
+        display: none;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+      .lightwidget__focus:focus:after {
+        display: block;
+      }
+      .lightwidget__focus:focus:not(:focus-visible):after {
+        display: none;
+      }
+      .lightwidget__focus:focus-visible:after {
+        display: block;
+      }
+      :root {
+        --lightwidget-font-size: 1rem;
+        --lightwidget-padding: 0px;
+        --lightwidget-caption: block;
+        --lightwidget-columns: 3;
+        --lightwidget-preloader-color: #000000;
+        --lightwidget-focus-color: #ffab00;
+        --lightwidget-text-color: #333333;
+      }
+      html {
+        line-height: 1;
+      }
+      body {
+        margin: 0;
+      }
+      .lightwidget {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, Arial, Helvetica, Verdana, sans-serif;
+      }
+      .lightwidget__posts--grid {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+      .lightwidget__posts--grid .lightwidget__tile {
+        -webkit-flex-basis: calc(100% / var(--lightwidget-columns));
+        flex-basis: calc(100% / var(--lightwidget-columns));
+        max-width: calc(100% / var(--lightwidget-columns));
+      }
+      .lightwidget__posts--image-format-square .lightwidget__image-wrapper {
+        aspect-ratio: 1;
+        max-width: 100%;
+      }
+      .lightwidget__posts--image-format-square .lightwidget__image {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+      }
+      @supports not (aspect-ratio: auto) {
+        .lightwidget__posts--image-format-square .lightwidget__image-wrapper {
+          position: relative;
+          width: 100%;
+        }
+        .lightwidget__posts--image-format-square .lightwidget__image-wrapper:after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+        .lightwidget__posts--image-format-square .lightwidget__image {
+          position: absolute;
+        }
+      }
+      .lightwidget__load-more--loading,
+      .lightwidget__preloader {
+        position: relative;
+      }
+      .lightwidget__load-more--loading:before,
+      .lightwidget__preloader:after {
+        -webkit-animation: lightwidget-spin 1s linear infinite;
+        animation: lightwidget-spin 1s linear infinite;
+        content: "";
+        display: inline-block;
+        inset: 0;
+        margin: auto;
+        -webkit-mask: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 97.5c-7.6 0-14.8-1.7-21.5-5.1l4.5-8.9c5.3 2.7 11 4.1 17 4.1 20.7 0 37.5-16.8 37.5-37.5S70.7 12.5 50 12.5h-.1v-10 5-5c26.3 0 47.6 21.3 47.6 47.5S76.2 97.5 50 97.5z'/%3E%3C/svg%3E")
+          50% 50% no-repeat;
+        position: absolute;
+        z-index: 2;
+      }
+      @-webkit-keyframes lightwidget-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        to {
+          -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+        }
+      }
+      @keyframes lightwidget-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        to {
+          -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+        }
+      }
+      .lightwidget__preloader {
+        overflow: hidden;
+        width: 100%;
+      }
+      .lightwidget__header .lightwidget__preloader:after,
+      .lightwidget__link .lightwidget__preloader:after {
+        background-color: var(--lightwidget-preloader-color);
+        height: 80%;
+        max-height: 2rem;
+        max-width: 2rem;
+        opacity: 1;
+        visibility: visible;
+        width: 80%;
+      }
+      .lightwidget__preloader .lightwidget__caption,
+      .lightwidget__preloader img {
+        visibility: hidden;
+      }
+    </style>
+    <link rel="stylesheet" href="07_instagram_news.css" />
+    <link rel="stylesheet" href="pages/№2 Оқушылар сарайы_files/01_root.css" />
+    <script src="darkToggle.js"></script>
+  </head>
+  <body>
+    <div class="lightwidget" data-id="b5ea0698afa05a76afbd7a12490eb5fa">
+      <ul class="lightwidget__posts lightwidget__posts--grid lightwidget__posts--image-format-square">
+        <li class="lightwidget__tile">
+          <a
+            class="lightwidget__link lightwidget__focus"
+            href="https://www.instagram.com/p/C76EStztlE_/"
+            target="_blank"
+            rel="noopener"
+            data-clid="17885949711053122"
+            ><figure class="lightwidget__photo">
+              <picture class="lightwidget__image-wrapper lightwidget__image-wrapper--carousel"
+                ><img
+                  width="1080"
+                  height="1080"
+                  alt="Кружковцы шахматного клуба «Ход королем» выполнили разряды по..."
+                  class="lightwidget__image"
+                  sizes="33vw"
+                  src="./447958745_496615229366097_1893379482693357778_n.heic"
+              /></picture>
+              <div class="lightwidget__reactions">
+                <span class="lightwidget__likes">0</span><span class="lightwidget__comments">0</span>
+              </div>
+              <figcaption class="lightwidget__caption">
+                Кружковцы шахматного клуба «Ход королем» выполнили разряды по...
+              </figcaption>
+            </figure></a
+          >
+        </li>
+        <li class="lightwidget__tile">
+          <a
+            class="lightwidget__link lightwidget__focus"
+            href="https://www.instagram.com/reel/C74GmS4Nd6n/"
+            target="_blank"
+            rel="noopener"
+            data-clid="18005151158580077"
+            ><figure class="lightwidget__photo">
+              <picture class="lightwidget__image-wrapper lightwidget__image-wrapper--video"
+                ><img
+                  width="1080"
+                  height="1080"
+                  alt="Бала — көңілдің гүлі, көздің нұры №2 оқушылар сарайында..."
+                  class="lightwidget__image"
+                  sizes="33vw"
+                  src="./447670279_1218553076099362_7161782477587171832_n.jpg"
+              /></picture>
+              <div class="lightwidget__reactions">
+                <span class="lightwidget__likes">0</span><span class="lightwidget__comments">0</span>
+              </div>
+              <figcaption class="lightwidget__caption">
+                "Бала — көңілдің гүлі, көздің нұры"<br /><br />№2 оқушылар сарайында...
+              </figcaption>
+            </figure></a
+          >
+        </li>
+        <li class="lightwidget__tile">
+          <a
+            class="lightwidget__link lightwidget__focus"
+            href="https://www.instagram.com/reel/C74CZ1WNAj4/"
+            target="_blank"
+            rel="noopener"
+            data-clid="18031790642046407"
+            ><figure class="lightwidget__photo">
+              <picture class="lightwidget__image-wrapper lightwidget__image-wrapper--video"
+                ><img
+                  width="1080"
+                  height="1080"
+                  alt="Жайдарлы жаз! №2 оқушылар сарайында Bala lend жазғы ауысым..."
+                  class="lightwidget__image"
+                  sizes="33vw"
+                  src="./447786759_1128393835086045_199403820782536989_n.jpg"
+              /></picture>
+              <div class="lightwidget__reactions">
+                <span class="lightwidget__likes">0</span><span class="lightwidget__comments">0</span>
+              </div>
+              <figcaption class="lightwidget__caption">
+                Жайдарлы жаз!<br /><br />№2 оқушылар сарайында "Bala lend" жазғы ауысым...
+              </figcaption>
+            </figure></a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

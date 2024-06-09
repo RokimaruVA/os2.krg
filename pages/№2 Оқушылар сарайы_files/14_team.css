@@ -85,7 +85,7 @@
   }
 }
 .team__info-zone {
-  height: 6rem;
+  height: 7rem;
   box-shadow: var(--panel-shadow-setup);
   border-radius: 1rem;
   background: linear-gradient(
@@ -103,7 +103,6 @@
   grid-template-columns: repeat(auto-fit, minmax(3.7rem, 1fr));
   gap: 0.5rem;
   width: 100%;
-  padding-bottom: 0.5rem;
 }
 .team__uno-metodist {
 }
@@ -201,7 +200,6 @@
     justify-items: center;
   }
   .team__info-zone {
-    height: 8rem;
     width: 100%;
     background-position: -60% 43%;
     background-size: 20rem;

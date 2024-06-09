@@ -1,0 +1,62 @@
+.magazine__grid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: var(--spacer-sm);
+ justify-items: end;
+ justify-content: end;
+}
+.magazine__grid > div:nth-child(1) {
+ order: 1;
+ grid-column: span 2;
+}
+.magazine__grid > div:nth-child(2) {
+ order: 2;
+}
+.magazine__grid > div:nth-child(3) {
+ order: 3;
+}
+
+.magazine__card {
+ overflow: clip;
+ display: grid;
+ align-items: start;
+ grid-template-columns: 1fr;
+ /* gap: var(--spacer-xs); */
+ background-color: var(--filling-space);
+ box-shadow: var(--panel-shadow-setup);
+ border-radius: 1rem;
+ width: 100%;
+}
+.magazine__card-img {
+ display: flex;
+ height: fit-content;
+}
+.magazine__card-img img {
+ height: 12rem;
+ width: 100%;
+ object-fit: cover;
+ object-position: right top;
+}
+.magazine__card-info {
+ display: grid;
+ gap: var(--spacer-xs);
+ padding: var(--spacer-sm);
+ justify-items: end;
+}
+.lang-magazine__card-title {
+}
+.magazine__card-text {
+ margin-left: var(--spacer-sm);
+}
+.lang-magazine__card-link {
+ padding-left: 0.5rem;
+}
+.lang-magazine-more-link {
+ /* width: fit-content;
+ text-align: end; */
+}
+@media (max-width: 39em) {
+ .magazine__grid {
+  grid-template-columns: 1fr 1fr;
+ }
+}

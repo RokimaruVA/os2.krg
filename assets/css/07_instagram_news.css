@@ -1,29 +1,43 @@
-.news {
-}
 .lightwidget-widget {
-  filter: drop-shadow(0 0 1rem var(--shadow-filter));
+  /* filter: drop-shadow(0 0 1rem var(--shadow-filter)); */
+	border-radius: 2rem;
+	box-shadow: var(--panel-shadow-setup);
 }
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 .lightwidget__caption {
-  color: var(--accent, hsl(211, 100%, 61%));
+  color: var(--text);
   font-size: 1rem;
-  font-weight: 600;
-  margin: 1rem 1rem 1rem 0;
+  font-weight: 400;
   padding-left: 1rem;
   border-left: solid transparent 0.1875rem;
+}
+.lightwidget__caption::after {
+  display: block;
+  margin-top: 0.5rem;
+  content: "⧉ Instagram post";
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: underline solid transparent 0.13rem;
+  text-underline-offset: 0.3125rem;
   transition: 0.3s ease;
 }
-.lightwidget__photo:hover .lightwidget__caption,
-.lightwidget__photo:focus .lightwidget__caption {
-  border-left: solid var(--accent, hsl(211, 100%, 61%)) 0.1875rem;
-  transition: 0.3s ease;
+.lightwidget__photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 39em) {
+    grid-template-columns: 1fr;
+  }
 }
-.lightwidget__posts--grid {
-  flex-wrap: nowrap;
-  gap: 0.5rem;
+.lightwidget__photo:hover .lightwidget__caption::after,
+.lightwidget__photo:focus .lightwidget__caption::after {
+  transition: 0.3s ease;
+  text-decoration: underline solid var(--accent) 0.13rem;
 }
 .lightwidget__posts {
+  background-color: var(--background);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
 }
 .lightwidget__posts--grid .lightwidget__tile {
   -webkit-flex-basis: 100%;
@@ -39,14 +53,5 @@
   border-radius: 1rem;
 }
 .lightwidget__posts--image-format-square .lightwidget__image-wrapper {
-  aspect-ratio: 16 / 11;
-}
-@media (max-width: 39em) {
-  .lightwidget__posts {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .lightwidget__posts--image-format-square .lightwidget__image-wrapper {
-    aspect-ratio: 16 / 9;
-  }
+  aspect-ratio: 16 / 9;
 }
