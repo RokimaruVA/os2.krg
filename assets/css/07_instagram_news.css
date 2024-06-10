@@ -1,8 +1,34 @@
 .lightwidget-widget {
   /* filter: drop-shadow(0 0 1rem var(--shadow-filter)); */
-	border-radius: 2rem;
-	box-shadow: var(--panel-shadow-setup);
+  border-radius: 2rem;
+  box-shadow: var(--panel-shadow-setup);
 }
+
+:root {
+  --base-clr-light: hsl(204, 56%, 24%);
+  --bg-clr-light: hsl(205, 33%, 98%);
+  --filling-clr-light: hsl(0, 0%, 100%);
+  --accent-clr-light: hsl(207, 100%, 50%);
+  --primary-shadow-clr-light: hsla(212, 100%, 7%, 0.075);
+  --secondary-shadow-clr-light: hsla(0, 0%, 0%, 0.05);
+  --third-shadow-color: hsla(212, 100%, 7%, 0.22);
+
+  --shadow-border-thickness-1: 0.25rem;
+  --shadow-border-thickness-2: 0.3125rem;
+  --shadow-blur-1: 2rem;
+  --shadow-blur-2: 1rem;
+
+  --accent: var(--accent-clr-light);
+  --text: var(--base-clr-light);
+  --small-elements: var(--base-clr-light);
+  --background: var(--bg-clr-light);
+  --filling-space: var(--filling-clr-light);
+
+  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-light),
+    0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light),
+    0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 .lightwidget__caption {
   color: var(--text);
@@ -34,7 +60,7 @@
   text-decoration: underline solid var(--accent) 0.13rem;
 }
 .lightwidget__posts {
-  background-color: var(--background);
+  background-color: var(--filling-space);
   display: grid;
   gap: 2rem;
   padding: 1rem;
@@ -51,6 +77,7 @@
 .lightwidget__image-wrapper {
   overflow: clip;
   border-radius: 1rem;
+  box-shadow: var(--panel-shadow-setup);
 }
 .lightwidget__posts--image-format-square .lightwidget__image-wrapper {
   aspect-ratio: 16 / 9;
