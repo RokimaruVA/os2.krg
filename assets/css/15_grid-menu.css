@@ -1,5 +1,5 @@
 .section__menu {
-  @media (min-width: 64em) {
+  @media (min-width: 64.1em) {
     display: none;
   }
 }

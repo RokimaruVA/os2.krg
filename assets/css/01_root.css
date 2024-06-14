@@ -58,6 +58,7 @@ html {
   --secondary-shadow-clr-light: hsla(0, 0%, 0%, 0.05);
   --third-shadow-color: hsla(212, 100%, 7%, 0.22);
   --logo-light: url("../images/logo_light.svg");
+  --bg-logo-light: url("../images/bg-logo_light-1.svg");
 
   /* colors: dark scheme */
   --basic-clr-dark: hsl(0, 0%, 85%);
@@ -67,6 +68,7 @@ html {
   --primary-shadow-clr-dark: hsla(0, 0%, 0%, 0.573);
   --secondary-shadow-clr-dark: hsl(0, 0%, 20%);
   --logo-dark: url("../images/logo_dark.svg");
+  --bg-logo-dark: url("../images/bg-logo_dark-1.svg");
 
   /* shadow-thickness */
   --shadow-border-thickness-1: 0.25rem;
@@ -89,6 +91,7 @@ html {
 
     --shadow-filter: var(--third-shadow-color);
     --logo-url: var(--logo-light);
+    --bg-logo-url: var(--bg-logo-light);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -106,6 +109,7 @@ html {
 
     --shadow-filter: var(--primary-shadow-clr-dark);
     --logo-url: var(--logo-dark);
+    --bg-logo-url: var(--bg-logo-dark);
   }
 }
 
@@ -122,6 +126,7 @@ html {
 
   --shadow-filter: var(--third-shadow-color);
   --logo-url: var(--logo-light);
+  --bg-logo-url: var(--bg-logo-light);
 }
 [data-theme="dark"] {
   --accent: var(--accent-clr-dark);
@@ -136,4 +141,5 @@ html {
 
   --shadow-filter: var(--primary-shadow-clr-dark);
   --logo-url: var(--logo-dark);
+  --bg-logo-url: var(--bg-logo-dark);
 }

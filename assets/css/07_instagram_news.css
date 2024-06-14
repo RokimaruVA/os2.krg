@@ -24,9 +24,7 @@
   --background: var(--bg-clr-light);
   --filling-space: var(--filling-clr-light);
 
-  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-light),
-    0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light),
-    0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
+  --panel-shadow-setup: 0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
