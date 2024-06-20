@@ -100,13 +100,62 @@
 }
 .team__methodists-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(3.7rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
   gap: 0.5rem;
   width: 100%;
   padding-bottom: 0.5rem;
 }
 .team__uno-metodist {
 }
+.team__methodists-row > *:nth-child(1) {
+  order: 1;
+}
+.team__methodists-row > *:nth-child(2) {
+  order: 2;
+}
+.team__methodists-row > *:nth-child(3) {
+  order: 3;
+}
+.team__methodists-row > *:nth-child(4) {
+  order: 4;
+}
+.team__methodists-row > *:nth-child(5) {
+  order: 5;
+}
+.team__methodists-row > *:nth-child(6) {
+  order: 6;
+}
+.team__methodists-row > *:nth-child(7) {
+  order: 7;
+}
+.team__methodists-row > *:nth-child(8) {
+  order: 8;
+}
+.team__methodists-row > *:nth-child(9) {
+  order: 9;
+}
+.team__methodists-row > *:nth-child(10) {
+  order: 10;
+}
+.team__methodists-row > *:nth-child(11) {
+  order: 11;
+}
+.team__methodists-row > *:nth-child(12) {
+  order: 12;
+}
+.team__methodists-row > *:nth-child(13) {
+  order: 13;
+}
+.team__methodists-row > *:nth-child(14) {
+  order: 14;
+}
+.team__methodists-row > *:nth-child(15) {
+  order: 15;
+}
+.team__methodists-row > *:nth-child(16) {
+  order: 16;
+}
+
 .team__uno-methodist-trigger {
   display: flex;
   border-radius: 100rem;

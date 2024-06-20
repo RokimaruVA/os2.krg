@@ -1,6 +1,6 @@
 const langArr = {
   "title": {
-    "kz": "№2 оқушылар сарайы. Балаларға арналған білім.",
+    "kz": "№2 оқушылар сарайы. Балаларға арналған қосымша білім мен тәрбие.",
     "ru": "Дворец школьников №2. Образование для детей.",
     "en": "Palace of Schoolchildren №2. Education for children.",
   },
@@ -559,9 +559,9 @@ const langArr = {
     "en": "Altynbekova <br />Shariza Dalabayevna",
   },
   "team__h3-administration": {
-    "kz": "Әкімшілік және әдіскерлер",
-    "ru": "Администрация и Методисты",
-    "en": "Administration and methodists",
+    "kz": "Әкімшілік",
+    "ru": "Администрация",
+    "en": "Administration",
   },
   "admin-post-1": {
     "kz": "Директордың оқу ісі жөніндегі орынбасары",
@@ -628,62 +628,102 @@ const langArr = {
   //   "ru": "Администрация и Методисты",
   //   "en": "Methodists",
   // },
-  "metodist-post-1": {
+  "admin-post-7": {
     "kz": "Музыкалық-эстетикалық бағытының әдіскері",
     "ru": "Методист по музыкально-эстетическому направлению",
     "en": "Methodologist for Musical and Aesthetic Direction",
   },
-  "metodist-name-1": {
+  "admin-name-7": {
     "kz": "Жамауова Жанерке Омиржановна",
     "ru": "Жамауова Жанерке Омиржановна",
     "en": "Zhamauova Zhanerke Omirzhanovna",
   },
-  "metodist-post-2": {
+  "admin-post-8": {
     "kz": "Музыкалық-эстетикалық бағытының педагог - ұйымдастырушысы",
     "ru": "Педагог-организатор по музыкально-эстетическому направлению",
     "en": "Teacher-Organizer for Musical and Aesthetic Direction",
   },
-  "metodist-name-2": {
+  "admin-name-8": {
     "kz": "Белоног Оксана Сергеевна",
     "ru": "Белоног Оксана Сергеевна",
     "en": "Belonog Oksana Sergeevna",
   },
-  "metodist-post-3": {
+  "admin-post-9": {
     "kz": "Ғылыми жобалық және техникалық бағытының педагог-ұйымдастырушысы",
     "ru": "Педагог-организатор по научно-исследовательскому и техническому направлению",
     "en": "Teacher-Organizer for Scientific Research and Technical Direction",
   },
-  "metodist-name-3": {
+  "admin-name-9": {
     "kz": "Әбдірахман Лаура Сланбекқызы",
     "ru": "Әбдірахман Лаура Сланбекқызы",
     "en": "Abdirakhman Laura Slanbekkyzy",
   },
-  "metodist-post-4": {
+  "admin-post-10": {
     "kz": "Көркемдік бағытының педагог-ұйымдастырушысы",
     "ru": "Педагог-организатор по художественному направлению",
     "en": "Teacher-Organizer for Artistic Direction",
   },
-  "metodist-name-4": {
+  "admin-name-10": {
     "kz": "Әділғазықызы Ақниет",
     "ru": "Әділғазықызы Ақниет",
     "en": "Adilgazikyzy Akniyet",
   },
-  "metodist-post-5": {
+  "admin-post-11": {
     "kz": "«Шамшырақ» ерте даму бағытының педагог - ұйымдастырушысы",
     "ru": 'Педагог-организатор по раннему развитию "Шамшырақ"',
     "en": 'Teacher-Organizer for Early Development "Shamshyrak"',
   },
-  "metodist-name-5": {
+  "admin-name-11": {
     "kz": "Аманжол Ляззат Сержанқызы",
     "ru": "Аманжол Ляззат Сержанқызы",
     "en": "Amanzhol Lyazzat Serzhankyzy",
   },
-  "metodist-post-6": {
+  "admin-post-12": {
     "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
     "ru": "Педагог-организатор по социальному и спортивному развитию",
     "en": "Teacher-Organizer for Social and Sports Development",
   },
-  "metodist-name-6": {
+  "admin-name-12": {
+    "kz": "Қабыл Замира Әскерқызы",
+    "ru": "Қабыл Замира Әскерқызы",
+    "en": "Kabil Zamira Askerkyzy",
+  },
+  "admin-post-13": {
+    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
+    "ru": "Педагог-организатор по социальному и спортивному развитию",
+    "en": "Teacher-Organizer for Social and Sports Development",
+  },
+  "admin-name-13": {
+    "kz": "Қабыл Замира Әскерқызы",
+    "ru": "Қабыл Замира Әскерқызы",
+    "en": "Kabil Zamira Askerkyzy",
+  },
+  "admin-post-14": {
+    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
+    "ru": "Педагог-организатор по социальному и спортивному развитию",
+    "en": "Teacher-Organizer for Social and Sports Development",
+  },
+  "admin-name-14": {
+    "kz": "Қабыл Замира Әскерқызы",
+    "ru": "Қабыл Замира Әскерқызы",
+    "en": "Kabil Zamira Askerkyzy",
+  },
+  "admin-post-15": {
+    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
+    "ru": "Педагог-организатор по социальному и спортивному развитию",
+    "en": "Teacher-Organizer for Social and Sports Development",
+  },
+  "admin-name-15": {
+    "kz": "Қабыл Замира Әскерқызы",
+    "ru": "Қабыл Замира Әскерқызы",
+    "en": "Kabil Zamira Askerkyzy",
+  },
+  "admin-post-16": {
+    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
+    "ru": "Педагог-организатор по социальному и спортивному развитию",
+    "en": "Teacher-Organizer for Social and Sports Development",
+  },
+  "admin-name-16": {
     "kz": "Қабыл Замира Әскерқызы",
     "ru": "Қабыл Замира Әскерқызы",
     "en": "Kabil Zamira Askerkyzy",
@@ -945,7 +985,7 @@ const langArr = {
     "en": "Contact Us",
   },
   "footer-copyright": {
-    "kz": "© 2024 №2 оқушылар сарайы, Қарағанды қаласы. Барлық құқықтар қорғалған.<br />Рома В, Аяш с. жасады.",
+    "kz": "© 2024 №2 оқушылар сарайы, Қарағанды қаласы. Барлық құқықтар қорғалған.<br />Рома В, Аяш С. жасады.",
     "ru": "© 2024 Дворец школьников №2, город Караганда. Все права защищены.<br />Сделал Рома В, Аяш С.",
     "en": "© 2024 Palace of Schoolchildren №2, Karaganda City. All rights reserved.<br />Crafted by Roma V, Ayash S.",
   },
