@@ -584,41 +584,81 @@ const langArr = {
     "en": "Aldabergenova Ayash Sultanbekovna",
   },
   "admin-post-3": {
+    "kz": "Директордың тәрбие ісі жөніндегі орын басары",
+    "ru": "Заместитель директора по воспитательной работе",
+    "en": "Deputy Director for Educational Work",
+  },
+  "admin-name-3": {
+    "kz": "Баданова Айгерим Бирликбаевна",
+    "ru": "Баданова Айгерим Бирликбаевна",
+    "en": "Badanova Aigerim Birlikbayevna",
+  },
+  "admin-post-4": {
+    "kz": "Директордың әкімшілік-шаруашылық жұмысы ісі жөніндегі орынбасары",
+    "ru": "Заместитель директора по административно-хозяйственной работе",
+    "en": "Deputy Director for Administrative and Economic Work",
+  },
+  "admin-name-4": {
+    "kz": "Нурмаганбетова Саягуль Маратовна",
+    "ru": "Нурмаганбетова Саягуль Маратовна",
+    "en": "Nurmaganbetova Sayagul Maratovna ",
+  },
+  "admin-post-5": {
+    "kz": "Әдістемелік кабинет менгерушісі",
+    "ru": "Руководитель методического кабинета",
+    "en": "Head of the Methodological Office",
+  },
+  "admin-name-5": {
+    "kz": "Жасымбекова Асем Кабдоллаевна",
+    "ru": "Жасымбекова Асем Кабдоллаевна",
+    "en": "Jassymbekova Asem Kabdollaevna",
+  },
+  "admin-post-6": {
+    "kz": "«Шамшырақ» ерте даму кешенінің әдіскері",
+    "ru": "Методист комплекса раннего развития «Шамшырақ»",
+    "en": 'Methodologist for the "Shamshyrak" Early Development Complex',
+  },
+  "admin-name-6": {
+    "kz": "Алькеева Орал Рамазановна",
+    "ru": "Алькеева Орал Рамазановна",
+    "en": "Alkeeva Oral Ramazanovna ",
+  },
+  "admin-post-7": {
     "kz": "Ғылыми жобалық және техникалық бағытының әдіскері",
     "ru": "Методист по научно-исследовательскому и техническому направлению",
     "en": "Methodologist for Scientific Research and Technical Direction",
   },
-  "admin-name-3": {
+  "admin-name-7": {
     "kz": "Кожахметова Акгуль Куанышевна",
     "ru": "Кожахметова Акгуль Куанышевна",
     "en": "Kozhakhmetova Akgul Kuanyshevna",
   },
-  "admin-post-4": {
+  "admin-post-8": {
     "kz": "Көркемдік бағытының әдіскері",
     "ru": "Методист по художественному направлению",
     "en": "Methodologist for Artistic Direction",
   },
-  "admin-name-4": {
+  "admin-name-8": {
     "kz": "Каукенова Ботакоз Ерболатовна",
     "ru": "Каукенова Ботакоз Ерболатовна",
     "en": "Kaukenova Botakoz Erbolatovna",
   },
-  "admin-post-5": {
+  "admin-post-9": {
     "kz": "Психолингвистикалық бағытының әдіскері",
     "ru": "Методист по психолингвистическому направлению",
     "en": "Methodologist for Psycholinguistic Direction",
   },
-  "admin-name-5": {
+  "admin-name-9": {
     "kz": "Артық Айгерим Полатқызы",
     "ru": "Артық Айгерим Полатқызы",
     "en": "Artyk Aygerim Polatkyzy",
   },
-  "admin-post-6": {
+  "admin-post-10": {
     "kz": "Әлеуметтік және спорттық даму бағытытының әдіскері",
     "ru": "Методист по социальному и спортивному развитию",
     "en": "Methodologist for Social and Sports Development",
   },
-  "admin-name-6": {
+  "admin-name-10": {
     "kz": "Туганбаева Гулдана Кусаиновна",
     "ru": "Туганбаева Гулдана Кусаиновна",
     "en": "Tuganbayeva Guldana Kusainovna",
@@ -628,95 +668,55 @@ const langArr = {
   //   "ru": "Администрация и Методисты",
   //   "en": "Methodists",
   // },
-  "admin-post-7": {
+  "admin-post-11": {
     "kz": "Музыкалық-эстетикалық бағытының әдіскері",
     "ru": "Методист по музыкально-эстетическому направлению",
     "en": "Methodologist for Musical and Aesthetic Direction",
   },
-  "admin-name-7": {
+  "admin-name-11": {
     "kz": "Жамауова Жанерке Омиржановна",
     "ru": "Жамауова Жанерке Омиржановна",
     "en": "Zhamauova Zhanerke Omirzhanovna",
   },
-  "admin-post-8": {
+  "admin-post-12": {
     "kz": "Музыкалық-эстетикалық бағытының педагог - ұйымдастырушысы",
     "ru": "Педагог-организатор по музыкально-эстетическому направлению",
     "en": "Teacher-Organizer for Musical and Aesthetic Direction",
   },
-  "admin-name-8": {
+  "admin-name-12": {
     "kz": "Белоног Оксана Сергеевна",
     "ru": "Белоног Оксана Сергеевна",
     "en": "Belonog Oksana Sergeevna",
   },
-  "admin-post-9": {
+  "admin-post-13": {
     "kz": "Ғылыми жобалық және техникалық бағытының педагог-ұйымдастырушысы",
     "ru": "Педагог-организатор по научно-исследовательскому и техническому направлению",
     "en": "Teacher-Organizer for Scientific Research and Technical Direction",
   },
-  "admin-name-9": {
+  "admin-name-13": {
     "kz": "Әбдірахман Лаура Сланбекқызы",
     "ru": "Әбдірахман Лаура Сланбекқызы",
     "en": "Abdirakhman Laura Slanbekkyzy",
   },
-  "admin-post-10": {
+  "admin-post-14": {
     "kz": "Көркемдік бағытының педагог-ұйымдастырушысы",
     "ru": "Педагог-организатор по художественному направлению",
     "en": "Teacher-Organizer for Artistic Direction",
   },
-  "admin-name-10": {
+  "admin-name-14": {
     "kz": "Әділғазықызы Ақниет",
     "ru": "Әділғазықызы Ақниет",
     "en": "Adilgazikyzy Akniyet",
   },
-  "admin-post-11": {
+  "admin-post-15": {
     "kz": "«Шамшырақ» ерте даму бағытының педагог - ұйымдастырушысы",
     "ru": 'Педагог-организатор по раннему развитию "Шамшырақ"',
     "en": 'Teacher-Organizer for Early Development "Shamshyrak"',
   },
-  "admin-name-11": {
+  "admin-name-15": {
     "kz": "Аманжол Ляззат Сержанқызы",
     "ru": "Аманжол Ляззат Сержанқызы",
     "en": "Amanzhol Lyazzat Serzhankyzy",
-  },
-  "admin-post-12": {
-    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
-    "ru": "Педагог-организатор по социальному и спортивному развитию",
-    "en": "Teacher-Organizer for Social and Sports Development",
-  },
-  "admin-name-12": {
-    "kz": "Қабыл Замира Әскерқызы",
-    "ru": "Қабыл Замира Әскерқызы",
-    "en": "Kabil Zamira Askerkyzy",
-  },
-  "admin-post-13": {
-    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
-    "ru": "Педагог-организатор по социальному и спортивному развитию",
-    "en": "Teacher-Organizer for Social and Sports Development",
-  },
-  "admin-name-13": {
-    "kz": "Қабыл Замира Әскерқызы",
-    "ru": "Қабыл Замира Әскерқызы",
-    "en": "Kabil Zamira Askerkyzy",
-  },
-  "admin-post-14": {
-    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
-    "ru": "Педагог-организатор по социальному и спортивному развитию",
-    "en": "Teacher-Organizer for Social and Sports Development",
-  },
-  "admin-name-14": {
-    "kz": "Қабыл Замира Әскерқызы",
-    "ru": "Қабыл Замира Әскерқызы",
-    "en": "Kabil Zamira Askerkyzy",
-  },
-  "admin-post-15": {
-    "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
-    "ru": "Педагог-организатор по социальному и спортивному развитию",
-    "en": "Teacher-Organizer for Social and Sports Development",
-  },
-  "admin-name-15": {
-    "kz": "Қабыл Замира Әскерқызы",
-    "ru": "Қабыл Замира Әскерқызы",
-    "en": "Kabil Zamira Askerkyzy",
   },
   "admin-post-16": {
     "kz": "Әлеуметтік және спорттық даму бағытытының педагог-ұйымдастырушысы",
@@ -728,7 +728,6 @@ const langArr = {
     "ru": "Қабыл Замира Әскерқызы",
     "en": "Kabil Zamira Askerkyzy",
   },
-
   "team__edu-technical-staff": {
     "kz": "Техникалық бағыт",
     "ru": "Техническое направление",

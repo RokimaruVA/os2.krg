@@ -26,7 +26,7 @@
 }
 .team__content {
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
   @media (max-width: 39rem) {
     justify-items: center;
     width: fit-content;
@@ -107,7 +107,7 @@
 }
 .team__uno-metodist {
 }
-.team__methodists-row > *:nth-child(1) {
+/* .team__methodists-row > *:nth-child(1) {
   order: 1;
 }
 .team__methodists-row > *:nth-child(2) {
@@ -144,17 +144,17 @@
   order: 12;
 }
 .team__methodists-row > *:nth-child(13) {
-  order: 13;
+  order: 2;
 }
 .team__methodists-row > *:nth-child(14) {
-  order: 14;
+  order: 3;
 }
 .team__methodists-row > *:nth-child(15) {
   order: 15;
 }
 .team__methodists-row > *:nth-child(16) {
-  order: 16;
-}
+  order: 2;
+} */
 
 .team__uno-methodist-trigger {
   display: flex;
