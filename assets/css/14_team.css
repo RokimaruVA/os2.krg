@@ -104,6 +104,15 @@
   gap: 0.5rem;
   width: 100%;
   padding-bottom: 0.5rem;
+  @media (max-width: 39em) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  @media (max-width: 30em) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  @media (max-width: 23.5em) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 .team__uno-metodist {
 }
