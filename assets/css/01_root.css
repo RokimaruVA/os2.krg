@@ -85,9 +85,7 @@ html {
     --background: var(--bg-clr-light);
     --filling-space: var(--filling-clr-light);
 
-    --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-light),
-      0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light),
-      0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
+    --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-light), 0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light), 0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
 
     --shadow-filter: var(--third-shadow-color);
     --logo-url: var(--logo-light);
@@ -103,9 +101,7 @@ html {
     --background: var(--bg-clr-dark);
     --filling-space: var(--filling-clr-dark);
 
-    --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-dark),
-      0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-dark),
-      0 0 var(--shadow-blur-1) var(--primary-shadow-clr-dark);
+    --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-dark), 0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-dark), 0 0 var(--shadow-blur-1) var(--primary-shadow-clr-dark);
 
     --shadow-filter: var(--primary-shadow-clr-dark);
     --logo-url: var(--logo-dark);
@@ -120,9 +116,7 @@ html {
   --background: var(--bg-clr-light);
   --filling-space: var(--filling-clr-light);
 
-  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-light),
-    0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light),
-    0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
+  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-light), 0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-light), 0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
 
   --shadow-filter: var(--third-shadow-color);
   --logo-url: var(--logo-light);
@@ -135,9 +129,7 @@ html {
   --background: var(--bg-clr-dark);
   --filling-space: var(--filling-clr-dark);
 
-  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-dark),
-    0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-dark),
-    0 0 var(--shadow-blur-1) var(--primary-shadow-clr-dark);
+  --panel-shadow-setup: 0 0 0 var(--shadow-border-thickness-1) var(--filling-clr-dark), 0 0 0 var(--shadow-border-thickness-2) var(--secondary-shadow-clr-dark), 0 0 var(--shadow-blur-1) var(--primary-shadow-clr-dark);
 
   --shadow-filter: var(--primary-shadow-clr-dark);
   --logo-url: var(--logo-dark);

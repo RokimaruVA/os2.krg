@@ -12,7 +12,7 @@ const langArr = {
   "meta-keywords": {
     "kz": "Балаларға қосымша білім беру, білім беру бағдарламалары, сабақтан тыс жұмыстар, дамыту үйірмелері, оқыту және дағдыларды дамыту, спорт секциялары, би курстары, өнер сабақтары, музыка сабақтары, сурет салу курстары, компьютерлік сабақтар, тіл курстары, театр шеберханалары, ғылыми эксперименттер, робототехника, арт-терапия, футбол, баскетбол, волейбол, Заманауи би, хип-хоп, сурет салу, мүсіндеу, сәндік өнер",
     "ru": "Дополнительное образование для детей, образовательные программы, внеурочная деятельность,  развивающие кружки, обучение и развитие навыков, спортивные секции, танцевальные курсы, художественные занятия, музыкальные занятия, курсы по рисованию, компьютерные занятия, языковые курсы, театральные мастер-классы, научные эксперименты, робототехника, арт-терапия, футбол, баскетбол, волейбол, современные танцы, хип-хоп, рисование, лепка, декоративное искусство",
-    "en": "",
+    "en": "Children's supplementary education, educational programs, development clubs, sports sections, dance courses, art classes, music lessons, drawing courses, language courses, robotics",
   },
   "": {
     "kz": "",
@@ -46,7 +46,7 @@ const langArr = {
     "en": "The Palace of Schoolchildren №2",
   },
   "nav-about": {
-    "kz": "Біз туралы ",
+    "kz": "Біз туралы",
     "ru": "О нас",
     "en": "About us",
   },
@@ -101,12 +101,12 @@ const langArr = {
     "en": "Vacancies",
   },
   "header-about": {
-    "kz": "Біз туралы ",
+    "kz": "Біз туралы",
     "ru": "О нас",
     "en": "About us",
   },
   "about-paragraph": {
-    "kz": " №2 оқушылар сарайы - өз қызметін оқу жылы және демалыс кезеңінде жүзеге асыратын көпсалалы мекеме. Біздің тәрбиеленушілер өздерінің шығармашылық қабілеттерін дамытып,ой-өрісін кеңейтіп, жаңа дағдыларды үйреніп қана қоймай, өздеріне жаңа достар табады.",
+    "kz": "№2 оқушылар сарайы - өз қызметін оқу жылы және демалыс кезеңінде жүзеге асыратын көпсалалы мекеме. Біздің тәрбиеленушілер өздерінің шығармашылық қабілеттерін дамытып,ой-өрісін кеңейтіп, жаңа дағдыларды үйреніп қана қоймай, өздеріне жаңа достар табады.",
     "ru": "Дворец школьников №2 - это многопрофильное учреждение,	осуществляющее свою деятельность во время учебного года и в	каникулярный период. Наши учащиеся развивают свои творческие способности, расширяют кругозор, изучают новые навыки и находят новых друзей. ",
     "en": "The Palace of Schoolchildren №2 is a multifunctional institution that operates during the school year and during vacation periods. Our students develop their creative abilities, broaden their horizons, learn new skills, and make new friends.",
   },
@@ -126,8 +126,8 @@ const langArr = {
     "en": "141 Acc. Qtr., Bldg. 690",
   },
   "our-location": {
-    "kz": " Біз қаланың оңтүстік-шығысында, Сарыарқа көшесі мен Шахтерлер даңғылының арасында, &quotДостық үйінің&quot ар жағында орналасқанбыз. Сізді көруге әрқашан қуаныштымыз! ",
-    "ru": " Мы находимся на юго-востоке города, между улицей Сарыарка и проспектом шахтёров, за &quotДомом дружбы народов&quot. Вход расположен со стороны улицы Сарыарка. Мы будем вам рады! ",
+    "kz": "Біз қаланың оңтүстік-шығысында, Сарыарқа көшесі мен Шахтерлер даңғылының арасында, &quotДостық үйінің&quot ар жағында орналасқанбыз. Сізді көруге әрқашан қуаныштымыз! ",
+    "ru": "Мы находимся на юго-востоке города, между улицей Сарыарка и проспектом шахтёров, за &quotДомом дружбы народов&quot. Вход расположен со стороны улицы Сарыарка. Мы будем вам рады! ",
     "en": "We are located in the southeast of the city, between Sarayarka Street and Shahterov Avenue, behind the &quotHouse of Friendship of Nations&quot. The entrance is located on Sarayarka Street side. We will be glad to see you! ",
   },
   "h-one-sign-up": {
@@ -182,9 +182,9 @@ const langArr = {
     "en": "We offer a wide range of various sections, clubs, and circles. By clicking on the link under each direction, you will be able to get detailed information about various activities.",
   },
   "technical-content": {
-    "kz": '<h2 class="direction__title">Ғылыми-техникалық <br />Жобалық бағыт</h2>          <p class="direction__tags">           Роботехника Компьютерлік графика | Инженер | Қосымша кәсіби дайындық | Экология | Биология </p>          <a           target="_blank"           class="link"           href="https://e-daryn.kz/main/sections?filter%5Bselected%5D=0&filter%5Bregion_id%5D=10&filter%5Btype%5D=section&filter%5Bfree%5D=0&filter%5Bopen%5D=0&filter%5Bclosed%5D=0&filter%5Bdirection_id%5D=4%2C11%2C117%2C110%2C113&filter%5Bsearch%5D=«№2%20оқушылар%20сарайы»%20КММ&filter%5Blanguage_kz%5D=0&filter%5Blanguage_ru%5D=0"          >           Үйірмеге жазылу          </a>',
-    "ru": '<h2 class="direction__title">Научно-техническое направление</h2>          <p class="direction__tags">           Робототехника | Компьютерная графика <br />Инженерное дело | Дополнительное           <br />Экология | Профориентация | Биологии          </p>          <a           target="_blank"           class="link"           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=113,4,11,110,117&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"          >           Узнать и записаться          </a>',
-    "en": '<h2 class="direction__title">Scientific and Technical Direction</h2>          <p class="direction__tags">           Robotics | Computer Graphics <br />Engineering | Additional           <br />Ecology | Biology | Professional Training          </p>          <a           target="_blank"           class="link"           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=113,4,11,110,117&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"          >           Learn and sign up          </a>',
+    "kz": `<h2 class="direction__title">Ғылыми-техникалық <br />Жобалық бағыт</h2><p class="direction__tags">           Роботехника Компьютерлік графика | Инженер | Қосымша кәсіби дайындық | Экология | Биология </p>          <a           target="_blank"           class="link"           href="https://e-daryn.kz/main/sections?filter%5Bselected%5D=0&filter%5Bregion_id%5D=10&filter%5Btype%5D=section&filter%5Bfree%5D=0&filter%5Bopen%5D=0&filter%5Bclosed%5D=0&filter%5Bdirection_id%5D=4%2C11%2C117%2C110%2C113&filter%5Bsearch%5D=«№2%20оқушылар%20сарайы»%20КММ&filter%5Blanguage_kz%5D=0&filter%5Blanguage_ru%5D=0"          >           Үйірмеге жазылу          </a>`,
+    "ru": `<h2 class="direction__title">Научно-техническое направление</h2>          <p class="direction__tags">           Робототехника | Компьютерная графика <br />Инженерное дело | Дополнительное           <br />Экология | Профориентация | Биологии          </p>          <a           target="_blank"           class="link"           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=113,4,11,110,117&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"          >           Узнать и записаться          </a>`,
+    "en": `<h2 class="direction__title">Scientific and Technical Direction</h2>          <p class="direction__tags">           Robotics | Computer Graphics <br />Engineering | Additional           <br />Ecology | Biology | Professional Training          </p>          <a           target="_blank"           class="link"           href="https://e-daryn.kz/main/sections?filter[selected]=0&filter[region_id]=10&filter[type]=section&filter[free]=0&filter[open]=0&filter[closed]=0&filter[direction_id]=113,4,11,110,117&filter[search]=КГУ «Дворец школьников №2»&filter[language_kz]=0&filter[language_ru]=0"          >           Learn and sign up          </a>`,
   },
   "creativity-content": {
     "kz": '<h2 class="direction__title">Шығармашылық</h2><p class="direction__tags">Көркем-эстетикалық және сәндік-қолданбалы</p><a target="_blank" class="link" href="https://e-daryn.kz/main/sections?filter%5Bselected%5D=0&filter%5Bregion_id%5D=10&filter%5Btype%5D=section&filter%5Bfree%5D=0&filter%5Bopen%5D=0&filter%5Bclosed%5D=0&filter%5Bdirection_id%5D=112%2C5%2C2%2C8%2C4&filter%5Bsearch%5D=«№2%20оқушылар%20сарайы»%20КММ&filter%5Blanguage_kz%5D=0&filter%5Blanguage_ru%5D=0">Үйірмеге жазылу</a>',
@@ -273,8 +273,8 @@ const langArr = {
     "en": "Can I accompany my child to the classroom door?",
   },
   "answer-five": {
-    "kz": "Жоқ. Қазіргі заманғы қауіпсіздік стандарттары бойынша ата-аналарға арнайы рұқсатсыз кіреберісте (кіреберіс пен гардероб маңындағы аймақ)күтуге рұқсат етіледі",
-    "ru": "Нет. По современным нормам безопасности без особого разрешения родителям разрешено находиться в вестибюли (зона у входа и гардероба)",
+    "kz": "Жоқ. Қазіргі заманғы қауіпсіздік стандарттары бойынша ата-аналарға арнайы рұқсатсыз кіреберісте (кіреберіс пен гардероб маңындағы аймақ)күтуге рұқсат етіледі.",
+    "ru": "Нет. По современным нормам безопасности без особого разрешения родителям разрешено находиться в вестибюли (зона у входа и гардероба).",
     "en": "No. According to modern safety standards, parents are only allowed in the vestibule area (the area near the entrance and cloakroom) without special permission.",
   },
   "question-six": {
@@ -337,174 +337,147 @@ const langArr = {
     "ru": "Мы предлагаем множество конкурсов, соревнований и проектов, которые способствуют не только развиитию навыков , но и личностному росту. Здесь вы найдете  мероприятия, специально разработанные для развития талантов и навыков учащихся.",
     "en": " We offer a variety of contests, competitions, and projects that contribute not only to academic growth but also to personal development. Here you will find engaging and educational events specifically designed to develop the talents and skills of students.",
   },
-  "competition-level-term": {
-    "kz": "Деңгей:",
-    "ru": "Уровень:",
-    "en": "Level:",
+  "competition__card-1": {
+    "kz": `
+            <div class="competition__card-header">
+              <p class="competition__subject">Шаштараз өнері</p>
+              <h2 class="competition-name">Сұлулық әлемі</h2>
+            </div>
+            <div class="competition__parameters">
+              <p><b>Деңгей:</b> қалалық</p>
+              <!-- <p><b>Тіл:</b> Нет данных сейчас</p> -->
+              <p><b>Өткізу уақыты: </b>11-23 қаңтары аралығы.</p>
+              <p><b>Қатысу жасы: </b>13 пен 20 жас аралығы</p>
+              <p class="competition__card-description">Байқаудың мақсаты – шаштараз мамандығын оқытатын мамандандырылған курстар, студиялар, лицейлер арасында шеберлік деңгейін арттыруға жағдай жасау, сонымен қатар балалар мен жасөспірімдерді «Шаштараз өнері» бағытына тарту. Шығармашылық белсенділік пен жұмыстың көркемдік-эстетикалық деңгейін жетілдіру. «Шаштараз» мамандығының беделін арттыру.</p>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1EWP2YhbN01ZkWkfbFxWprCb10d3huqcXjh3pOiaKVOk/edit?usp=sharing">Ережесі</a>
+            </div>
+`,
+    "ru": `
+            <div class="competition__card-header">
+              <p class="competition__subject">Парикмахерское искусство</p>
+              <h2 class="competition-name">Мир красоты</h2>
+            </div>
+            <div class="competition__parameters">
+              <p><b>Уровень:</b> городской</p>
+              <!-- <p><b>Язык проведеения:</b> Нет данных сейчас</p> -->
+              <p><b>Время проведения: </b>с 11 января по 23 января 2023 г</p>
+              <p><b>Возраст участия: </b>от 13 до 20 лет</p>
+              <p class="competition__card-description">Цель конкурса – создание условий для повышения уровня мастерства среди профильных курсов, студий, лицеев по обучению парикмахерского искусства, а также привлечение детей и подростков по направлению «Парикмахерское искусство». Усовершенствование творческой активности и художественно-эстетического уровня выполнения работ. Повышение престижа профессии «Парикмахер».</p>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1EWP2YhbN01ZkWkfbFxWprCb10d3huqcXjh3pOiaKVOk/edit?usp=sharing">Положение</a>
+            </div>
+    `,
+    "en": `
+          <div class="competition__card-header">
+            <p class="competition__subject">Hairdressing Art</p>
+            <h2 class="competition-name">World of Beauty</h2>
+          </div>
+          <div class="competition__parameters">
+            <p><b>Level:</b> city-level</p>
+            <!-- <p><b>Language:</b></p> -->
+            <p><b>Envent dates: </b>from January 11 to January 23, 2023</p>
+            <p><b>Age of participants: </b>from 13 to 20 years old</p>
+            </div>
+            <p class="competition__card-description">The aim of the competition is to create conditions for improving the skill level among specialized courses, studios, and lyceums that teach hairdressing, as well as to attract children and teenagers to the field of "Hairdressing Art." It also aims to enhance creative activity and the artistic and aesthetic quality of work, and to raise the prestige of the profession of "Hairdresser".</p>
+            <a class="link" target="_blank" href="https://docs.google.com/document/d/1EWP2YhbN01ZkWkfbFxWprCb10d3huqcXjh3pOiaKVOk/edit?usp=sharing">Regulations</a>
+    `,
   },
-  "competition-language-term": {
-    "kz": "Тіл:",
-    "ru": "Язык:",
-    "en": "Languages:",
+  "competition__card-2": {
+    "kz": `
+            <div class="competition__card-header">
+              <p class="competition__subject">Жас домбырашылар байқауы</p>
+              <h2 class="competition-name">Күй – мұра</h2>
+            </div>
+            <div class="competition__parameters">
+              <p><b>Деңгей:</b> қалалық</p>
+              <!-- <p><b>Тіл:</b> Нет данных сейчас</p> -->
+              <p><b>Өткізу уақыты: </b>30.10.2023 ж.-14.11.2023 ж.</p>
+              <p><b>Қатысу жасы: </b>7 пен 16 жас аралығы</p>
+              </div>
+              <p class="competition__card-description">Байқаудың мақсаты – домбыра аспабында күй орындау арқылы балалар мен жасөспірімдерге ұлттық өнерді бойына сіңіру. Байқаудың міндеттері: - Өнерлі балаларды анықтау, шығармашылық дамуы үшін байқау өткізу арқылы жағдай жасау; - ерте кәсіби бағдарлау, аспаптық өнерді насихаттау.</p>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing">Ережесі</a>
+`,
+    "ru": `
+            <div class="competition__card-header">
+              <p class="competition__subject">Исполнение кюйев юными домбристами</p>
+              <h2 class="competition-name">Күй – мұра</h2>
+            </div>
+            <div class="competition__parameters">
+              <p><b>Уровень:</b> городской</p>
+              <!-- <p><b>Язык проведеения:</b> Нет данных сейчас</p> -->
+              <p><b>Время проведения: </b>30.10.2023 г.- 14.11.2023 г.</p>
+              <p><b>Возраст участия: </b>от 7 до 16 лет</p>
+              </div>
+              <p class="competition__card-description">Цель конкурса: популяризация традиций исполнения кюев и привитие детям национального искусства. Задачи конкурса: - выявление творческих детей, создание условий для творческого развития путем проведения конкурса; - ранняя профориентация, пропаганда инструментального искусства.</p>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing">Положение</a>
+    `,
+    "en": `
+          <div class="competition__card-header">
+            <p class="competition__subject">Performance of kyuis by young dombra players</p>
+            <h2 class="competition-name">Kuy – legacy</h2>
+          </div>
+          <div class="competition__parameters">
+            <p><b>Level:</b> city-level</p>
+            <!-- <p><b>Language:</b>October 30, 2023 - November 14, 2023</p> -->
+            <p><b>Envent dates: </b>11-23 қаңтары аралығы.</p>
+            <p><b>Age of participants: </b>from 7 to 16 years old</p>
+            </div>
+            <p class="competition__card-description">The aim of the competition: to popularize the traditions of performing kyuis and to instill national art in children. Objectives of the competition: - To identify creative children and create conditions for their creative development through the competition; - Early career guidance and promotion of instrumental art.</p>
+            <a class="link" target="_blank" href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing">Regulations</a>
+    `,
   },
-  "competition-period-term": {
-    "kz": "Өткізу уақыты:",
-    "ru": "Время проведения:",
-    "en": "Time of the event:",
+  "competition__card-3": {
+    "kz": `
+            <div class="competition__card-header">
+              <p class="competition__subject">Жас домбырашылар байқауы</p>
+              <h2 class="competition-name">Күй – мұра</h2>
+            </div>
+            <div class="competition__parameters">
+              <p><b>Деңгей:</b> қалалық</p>
+              <!-- <p><b>Тіл:</b> Нет данных сейчас</p> -->
+              <p><b>Өткізу уақыты: </b>30.10.2023 ж.-14.11.2023 ж.</p>
+              <p><b>Қатысу жасы: </b>7 пен 16 жас аралығы</p>
+              </div>
+              <p class="competition__card-description">Байқаудың мақсаты – домбыра аспабында күй орындау арқылы балалар мен жасөспірімдерге ұлттық өнерді бойына сіңіру. Байқаудың міндеттері: - Өнерлі балаларды анықтау, шығармашылық дамуы үшін байқау өткізу арқылы жағдай жасау; - ерте кәсіби бағдарлау, аспаптық өнерді насихаттау.</p>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing">Ережесі</a>
+`,
+    "ru": `
+            <div class="competition__card-header">
+              <p class="competition__subject">Исполнение кюйев юными домбристами</p>
+              <h2 class="competition-name">Күй – мұра</h2>
+            </div>
+            <div class="competition__parameters">
+              <p><b>Уровень:</b> городской</p>
+              <!-- <p><b>Язык проведеения:</b> Нет данных сейчас</p> -->
+              <p><b>Время проведения: </b>30.10.2023 г.- 14.11.2023 г.</p>
+              <p><b>Возраст участия: </b>от 7 до 16 лет</p>
+              </div>
+              <p class="competition__card-description">Цель конкурса: популяризация традиций исполнения кюев и привитие детям национального искусства. Задачи конкурса: - выявление творческих детей, создание условий для творческого развития путем проведения конкурса; - ранняя профориентация, пропаганда инструментального искусства.</p>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing">Положение</a>
+    `,
+    "en": `
+          <div class="competition__card-header">
+            <p class="competition__subject">Performance of kyuis by young dombra players</p>
+            <h2 class="competition-name">Kuy – legacy</h2>
+          </div>
+          <div class="competition__parameters">
+            <p><b>Level:</b> city-level</p>
+            <!-- <p><b>Language:</b>October 30, 2023 - November 14, 2023</p> -->
+            <p><b>Envent dates: </b>11-23 қаңтары аралығы.</p>
+            <p><b>Age of participants: </b>from 7 to 16 years old</p>
+            </div>
+            <p class="competition__card-description">The aim of the competition: to popularize the traditions of performing kyuis and to instill national art in children. Objectives of the competition: - To identify creative children and create conditions for their creative development through the competition; - Early career guidance and promotion of instrumental art.</p>
+            <a class="link" target="_blank" href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing">Regulations</a>
+    `,
   },
-  "competition-age-term": {
-    "kz": "Қатысу жасы:",
-    "ru": "Возраст участия:",
-    "en": "Age Category:",
-  },
+
   "competition__link": {
     "kz": "Ережесі",
     "ru": "Положение",
     "en": "Regulation",
   },
-  "competition__subject-1": {
-    "kz": "Шаштараз өнері",
-    "ru": "Парикмахерское искусство",
-    "en": "Hairdressing Art",
-  },
-  "competition-name-1": {
-    "kz": "Сұлулық әлемі",
-    "ru": "Мир красоты",
-    "en": "World of Beauty",
-  },
-  "competition-level-definition-1": {
-    "kz": "қалалық",
-    "ru": "городской",
-    "en": "city-level",
-  },
-  "competition-language-definition-1": {
-    "kz": "Нет данных сейчас",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-period-definition-1": {
-    "kz": "11-23 қаңтары аралығы.",
-    "ru": "с 11 января по 23 января 2023 г",
-    "en": "from January 11 to January 23, 2023.",
-  },
-  "competition-age-definition-1": {
-    "kz": "13 пен 20 жас аралығы",
-    "ru": "от 13 до 20 лет",
-    "en": "from 13 to 20 years old",
-  },
-  "competition__description-1": {
-    "kz": "Байқаудың мақсаты – шаштараз мамандығын оқытатын мамандандырылған курстар, студиялар, лицейлер арасында шеберлік деңгейін арттыруға жағдай жасау, сонымен қатар балалар мен жасөспірімдерді «Шаштараз өнері» бағытына тарту. Шығармашылық белсенділік пен жұмыстың көркемдік-эстетикалық деңгейін жетілдіру. «Шаштараз» мамандығының беделін арттыру.",
-    "ru": "Цель конкурса – создание условий для повышения уровня мастерства среди профильных курсов, студий, лицеев по обучению парикмахерского искусства, а также привлечение детей и подростков по направлению «Парикмахерское искусство». Усовершенствование творческой активности и художественно-эстетического уровня выполнения работ. Повышение престижа профессии «Парикмахер».",
-    "en": 'The aim of the competition is to create conditions for improving the skill level among specialized courses, studios, and lyceums that teach hairdressing, as well as to attract children and teenagers to the field of "Hairdressing Art." It also aims to enhance creative activity and the artistic and aesthetic quality of work, and to raise the prestige of the profession of "Hairdresser"',
-  },
-  "competition__subject-2": {
-    "kz": "Жас домбырашылар байқауы",
-    "ru": "Исполнение кюйев юными домбристами",
-    "en": "Performance of kyuis by young dombra players",
-  },
-  "competition-name-2": {
-    "kz": "Күй – мұра",
-    "ru": "Күй – мұра",
-    "en": "Kuy – legacy",
-  },
-  "competition-level-definition-2": {
-    "kz": "қалалық",
-    "ru": "городской",
-    "en": "city-level",
-  },
-  "competition-language-definition-2": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-period-definition-2": {
-    "kz": "30.10.2023 ж.-14.11.2023 ж.",
-    "ru": "30.10.2023 г.- 14.11.2023 г.",
-    "en": "October 30, 2023 - November 14, 2023",
-  },
-  "competition-age-definition-2": {
-    "kz": "7 пен 16 жас аралығы",
-    "ru": "от 7 до 16 лет",
-    "en": "from 7 to 16 years old",
-  },
-  "competition__description-2": {
-    "kz": "Байқаудың мақсаты – домбыра аспабында күй орындау арқылы балалар мен жасөспірімдерге ұлттық өнерді бойына сіңіру. Байқаудың міндеттері: - Өнерлі балаларды анықтау, шығармашылық дамуы үшін байқау өткізу арқылы жағдай жасау; - ерте кәсіби бағдарлау, аспаптық өнерді насихаттау;",
-    "ru": "Цель конкурса: популяризация традиций исполнения кюев и привитие детям национального искусства.  Задачи конкурса: - выявление творческих детей, создание условий для творческого развития путем проведения конкурса; - ранняя профориентация, пропаганда инструментального искусства;",
-    "en": "The aim of the competition: to popularize the traditions of performing kyuis and to instill national art in children.  Objectives of the competition: - To identify creative children and create conditions for their creative development through the competition; - Early career guidance and promotion of instrumental art;",
-  },
-  "competition__subject-3": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-name-3": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-level-definition-3": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-language-definition-3": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-period-definition-3": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-age-definition-3": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition__description-3": {
-    "kz": " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
-    "ru": " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
-    "en": " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
-  },
-  "competition__subject-4": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-name-4": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-level-definition-4": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-language-definition-4": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-period-definition-4": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition-age-definition-4": {
-    "kz": "",
-    "ru": "Нет данных сейчас",
-    "en": "No data yet",
-  },
-  "competition__description-4": {
-    "kz": " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
-    "ru": " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
-    "en": " Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed doloremque repellat ullam illo odio, numquam non esse quibusdam fugit harum ad similique reiciendis optio. ",
-  },
 
   "h-one-magazine": {
-    "kz": "",
+    "kz": "Журнал",
     "ru": "Журнал",
     "en": "Magazine",
   },
@@ -514,7 +487,7 @@ const langArr = {
     "en": "We publish a magazine dedicated to the development of our organization, its events and innovations in teaching. In our organization, we strive to be a reliable source of information and inspiration for people interested in the field of education.",
   },
   "magazine-more-link": {
-    "kz": "View All Journal Issues",
+    "kz": "Журналдың барлық басылымдарын қараңыз",
     "ru": "Все выпуски",
     "en": "View All Journal Issues",
   },
@@ -545,7 +518,7 @@ const langArr = {
   },
   "team-intro": {
     "kz": "Біздің ұжым әрбір оқушыны табысты оқытуға және дамытуға бағытталған. Біз баланың жеке қажеттіліктеріне сонымен қатар, өзіндік және оқу мақсаттарына жету жолындағы қолдауға ерекше назар аударамыз. ",
-    "ru": " Наш коллектив специалистов направлен на успешное обучение и развитие каждого ученика. Мы уделяем особое внимание индивидуальным потребностям и поддержке на пути к достижению личных и учебных целей. ",
+    "ru": "Наш коллектив специалистов направлен на успешное обучение и развитие каждого ученика. Мы уделяем особое внимание индивидуальным потребностям и поддержке на пути к достижению личных и учебных целей. ",
     "en": "Our team of specialists is focused on the successful education and development of each student. We pay special attention to individual needs and provide support on the path to achieving personal and academic goals.",
   },
   "principal__post": {
@@ -663,11 +636,6 @@ const langArr = {
     "ru": "Туганбаева Гулдана Кусаиновна",
     "en": "Tuganbayeva Guldana Kusainovna",
   },
-  // "team__h3-methodists": {
-  //   "kz": "Әдіскерлер",
-  //   "ru": "Администрация и Методисты",
-  //   "en": "Methodists",
-  // },
   "admin-post-11": {
     "kz": "Музыкалық-эстетикалық бағытының әдіскері",
     "ru": "Методист по музыкально-эстетическому направлению",
@@ -765,7 +733,7 @@ const langArr = {
   },
   "h-one-documentation": {
     "kz": "Құжаттар",
-    "ru": "",
+    "ru": "Документация",
     "en": "Documentation",
   },
   "regulatory-docs": {
@@ -836,7 +804,7 @@ const langArr = {
   "org-name-term": {
     "kz": "Ұйымның атауы",
     "ru": "Наименование организации",
-    "en": "",
+    "en": "Name of organisation",
   },
   "org-name-description": {
     "kz": 'Коммуналдық мемлекеттік мекеме "№2 оқушылар сарайы"<br / > мемлекеттік коммуналдық қазыналық кәсіпорын',
@@ -869,7 +837,7 @@ const langArr = {
     "en": "Contact information",
   },
   "contact-info-decription": {
-    "kz": "8 (7212) 60-44-79 қабылдау бөлмесі <br /> 8 (7212) 60-44-83 бухгалтерия <br /> ddu_new@kargoo.kz",
+    "kz": "8 (7212) 60-44-79 қабылдау бөлмесі <br/> 8 (7212) 60-44-83 бухгалтерия <br/> ddu_new@kargoo.kz",
     "ru": " 8 (7212) 60-44-79 приемная <br /> 8 (7212) 60-44-83 бухгалтерия <br /> ddu_new@kargoo.kz ",
     "en": " 8 (7212) 60-44-79 reception <br /> 8 (7212) 60-44-83 accautment <br /> ddu_new@kargoo.kz ",
   },
@@ -894,7 +862,7 @@ const langArr = {
     "en": "from 9:00AM to 8:00PM",
   },
   "project-capacity-term": {
-    "kz": "жобалық қуаттылығы",
+    "kz": "Жобалық қуаттылығы",
     "ru": "Проектная мощность",
     "en": "Projected capacity",
   },
@@ -949,7 +917,7 @@ const langArr = {
     "en": "The total area of the building.",
   },
   "area-decription": {
-    "kz": "3941,2 ш.м",
+    "kz": "3941,2 ш.м.",
     "ru": "3941,2 кв.м.",
     "en": "3941.2 square meters.",
   },
@@ -969,9 +937,29 @@ const langArr = {
     "en": "Vacancies",
   },
   "vacansies-intro": {
-    "kz": '<p>Сіз біздің жұмыс орындарымызды қарап төмендегі терезеде өтінімдерді  көріп, жұмысқа өтініш бере аласыз, байланыс телефоны <a href="tel: 87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a><a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br/>электрондық пошта<a href="javascript: void (0); "id="copy-text-6" class="link link-in-text"> <span id="text-6">ddu_new@kargoo.kz</span></a><br/> сонымен қатар <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">біздің бос жұмыс орындары ENBEK.KZ</a></p>',
-    "ru": '<p>Вы можете рассмотреть наши вакансии и увидеть статус заявок в окне ниже и подать заявку на вакансию, связавшись с нами по телефону <a href="tel:87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a><a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br />электронной почте<a href="javascript:void(0);" id="copy-text-6" class="link link-in-text"><span id="text-6">ddu_new@kargoo.kz</span></a><br />Также вы можете найти <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">наши вакансии на ENBEK.KZ</a></p>',
-    "en": '<p> You can see our job vacancies and application status in the window below and apply for the vacancy by contacting us via phone <a href="tel:87212604479" class="link link-in-text hidden-desktop"> 8 7212 60 44 79</a > <a id="copy-text-5" class="link link-in-text hidden-mobile" ><span id="text-5">8 7212 60 44 79</span></a > <br /> email <a href="javascript:void(0);" id="copy-text-6" class="link link-in-text" ><span id="text-6">ddu_new@kargoo.kz</span></a > <br /> or find <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text" >Our vacancies on ENBEK.KZ</a > </p>',
+    "kz": `
+      <p>
+        Сіз біздің жұмыс орындарымызды қарап төмендегі терезеде өтінімдерді көріп, жұмысқа өтініш бере аласыз, байланыс телефоны <a href="tel: 87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a
+        ><a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br />электрондық пошта<a href="javascript: void (0); " id="copy-text-6" class="link link-in-text"> <span id="text-6">ddu_new@kargoo.kz</span></a
+        ><br />
+        сонымен қатар <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">біздің бос жұмыс орындары ENBEK.KZ</a>
+      </p>
+    `,
+    "ru": `
+      <p>
+        Вы можете рассмотреть наши вакансии и увидеть статус заявок в окне ниже и подать заявку на вакансию, связавшись с нами по телефону <a href="tel:87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a
+        ><a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br />электронной почте<a href="javascript:void(0);" id="copy-text-6" class="link link-in-text"><span id="text-6">ddu_new@kargoo.kz</span></a
+        ><br />Также вы можете найти <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">наши вакансии на ENBEK.KZ</a>
+      </p>
+    `,
+    "en": `
+      <p>
+        You can see our job vacancies and application status in the window below and apply for the vacancy by contacting us via phone <a href="tel:87212604479" class="link link-in-text hidden-desktop"> 8 7212 60 44 79</a>
+        <a id="copy-text-5" class="link link-in-text hidden-mobile"><span id="text-5">8 7212 60 44 79</span></a> <br />
+        email <a href="javascript:void(0);" id="copy-text-6" class="link link-in-text"><span id="text-6">ddu_new@kargoo.kz</span></a> <br />
+        or find <a target="_blank" href="https://www.enbek.kz/ru/search/vacancy?pou=608940&region_id=3510&except[subsidized]=subsidized" class="link link-in-text">Our vacancies on ENBEK.KZ</a>
+      </p>
+    `,
   },
   "follow-us": {
     "kz": "Біздің әлеуметтік желілер",
@@ -984,9 +972,9 @@ const langArr = {
     "en": "Contact Us",
   },
   "footer-copyright": {
-    "kz": "© 2024 №2 оқушылар сарайы, Қарағанды қаласы. Барлық құқықтар қорғалған.<br />Рома В, Аяш С. жасады.",
-    "ru": "© 2024 Дворец школьников №2, город Караганда. Все права защищены.<br />Сделал Рома В, Аяш С.",
-    "en": "© 2024 Palace of Schoolchildren №2, Karaganda City. All rights reserved.<br />Crafted by Roma V, Ayash S.",
+    "kz": "© 2024 №2 оқушылар сарайы, Қарағанды қаласы. Барлық құқықтар қорғалған.<br /><span>Рома В, Аяш С. жасады.</span>",
+    "ru": "© 2024 Дворец школьников №2, город Караганда. Все права защищены.<br /><span>Сделал Рома В, Аяш С.</span>",
+    "en": "© 2024 Palace of Schoolchildren №2, Karaganda City. All rights reserved.<br /><span>Crafted by Roma V, Ayash S.</span>",
   },
   "": {
     "kz": "",

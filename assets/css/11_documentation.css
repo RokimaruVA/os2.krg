@@ -70,6 +70,8 @@
   flex: 1 1 auto;
 }
 .docs__langblock {
-  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   flex: 0 0 auto;
 }

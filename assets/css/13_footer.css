@@ -34,6 +34,9 @@ footer {
 .footer__credits {
   display: grid;
 }
+.footer__copyrights span {
+opacity: 0.4;
+}
 .footer__bg {
   position: absolute;
   left: 0%;
