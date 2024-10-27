@@ -807,7 +807,7 @@ const langArr = {
     "en": "Name of organisation",
   },
   "org-name-description": {
-    "kz": 'Коммуналдық мемлекеттік мекеме "№2 оқушылар сарайы"<br / > мемлекеттік коммуналдық қазыналық кәсіпорын',
+    "kz": 'Қарағанды қаласы білім бөлімінің "№2 оқушылар сарайы" коммуналдық мемлекеттік мекемесі',
     "ru": 'Коммунальное государственное учреждение "Дворец школьников №2"<br /> отдела образования города Караганды',
     "en": 'Municipal State Institution "Palace of Schoolchildren No. 2" of the Akimat of the city of Karaganda, Department of Education of the city of Karaganda.',
   },

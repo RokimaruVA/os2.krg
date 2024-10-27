@@ -35,7 +35,7 @@ footer {
   display: grid;
 }
 .footer__copyrights span {
-opacity: 0.4;
+opacity: 0.2;
 }
 .footer__bg {
   position: absolute;
