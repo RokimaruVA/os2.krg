@@ -27,6 +27,7 @@ function changeLanguage() {
   });
   document.querySelector('input[value="' + hash + '"]').checked = true; // Выбираем соответствующий радио-инпут
   document.querySelector("title").innerHTML = langArr["title"][hash];
+  document.querySelector('meta[name="language"]').setAttribute("content", langArr["meta-language"][hash]);
   document.querySelector('meta[name="description"]').setAttribute("content", langArr["meta-description"][hash]);
   document.querySelector('meta[name="keywords"]').setAttribute("content", langArr["meta-keywords"][hash]);
   document.querySelector('meta[property="og:title"]').setAttribute("content", langArr["title"][hash]);
