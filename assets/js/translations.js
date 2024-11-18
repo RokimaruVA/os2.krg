@@ -346,10 +346,10 @@ const langArr = {
             <div class="competition__parameters">
               <p><b>Деңгей:</b> қалалық</p>
               <!-- <p><b>Тіл:</b> Нет данных сейчас</p> -->
-              <p><b>Өткізу уақыты: </b>11-23 қаңтары аралығы.</p>
-              <p><b>Қатысу жасы: </b>13 пен 20 жас аралығы</p>
+              <p><b>Өтінімдерді қабылдау: </b>11 қараша мен  25 қараша аралығында.</p><p><b>Өткізілетін күні: </b>29 қараша 2024 ж.</p> 
+              <p><b>Қатысу жасы: </b>8 пен 20 жас аралығы</p>
               <p class="competition__card-description">Байқаудың мақсаты – шаштараз мамандығын оқытатын мамандандырылған курстар, студиялар, лицейлер арасында шеберлік деңгейін арттыруға жағдай жасау, сонымен қатар балалар мен жасөспірімдерді «Шаштараз өнері» бағытына тарту. Шығармашылық белсенділік пен жұмыстың көркемдік-эстетикалық деңгейін жетілдіру. «Шаштараз» мамандығының беделін арттыру.</p>
-              <a class="link" target="_blank" href="https://docs.google.com/document/d/1EWP2YhbN01ZkWkfbFxWprCb10d3huqcXjh3pOiaKVOk/edit?usp=sharing">Ережесі</a>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1bsAbAHCwiEoqPB9Cg6KltA565nIU6gILjiZzUokApj8/edit?usp=sharing">Ережесі</a>
             </div>
 `,
     "ru": `
@@ -360,10 +360,10 @@ const langArr = {
             <div class="competition__parameters">
               <p><b>Уровень:</b> городской</p>
               <!-- <p><b>Язык проведеения:</b> Нет данных сейчас</p> -->
-              <p><b>Время проведения: </b>с 11 января по 23 января 2023 г</p>
-              <p><b>Возраст участия: </b>от 13 до 20 лет</p>
+              <p><b>Прием заявок: </b> с 11 ноября по 25 ноября  2024 г.</p><p><b>Дата проведения конкурса: </b>29 ноября  2024 г.</p>
+              <p><b>Возраст участия: </b>от 8 до 20 лет</p>
               <p class="competition__card-description">Цель конкурса – создание условий для повышения уровня мастерства среди профильных курсов, студий, лицеев по обучению парикмахерского искусства, а также привлечение детей и подростков по направлению «Парикмахерское искусство». Усовершенствование творческой активности и художественно-эстетического уровня выполнения работ. Повышение престижа профессии «Парикмахер».</p>
-              <a class="link" target="_blank" href="https://docs.google.com/document/d/1EWP2YhbN01ZkWkfbFxWprCb10d3huqcXjh3pOiaKVOk/edit?usp=sharing">Положение</a>
+              <a class="link" target="_blank" href="https://docs.google.com/document/d/1bsAbAHCwiEoqPB9Cg6KltA565nIU6gILjiZzUokApj8/edit?usp=sharing">Положение</a>
             </div>
     `,
     "en": `
@@ -374,11 +374,11 @@ const langArr = {
           <div class="competition__parameters">
             <p><b>Level:</b> city-level</p>
             <!-- <p><b>Language:</b></p> -->
-            <p><b>Envent dates: </b>from January 11 to January 23, 2023</p>
-            <p><b>Age of participants: </b>from 13 to 20 years old</p>
+            <p><b>Envent regestration: </b>from November 11 to November 25, 2024</p><p><b>Envent date: </b> November 29, 2024</p>
+            <p><b>Age of participants: </b>from 8 to 20 years old</p>
             </div>
             <p class="competition__card-description">The aim of the competition is to create conditions for improving the skill level among specialized courses, studios, and lyceums that teach hairdressing, as well as to attract children and teenagers to the field of "Hairdressing Art." It also aims to enhance creative activity and the artistic and aesthetic quality of work, and to raise the prestige of the profession of "Hairdresser".</p>
-            <a class="link" target="_blank" href="https://docs.google.com/document/d/1EWP2YhbN01ZkWkfbFxWprCb10d3huqcXjh3pOiaKVOk/edit?usp=sharing">Regulations</a>
+            <a class="link" target="_blank" href="https://docs.google.com/document/d/1bsAbAHCwiEoqPB9Cg6KltA565nIU6gILjiZzUokApj8/edit?usp=sharing">Regulations</a>
     `,
   },
   "competition__card-2": {
