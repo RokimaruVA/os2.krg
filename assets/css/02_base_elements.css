@@ -188,17 +188,18 @@ section {
   border-radius: var(--spacer-xs);
   color: var(--accent);
   background-color: var(--background);
-	box-shadow: var(--panel-shadow-setup);
+  box-shadow: var(--panel-shadow-setup);
   font-weight: var(--fw-n);
-  transform: translateY(50%);
+  display: none;
 }
 .copy-notification.active::after {
+  display: block;
   opacity: 1;
   animation: fadeOut 2s ease;
 }
 @keyframes fadeOut {
   0% {
-    transform: translateY(100%);
+    transform: translateY(0%);
     opacity: 0;
   }
   20% {
