@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 .lightwidget-widget {
   /* filter: drop-shadow(0 0 1rem var(--shadow-filter)); */
   border-radius: 2rem;
@@ -27,7 +28,6 @@
   --panel-shadow-setup: 0 0 var(--shadow-blur-1) var(--primary-shadow-clr-light);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 .lightwidget__caption {
   color: var(--text);
   font-size: 1rem;

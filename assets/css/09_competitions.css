@@ -4,8 +4,9 @@
   gap: var(--spacer-md);
 }
 .competition__grid {
+	width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: var(--spacer-sm);
 }
 .competition__card {

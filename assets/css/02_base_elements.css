@@ -175,6 +175,46 @@ section {
   flex-direction: column;
   gap: 6rem;
 }
+.copy-notification {
+  position: relative;
+}
+.copy-notification::after {
+  content: "Көшірілген! Скопировано!";
+  position: absolute;
+  top: -1.25rem;
+  left: 0;
+  opacity: 0;
+  padding-inline: var(--spacer-sm);
+  border-radius: var(--spacer-xs);
+  color: var(--accent);
+  background-color: var(--background);
+	box-shadow: var(--panel-shadow-setup);
+  font-weight: var(--fw-n);
+  transform: translateY(50%);
+}
+.copy-notification.active::after {
+  opacity: 1;
+  animation: fadeOut 2s ease;
+}
+@keyframes fadeOut {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(-75%);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-75%);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
 .span__2 {
   grid-column: span 2;
 }
