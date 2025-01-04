@@ -1,0 +1,2 @@
+https://os2-krg.pages.dev/*
+X-Robots-Tag: noindex
