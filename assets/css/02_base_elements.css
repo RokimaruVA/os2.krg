@@ -109,10 +109,8 @@ h2 {
 }
 h3 {
   display: inline;
-  line-height: 1;
-  font-size: var(--fs-lg);
   font-weight: var(--fw-m);
-  line-height: var(--lh-sm);
+  line-height: 1;
 }
 .text-right-alignment {
   text-align: right;
