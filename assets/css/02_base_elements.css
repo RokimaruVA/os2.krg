@@ -96,23 +96,20 @@ p {
   min-width: 22ch;
 }
 h1 {
-  font-weight: var(--fw-b);
-  font-size: var(--fs-lg);
-  line-height: var(--lh-md);
-  color: var(--accent);
-}
-h2 {
   font-size: var(--fs-xlg);
   font-weight: var(--fw-b);
   line-height: var(--lh-sm);
   margin-inline: var(--spacer-sm);
 }
-h3 {
-  display: inline;
-  line-height: 1;
+h2 {
   font-size: var(--fs-lg);
   font-weight: var(--fw-m);
   line-height: var(--lh-sm);
+}
+h3 {
+  display: inline;
+  font-weight: var(--fw-m);
+  line-height: 1;
 }
 .text-right-alignment {
   text-align: right;
