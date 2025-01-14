@@ -1,2 +1,1 @@
-# os2.krg
-Local school site project
+# Local school site project
