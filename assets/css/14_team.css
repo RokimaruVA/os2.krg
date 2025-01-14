@@ -3,6 +3,9 @@
   display: grid;
   gap: 2rem;
 }
+.team__grid-container h3 {
+	font-size: var(--fs-md);
+}
 .team__grid {
   display: grid;
   gap: 0.5rem 1rem;
