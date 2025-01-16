@@ -3,8 +3,8 @@
   align-self: end;
 }
 .new__accordion {
-	display: grid;
-	gap: var(--spacer-md);
+  display: grid;
+  gap: var(--spacer-md);
   width: 100%;
 }
 .new__accordion details {
@@ -56,12 +56,12 @@
 }
 @keyframes answerAppearance {
   0% {
-		display: none;
+    display: none;
     transform: translateX(5rem);
     opacity: 0;
   }
   100% {
-		display: block;
+    display: block;
     transform: translateX(0);
     opacity: 1;
   }
