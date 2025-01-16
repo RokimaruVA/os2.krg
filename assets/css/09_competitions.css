@@ -39,6 +39,9 @@
 .competition__parameters > a {
   margin-top: auto;
 }
+.competition-name {
+	font-size: var(--fs-lg);
+}
 
 @media (max-width: 39em) {
   .competition__grid {

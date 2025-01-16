@@ -28,10 +28,9 @@ html {
   --fw-m: 600;
   --fw-b: 700;
   --fs-sm: 1rem;
-  --fs-md: 1.2rem;
+  --fs-md: 1.3rem;
   --fs-lg: clamp(1.4rem, 1.067rem + 0.86vw, 1.6rem);
   --fs-xlg: clamp(2.4rem, 1.582rem + 4.09vw, 4.2rem);
-  --fs-xxlg: 6rem;
 
   --lh-lg: 1.6;
   --lh-md: 1.2;

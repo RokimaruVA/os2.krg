@@ -111,6 +111,8 @@ h3 {
   display: inline;
   font-weight: var(--fw-m);
   line-height: 1;
+  font-size: var(--fs-md);
+  /* font-size: var(--fs-lg); */
 }
 .text-right-alignment {
   text-align: right;

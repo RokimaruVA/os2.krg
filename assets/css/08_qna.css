@@ -17,7 +17,7 @@
   align-items: start;
   gap: var(--spacer-xs);
   color: var(--accent);
-  font-size: var(--fs-md);
+  font-size: 1.2rem;
   font-weight: var(--fw-m);
   padding: 0 var(--spacer-sm) 0 var(--spacer-sm);
   cursor: pointer;
