@@ -9,7 +9,7 @@ function copyToClipboard() {
       element.classList.add("active");
       setTimeout(() => {
         element.classList.remove("active");
-      }, 1900);
+      }, 1996);
     })
     .catch((err) => {
       console.error("Could not copy text: ", err);

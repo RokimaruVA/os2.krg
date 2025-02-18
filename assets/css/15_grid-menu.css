@@ -21,25 +21,25 @@
   text-align: center;
   line-height: 1.2;
   text-underline-offset: 0.1rem;
-	text-align: start;
+  text-align: start;
 }
 .menu__li:nth-child(1) {
-	/* grid-column: span 2; */
-	grid-row: span 2;
+  /* grid-column: span 2; */
+  grid-row: span 2;
 }
 .menu__li:nth-child(4) {
-	/* grid-column: span 2; */
-	grid-row: span 2;
+  /* grid-column: span 2; */
+  grid-row: span 2;
 }
 .menu__li:nth-child(1) {
-	/* grid-column: span 2; */
-	grid-row: span 2;
+  /* grid-column: span 2; */
+  grid-row: span 2;
 }
 .menu__li:nth-child(7) {
-	/* grid-column: span 2; */
-	grid-column: span 1;
+  /* grid-column: span 2; */
+  grid-column: span 1;
 }
 .menu__li:nth-child(8) {
-	/* grid-column: span 2; */
-	grid-column: span 1;
+  /* grid-column: span 2; */
+  grid-column: span 1;
 }

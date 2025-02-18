@@ -8,6 +8,7 @@
 }
 .directions__grid {
  display: grid;
+ width: 100%;
  gap: var(--spacer-sm);
  grid-template-columns: 1.6fr 1fr 1.6fr;
  grid-template-areas:

@@ -21,7 +21,7 @@ html {
 }
 
 :root {
-	interpolate-size: allow-keyword;
+  interpolate-size: allow-keyword;
   /* font block  */
   /* --fw-n: 400; */
   --fw-n: 400;

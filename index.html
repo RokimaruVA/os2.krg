@@ -73,6 +73,7 @@
     <link rel="stylesheet" href="../../assets/css/13_footer.css" />
     <link rel="stylesheet" href="../../assets/css/14_team.css" />
     <link rel="stylesheet" href="../../assets/css/15_grid-menu.css" />
+    <link rel="stylesheet" href="../../assets/css/16_masonary_gallery.css" />
 
     <!-- Скрипттер -->
     <script src="../../assets/js/darkToggle.js"></script>
@@ -85,117 +86,72 @@
     <div class="wrapper">
       <main>
         <nav class="sidebar">
-          <div>
-            <a href="#" class="close-button" aria-label="Close side-menu">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <rect width="512" height="512" fill="none"></rect>
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="32"
-                  d="M368 368L144 144m224 0L144 368"
-                ></path>
-              </svg>
-            </a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-about" href="#about">Біз туралы</a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-sign-in" href="#instruction">Қалай тіркелу</a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-direction" href="#directions">Сабақ бағыттары</a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-qna" href="#qna">Сұрақтар және жауаптар</a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-news" href="#news">Жаңалықтар</a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-competitions" href="#competitions">Байқаулар</a>
-          </div>
-          <!-- <div>
-      <a class="sidebar__li lang-nav-magazine" href="#magazine">Журнал</a>
-     </div>
-     <div>
-      <a class="sidebar__li lang-nav-seminars" href="#">Семинарлар</a>
-     </div> -->
-          <div><a class="sidebar__li lang-nav-team" href="#team">Ұжым</a></div>
-
-          <div>
-            <a class="sidebar__li lang-nav-documents" href="#documentation">Құжаттандыру</a>
-          </div>
-          <div>
-            <a class="sidebar__li lang-nav-vacancies" href="#vacancies">Бос орындар</a>
-          </div>
+          <button class="system-icon close-icon" aria-label="Close side-menu" onclick="closeMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m5 19l7-7m0 0l7-7m-7 7L5 5m7 7l7 7"
+              />
+            </svg>
+          </button>
+          <a class="sidebar__li" href="#about">Біз туралы</a>
+          <a class="sidebar__li" href="#instruction">Қалай тіркелу</a>
+          <a class="sidebar__li" href="#directions">Сабақ бағыттары</a>
+          <a class="sidebar__li" href="#qna">Сұрақтар және жауаптар</a>
+          <a class="sidebar__li" href="#news">Жаңалықтар</a>
+          <a class="sidebar__li" href="#competitions">Байқаулар</a>
+          <!-- <a class="sidebar__li" href="#magazine">Журнал</a> -->
+          <a class="sidebar__li" href="#lens">Объектив</a>
+          <a class="sidebar__li" href="#team">Ұжым</a>
+          <a class="sidebar__li" href="#documentation">Құжаттандыру</a>
+          <a class="sidebar__li" href="#vacancies">Бос орындар</a>
         </nav>
         <div class="content">
-          <div class="top-panel hidden-desktop">
-            <div class="lang__row">
-              <a href="/index.html" class="lang__item selected">kk</a>
-              <a href="/ru/index.html" class="lang__item">ru</a>
-              <a href="/en/index.html" class="lang__item">en</a>
-            </div>
-            <div class="header__icons">
-              <a class="header-icon-container" aria-label="Dark-light mod changer" onclick="toggleTheme() ">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <rect width="20" height="20" fill="none"></rect>
-                  <path fill="currentColor" d="M10 3.5a6.5 6.5 0 1 1 0 13zM10 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16"></path>
-                </svg>
-              </a>
-              <a class="header-icon-container" aria-label="Open menu button">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="menu-button">
-                  <rect width="512" height="512" fill="none"></rect>
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-miterlimit="10"
-                    stroke-width="32"
-                    d="M88 152h336M88 256h336M88 360h336"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
           <div class="header" id="about">
-            <a class="logo" href="#"
-              ><div class="logo__img" alt="bg-logo"></div>
+            <a class="logo" href="#">
+              <div class="logo__img" alt="bg-logo"></div>
               <div class="logo__text">
                 <div class="city-name lang-city">Қарағанды қаласы</div>
                 <h1 class="lang-organization-name">№2 оқушылар сарайы</h1>
-              </div></a
-            >
+              </div>
+            </a>
             <div class="header__row hidden-mobile">
               <div class="lang__row">
-                <a href="/index.html" class="lang__item selected">kk</a>
-                <a href="/ru/index.html" class="lang__item">ru</a>
-                <a href="/en/index.html" class="lang__item">en</a>
+                <a href="/index.html" class="lang__item selected">KK</a>
+                <a href="/ru/index.html" class="lang__item">RU</a>
+                <a href="/en/index.html" class="lang__item">EN</a>
               </div>
               <div class="header__icons">
-                <a class="header-icon-container" aria-label="смена темы сайта" onclick="toggleTheme() ">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <rect width="20" height="20" fill="none"></rect>
-                    <path fill="currentColor" d="M10 3.5a6.5 6.5 0 1 1 0 13zM10 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16"></path>
+                <button class="system-icon" aria-label="смена темы сайта" onclick="toggleTheme()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none">
+                      <path fill="currentColor" d="M2.75 12A9.25 9.25 0 0 0 12 21.25V2.75A9.25 9.25 0 0 0 2.75 12" />
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 21.25a9.25 9.25 0 0 0 0-18.5m0 18.5a9.25 9.25 0 0 1 0-18.5m0 18.5V2.75"
+                      />
+                    </g>
                   </svg>
-                </a>
-                <a class="header-icon-container menu-button" aria-label="открытие меню">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <rect width="512" height="512" fill="none"></rect>
+                </button>
+                <button class="system-icon menu-icon" aria-label="открытие меню" onclick="openMenu()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
-                      stroke-miterlimit="10"
-                      stroke-width="32"
-                      d="M88 152h336M88 256h336M88 360h336"
-                    ></path>
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M2.75 4.75h18.5M2.75 12h18.5m-18.5 7.25h18.5"
+                    />
                   </svg>
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -209,7 +165,7 @@
                 <h2 class="text-right-alignment lang-header-about">Біз туралы</h2>
                 <p class="lang-about-paragraph">
                   №2 Оқушылар сарайы – бұл балалардың шығармашылық қабілеттерін дамыту, жаңа дағдыларды игеру және білім
-                  алу үшін заманауи білім беру мекемесі. Оқу жылында және каникулда біз балаларға өздерінің таланттарын
+                  алу үшін заманауи білім беру мекемесі. Оқу жылында және каникулда біз балаларға өздерінің дарындылығын
                   ашуға, жаңа нәрселерді қызығушылықпен үйренуге көмектесеміз. Мұнда әр бала өзіне ұнайтын айналысатын
                   ісін тауып, қолайлы және қолдаушы ортада дамуға мүмкіндік алады.
                 </p>
@@ -377,15 +333,15 @@
             </section>
             <section class="section__menu">
               <div class="menu__grid">
-                <!-- <a class="menu__li link lang-nav-about" href="#about">About us </a> -->
-                <a class="menu__li link lang-nav-sign-in" href="#instruction">Қалай тіркелу</a>
-                <a class="menu__li link lang-nav-direction" href="#directions">Сабақ бағыттары</a>
-                <a class="menu__li link lang-nav-news" href="#news">Жаңалықтар</a>
-                <a class="menu__li link lang-nav-qna" href="#qna">Сұрақтар және жауаптар</a>
-                <a class="menu__li link lang-nav-competitions" href="#competitions">Байқаулар</a>
-                <a class="menu__li link lang-nav-team" href="#team">Ұжым</a>
-                <a class="menu__li link lang-nav-documents" href="#documentation">Құжаттандыру</a>
-                <a class="menu__li link lang-nav-vacancies" href="#vacancies">Бос орындар</a>
+                <a class="menu__li link" href="#instruction">Қалай тіркелу</a>
+                <a class="menu__li link" href="#directions">Сабақ бағыттары</a>
+                <a class="menu__li link" href="#news">Жаңалықтар</a>
+                <a class="menu__li link" href="#qna">Сұрақтар және жауаптар</a>
+                <a class="menu__li link" href="#competitions">Байқаулар</a>
+                <a class="menu__li link" href="#lens">Объектив</a>
+                <a class="menu__li link" href="#team">Ұжым</a>
+                <a class="menu__li link" href="#documentation">Құжаттандыру</a>
+                <a class="menu__li link" href="#vacancies">Бос орындар</a>
               </div>
             </section>
             <section class="instruction" id="instruction">
@@ -401,10 +357,12 @@
                   <h3 class="lang-required-sign-up">Баланы қабылдау кезінде талап етілетін құжаттар:</h3>
                   <ul class="instruction__doc-list">
                     <li class="lang-med-papper">
-                      ◦ баланы қабылдау кезінде талап етілетін құжаттар: №027/у медициналық анықтама*<br />немесе
-                      <a class="link link-in-text" href="https://egov.kz/cms/ru/services/health_care/2F128_mzsr"
-                        >egov.kz</a
-                      >
+                      ◦ баланы қабылдау кезінде талап етілетін құжаттар: №027/у медициналық анықтама*
+                      <br />
+                      немесе
+                      <a class="link link-in-text" href="https://egov.kz/cms/ru/services/health_care/2F128_mzsr">
+                        egov.kz
+                      </a>
                       -тен баланың атына алынған медициналық анықтама*;
                     </li>
                     <li class="lang-birth-papper">◦ баланың туу туралы куәлігі*;</li>
@@ -420,15 +378,19 @@
                 Біз секциялардың, бірлестіктердің және үйірмелердің әртүрлі бағыттарын ұсынамыз. Әр бағыттың астындағы
                 сілтеме бойынша өтіп сіз әртүрлі үйірмелермен толықтай танысып оларға өзіңіз жазыла аласыз.
                 <b>
-                  Үйірмелердің дұрыс көрсетілуі үшін біздің сайтымыздағы және e-daryn.kz жазылу сайтындағы тілдер сәйкес
-                  болуы керек.
+                  Үйірмелердің дұрыс көрсетілуі үшін біздің сайтымыздың және e-daryn.kz жазылу платформасындағы таңдау
+                  тілдері сәйкес болу керек.
                 </b>
               </p>
               <div class="directions__grid">
                 <div class="direction__card" style="background-image: url(../assets/images/science-direction.jpg)">
                   <div class="direction__card-bg-holder"></div>
                   <div class="direction__content lang-technical-content">
-                    <h3 class="direction__title">Ғылыми-техникалық <br />Жобалық бағыт</h3>
+                    <h3 class="direction__title">
+                      Ғылыми-техникалық
+                      <br />
+                      Жобалық бағыт
+                    </h3>
                     <p class="direction__tags">
                       Роботехника Компьютерлік графика | Инженер | Қосымша кәсіби дайындық | Экология | Биология
                     </p>
@@ -450,15 +412,17 @@
                       target="_blank"
                       class="link"
                       href="https://e-daryn.kz/main/sections?filter%5Bselected%5D=0&amp;filter%5Bregion_id%5D=10&amp;filter%5Btype%5D=section&amp;filter%5Bfree%5D=0&amp;filter%5Bopen%5D=0&amp;filter%5Bclosed%5D=0&amp;filter%5Bdirection_id%5D=112%2C5%2C2%2C8%2C4&amp;filter%5Bsearch%5D=%C2%AB%E2%84%962%20%D0%BE%D2%9B%D1%83%D1%88%D1%8B%D0%BB%D0%B0%D1%80%20%D1%81%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%C2%BB%20%D0%9A%D0%9C%D0%9C&amp;filter%5Blanguage_kz%5D=0&amp;filter%5Blanguage_ru%5D=0"
-                      >Үйірмеге жазылу</a
                     >
+                      Үйірмеге жазылу
+                    </a>
                   </div>
                 </div>
                 <div class="direction__card" style="background-image: url(../assets/images/EarlyDevelopment.jpg)">
                   <div class="direction__card-bg-holder"></div>
                   <div class="direction__content lang-shamshyraq-content">
                     <h3 class="direction__title">
-                      ШАМШЫРАҚ <br />
+                      ШАМШЫРАҚ
+                      <br />
                       Ерте даму кешені
                     </h3>
                     <p class="direction__tags">5-6 жастағы балалар тобы+</p>
@@ -466,8 +430,9 @@
                       target="_blank"
                       class="link"
                       href="https://e-daryn.kz/main/sections?filter%5Bselected%5D=0&amp;filter%5Bregion_id%5D=10&amp;filter%5Btype%5D=section&amp;filter%5Bfree%5D=0&amp;filter%5Bopen%5D=0&amp;filter%5Bclosed%5D=0&amp;filter%5Bdirection_id%5D=13%2C118&amp;filter%5Bsearch%5D=%C2%AB%E2%84%962%20%D0%BE%D2%9B%D1%83%D1%88%D1%8B%D0%BB%D0%B0%D1%80%20%D1%81%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%C2%BB%20%D0%9A%D0%9C%D0%9C&amp;filter%5Blanguage_kz%5D=0&amp;filter%5Blanguage_ru%5D=0"
-                      >Үйірмеге жазылу</a
                     >
+                      Үйірмеге жазылу
+                    </a>
                   </div>
                 </div>
                 <div class="direction__card" style="background-image: url(../assets/images/music_direction.jpg)">
@@ -475,15 +440,17 @@
                   <div class="direction__content lang-music-content">
                     <h3 class="direction__title">Музыка Би Театр</h3>
                     <p class="direction__tags">
-                      Вокал | Аспаптық орындау <br />
+                      Вокал | Аспаптық орындау
+                      <br />
                       Би | Театр
                     </p>
                     <a
                       target="_blank"
                       class="link"
                       href="https://e-daryn.kz/main/sections?filter%5Bselected%5D=0&amp;filter%5Bregion_id%5D=10&amp;filter%5Btype%5D=section&amp;filter%5Bfree%5D=0&amp;filter%5Bopen%5D=0&amp;filter%5Bclosed%5D=0&amp;filter%5Bdirection_id%5D=7%2C1%2C6%2C4&amp;filter%5Bsearch%5D=%C2%AB%E2%84%962%20%D0%BE%D2%9B%D1%83%D1%88%D1%8B%D0%BB%D0%B0%D1%80%20%D1%81%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%C2%BB%20%D0%9A%D0%9C%D0%9C&amp;filter%5Blanguage_kz%5D=0&amp;filter%5Blanguage_ru%5D=0"
-                      >Үйірмеге жазылу</a
                     >
+                      Үйірмеге жазылу
+                    </a>
                   </div>
                 </div>
                 <div class="direction__card" style="background-image: url(../assets/images/chess.jpg)">
@@ -491,15 +458,17 @@
                   <div class="direction__content lang-social-content">
                     <h3 class="direction__title">Спорт және үстел ойындары</h3>
                     <p class="direction__tags">
-                      Дойбы | Шахмат <br />
+                      Дойбы | Шахмат
+                      <br />
                       Гимнастика | Ұлттық ойындар
                     </p>
                     <a
                       target="_blank"
                       class="link"
                       href="https://e-daryn.kz/kz/main/sections?filter%5Bselected%5D=0&amp;filter%5Bregion_id%5D=10&amp;filter%5Btype%5D=section&amp;filter%5Bfree%5D=0&amp;filter%5Bopen%5D=0&amp;filter%5Bclosed%5D=0&amp;filter%5Bdirection_id%5D=115%2C121%2C8%2C120%2C109%2C10&amp;filter%5Bsearch%5D=%C2%AB%E2%84%962+%D0%BE%D2%9B%D1%83%D1%88%D1%8B%D0%BB%D0%B0%D1%80+%D1%81%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%C2%BB+%D0%9A%D0%9C%D0%9C&amp;filter%5Blanguage_kz%5D=0&amp;filter%5Blanguage_ru%5D=0"
-                      >Үйірмеге жазылу</a
                     >
+                      Үйірмеге жазылу
+                    </a>
                   </div>
                 </div>
                 <div
@@ -511,13 +480,18 @@
                   <div class="direction__card-bg-holder"></div>
                   <div class="direction__content lang-linguistics-content">
                     <h3 class="direction__title">Лингвистика</h3>
-                    <p class="direction__tags">Тілдерді талдау <br />Шешендік&nbsp;өнер</p>
+                    <p class="direction__tags">
+                      Тілдерді талдау
+                      <br />
+                      Шешендік&nbsp;өнер
+                    </p>
                     <a
                       target="_blank"
                       class="link"
                       href="https://e-daryn.kz/kz/main/sections?filter%5Bselected%5D=0&amp;filter%5Bregion_id%5D=10&amp;filter%5Btype%5D=section&amp;filter%5Bfree%5D=0&amp;filter%5Bopen%5D=0&amp;filter%5Bclosed%5D=0&amp;filter%5Bdirection_id%5D=9%2C109%2C12&amp;filter%5Bsearch%5D=%C2%AB%E2%84%962+%D0%BE%D2%9B%D1%83%D1%88%D1%8B%D0%BB%D0%B0%D1%80+%D1%81%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%C2%BB+%D0%9A%D0%9C%D0%9C&amp;filter%5Blanguage_kz%5D=0&amp;filter%5Blanguage_ru%5D=0"
-                      >Үйірмеге жазылу</a
                     >
+                      Үйірмеге жазылу
+                    </a>
                   </div>
                 </div>
               </div>
@@ -525,12 +499,13 @@
             <section class="qna" id="qna">
               <h2 class="text-right-alignment">Сұрақтар және жауаптар</h2>
               <p class="qna__message">
-                Сұрақтарыңыз болса, жауаптарын төменде таба аласыз <br />
+                Сұрақтарыңыз болса, жауаптарын төменде таба аласыз
+                <br />
                 телефон арқылы сұрақ қою
-                <a href="tel:87212604479" class="link link-in-text hidden-desktop"> 8 7212 60 44 79</a>
-                <a class="link link-in-text hidden-mobile copy-notification" onclick="copyToClipboard()"
-                  >8 7212 60 44 79</a
-                >
+                <a href="tel:87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a>
+                <a class="link link-in-text hidden-mobile copy-notification" onclick="copyToClipboard()">
+                  8 7212 60 44 79
+                </a>
                 <br />
                 немесе электронды пошта арқылы
                 <a class="link link-in-text copy-notification" onclick="copyToClipboard()">ddu_new@kargoo.kz</a>
@@ -541,9 +516,11 @@
                   <div class="details-body">
                     Веб-сайтта №2 оқушылар сарайының үйірмесіне қалай жазылу керектігін түсіндіретін
                     <a href="#instruction" class="link link-in-text">бейнебаян</a>
-                    жүктелген. Сонымен қатар,<a href="#directions" class="link link-in-text">
-                      біздің үйірмелеріміздің бағыттарының бөлімі көрсетілген</a
-                    >, әр бағыттың төменгі жағындағы сілтемеге өтіп, үйірмелердің толық тізімін көре аласыз және оларға
+                    жүктелген. Сонымен қатар,
+                    <a href="#directions" class="link link-in-text">
+                      біздің үйірмелеріміздің бағыттарының бөлімі көрсетілген
+                    </a>
+                    , әр бағыттың төменгі жағындағы сілтемеге өтіп, үйірмелердің толық тізімін көре аласыз және оларға
                     жазыла аласыз
                   </div>
                 </details>
@@ -607,11 +584,23 @@
                     <h3 class="competition-name">Сұлулық әлемі</h3>
                   </div>
                   <div class="competition__parameters">
-                    <p><b>Деңгей:</b> қалалық</p>
+                    <p>
+                      <b>Деңгей:</b>
+                      қалалық
+                    </p>
                     <!-- <p><b>Тіл:</b> Нет данных сейчас</p> -->
-                    <p><b>Өтінімдерді қабылдау: </b>11 қараша мен 25 қараша аралығында.</p>
-                    <p><b>Өткізілетін күні: </b>29 қараша 2024 ж.</p>
-                    <p><b>Қатысу жасы: </b>8 пен 20 жас аралығы</p>
+                    <p>
+                      <b>Өтінімдерді қабылдау:</b>
+                      11 қараша мен 25 қараша аралығында.
+                    </p>
+                    <p>
+                      <b>Өткізілетін күні:</b>
+                      29 қараша 2024 ж.
+                    </p>
+                    <p>
+                      <b>Қатысу жасы:</b>
+                      8 пен 20 жас аралығы
+                    </p>
                     <p class="competition__card-description">
                       Байқаудың мақсаты – шаштараз мамандығын оқытатын мамандандырылған курстар, студиялар, лицейлер
                       арасында шеберлік деңгейін арттыруға жағдай жасау, сонымен қатар балалар мен жасөспірімдерді
@@ -622,8 +611,9 @@
                       class="link"
                       target="_blank"
                       href="https://docs.google.com/document/d/1bsAbAHCwiEoqPB9Cg6KltA565nIU6gILjiZzUokApj8/edit?usp=sharing"
-                      >Ережесі</a
                     >
+                      Ережесі
+                    </a>
                   </div>
                 </div>
                 <div class="competition__card lang-competition__card-2">
@@ -632,10 +622,19 @@
                     <h3 class="competition-name">Күй – мұра</h3>
                   </div>
                   <div class="competition__parameters">
-                    <p><b>Деңгей:</b> қалалық</p>
+                    <p>
+                      <b>Деңгей:</b>
+                      қалалық
+                    </p>
                     <!-- <p><b>Тіл:</b> Нет данных сейчас</p> -->
-                    <p><b>Өткізу уақыты: </b>30.10.2023 ж.-14.11.2023 ж.</p>
-                    <p><b>Қатысу жасы: </b>7 пен 16 жас аралығы</p>
+                    <p>
+                      <b>Өткізу уақыты:</b>
+                      30.10.2023 ж.-14.11.2023 ж.
+                    </p>
+                    <p>
+                      <b>Қатысу жасы:</b>
+                      7 пен 16 жас аралығы
+                    </p>
                   </div>
                   <p class="competition__card-description">
                     Байқаудың мақсаты – домбыра аспабында күй орындау арқылы балалар мен жасөспірімдерге ұлттық өнерді
@@ -646,8 +645,9 @@
                     class="link"
                     target="_blank"
                     href="https://docs.google.com/document/d/1zuhwiNql4Jxbh30mjfRDRVgAtc9xBoSgRP1iLuPuWwM/edit?usp=sharing"
-                    >Ережесі</a
                   >
+                    Ережесі
+                  </a>
                 </div>
                 <!-- <div class="competition__card lang-competition__card-3">
                   <div class="competition__card-header">
@@ -735,6 +735,25 @@
         </div>
        </div>
       </section> -->
+            <section class="lens" id="lens">
+              <h2 class="text-right-alignment lang-h-one-documentation">Объектив</h2>
+              <p class="lens__text">Балалар сынап, қателесіп, шешім тауып, өз идеяларымен бірге өсетін орын.</p>
+              <div class="masonry-gallery">
+                <img src="../../assets/images/Gallery/1.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/2.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/3.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/4.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/5.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/6.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/7.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/8.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/9.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/10.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/11.jpg" alt="" loading="lazy" />
+                <img src="../../assets/images/Gallery/12.jpg" alt="" loading="lazy" />
+              </div>
+            </section>
+
             <section class="team" id="team">
               <h2 class="lang-h-one-team">Ұжым</h2>
               <div class="team__intro-stats">
@@ -751,7 +770,11 @@
                   <div class="team__content">
                     <div class="team__principal-content">
                       <div class="lang-principal__post">Директор</div>
-                      <div class="lang-principal__name">Алтынбекова <br />Шариза Далабаевна</div>
+                      <div class="lang-principal__name">
+                        Алтынбекова
+                        <br />
+                        Шариза Далабаевна
+                      </div>
                       <a
                         class="principal-facebook about__link"
                         href="https://www.facebook.com/altynbekova.sh/"
@@ -767,8 +790,8 @@
                             ></path>
                           </svg>
                         </div>
-                        facebook</a
-                      >
+                        facebook
+                      </a>
                     </div>
                     <div class="team__row">
                       <h3 class="lang-team__h3-administration">Әкімшілік</h3>
@@ -1108,14 +1131,16 @@
                           class="link"
                           href="https://drive.google.com/file/d/18-g3M0u4suYvtE9Bd_982-P7HI6USbkT/view"
                           target="_blank"
-                          >kk</a
                         >
+                          kk
+                        </a>
                         <a
                           class="link"
                           href="https://drive.google.com/file/d/1EBEF1xbZtlqlRJYe_VmXca8vlqF4T13L/view"
                           target="_blank"
-                          >ru</a
                         >
+                          ru
+                        </a>
                       </div>
                     </div>
                     <!-- <div class="docs__files-block">
@@ -1136,14 +1161,16 @@
                           class="link"
                           href="https://drive.google.com/file/d/1HxFC7YlQcxCte25mmVK4YJ4UonJxGgZT/view?usp=sharinghttps://drive.google.com/file/d/1HxFC7YlQcxCte25mmVK4YJ4UonJxGgZT/view?usp=sharing"
                           target="_blank"
-                          >kk</a
                         >
+                          kk
+                        </a>
                         <a
                           class="link"
                           href="https://drive.google.com/file/d/1vQZOJp286FZfDmRjl6nHZzWMvz96zkyU/view?usp=sharing"
                           target="_blank"
-                          >ru</a
                         >
+                          ru
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -1156,14 +1183,16 @@
                           class="link"
                           href="https://drive.google.com/file/d/1JH4fXp5h9cmNiTXEzBoepLs7Jq9ERqDi/view?usp=share_link"
                           target="_blank"
-                          >kk</a
                         >
+                          kk
+                        </a>
                         <a
                           class="link"
                           href="https://drive.google.com/file/d/1RI32ntrBzsEHiv2x9G_GdYmOTf9YuN6k/view?usp=share_link"
                           target="_blank"
-                          >ru</a
                         >
+                          ru
+                        </a>
                       </div>
                     </div>
                     <div class="docs__files-block">
@@ -1176,14 +1205,16 @@
                           class="link"
                           href="https://www.rumsdokz.org/_files/ugd/809cb6_12ee0c6699844dc8ba806baedd62e7c4.pdf"
                           target="_blank"
-                          >kk</a
                         >
+                          kk
+                        </a>
                         <a
                           class="link"
                           href="https://www.ziyatker.org/_files/ugd/809cb6_20f1af087d934761995c932f78c26415.pdf"
                           target="_blank"
-                          >ru</a
                         >
+                          ru
+                        </a>
                       </div>
                     </div>
                     <div class="docs__files-block">
@@ -1204,14 +1235,16 @@
                           class="link"
                           href="https://drive.google.com/file/d/1WFvsQkTLvupIZKruw3hGY4YkuDbWRqRQ/view?usp=share_link3"
                           target="_blank"
-                          >kk</a
                         >
+                          kk
+                        </a>
                         <a
                           class="link"
                           href="https://drive.google.com/file/d/1KnyapIMWvC_goRqBo0trj1zYsamzldie/view?usp=share_link"
                           target="_blank"
-                          >ru</a
                         >
+                          ru
+                        </a>
                       </div>
                     </div>
                     <div class="docs__files-block">
@@ -1267,8 +1300,10 @@
                       <div>
                         <p class="docs__pass-header lang-contact-info-term">Байланыс деректері</p>
                         <p class="docs__pass-info lang-contact-info-decription">
-                          8 (7212) 60-44-79 қабылдау бөлмесі <br />
-                          8 (7212) 60-44-83 бухгалтерия <br />
+                          8 (7212) 60-44-79 қабылдау бөлмесі
+                          <br />
+                          8 (7212) 60-44-83 бухгалтерия
+                          <br />
                           ddu_new@kargoo.kz
                         </p>
                       </div>
@@ -1295,8 +1330,10 @@
                       <div>
                         <p class="docs__pass-header lang-staffing-term">Кадрлық қамтамасыз ету</p>
                         <p class="docs__pass-info lang-staffing-description">
-                          ӘБП штаттық кестесі бойынша 5 бірлік <br />
-                          техникалық персонал 30 бірлік <br />
+                          ӘБП штаттық кестесі бойынша 5 бірлік
+                          <br />
+                          техникалық персонал 30 бірлік
+                          <br />
                           педагогикалық құрам 85 бірлік .
                         </p>
                       </div>
@@ -1323,20 +1360,22 @@
                 <p>
                   Сіз біздің жұмыс орындарымызды қарап төмендегі терезеде өтінімдерді көріп, жұмысқа өтініш бере аласыз,
                   байланыс телефоны
-                  <a href="tel: 87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a
-                  ><a class="link link-in-text hidden-mobile copy-notification" onclick="copyToClipboard()"
-                    >8 7212 60 44 79</a
-                  >
-                  <br />электрондық пошта<a class="link link-in-text copy-notification" onclick="copyToClipboard()">
-                    ddu_new@kargoo.kz</a
-                  ><br />
+                  <a href="tel: 87212604479" class="link link-in-text hidden-desktop">8 7212 60 44 79</a>
+                  <a class="link link-in-text hidden-mobile copy-notification" onclick="copyToClipboard()">
+                    8 7212 60 44 79
+                  </a>
+                  <br />
+                  электрондық пошта
+                  <a class="link link-in-text copy-notification" onclick="copyToClipboard()">ddu_new@kargoo.kz</a>
+                  <br />
                   сонымен қатар
                   <a
                     target="_blank"
                     href="https://www.enbek.kz/ru/search/vacancy?pou=608940&amp;region_id=3510&amp;except[subsidized]=subsidized"
                     class="link link-in-text"
-                    >біздің бос жұмыс орындары ENBEK.KZ</a
                   >
+                    біздің бос жұмыс орындары ENBEK.KZ
+                  </a>
                 </p>
               </div>
               <!-- <div class="docs-embed">
@@ -1376,8 +1415,9 @@
                 href="https://www.gov.kz/memleket/entities/otdel-obrazovaniya-karagandy?lang=en"
                 target="_blank"
                 class="about__link edu-depart-link"
-                >Білім бөлімі</a
               >
+                Білім бөлімі
+              </a>
             </div>
           </div>
           <div class="footer__contact-us">
@@ -1389,22 +1429,23 @@
               <a class="about__contacts about__tel-desktop copy-notification" onclick="copyToClipboard()">
                 <div>8 7212 60 44 79</div>
               </a>
-              <a class="about__contacts copy-notification" onclick="copyToClipboard()"> ddu_new@kargoo.kz </a>
+              <a class="about__contacts copy-notification" onclick="copyToClipboard()">ddu_new@kargoo.kz</a>
               <a
                 href="https://go.2gis.com/hnoom"
                 target="_blank"
                 class="about__link lang-adress-description"
                 aria-label="Organisation's  adress"
-                >141 есептік орам, 690 құрылыс</a
               >
+                141 есептік орам, 690 құрылыс
+              </a>
             </div>
           </div>
         </div>
         <div class="footer__credits">
           <div class="footer__copyrights lang-footer-copyright">
-            © 2024 №2 оқушылар сарайы, Қарағанды қаласы. Барлық құқықтар қорғалған.<br /><span
-              >Волков Р.А, Алдабергенова A.C. жасады.</span
-            >
+            © 2024 №2 оқушылар сарайы, Қарағанды қаласы. Барлық құқықтар қорғалған.
+            <br />
+            <span>Волков Р.А, Алдабергенова A.C. жасады.</span>
           </div>
         </div>
       </div>

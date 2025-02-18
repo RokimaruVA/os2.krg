@@ -2,6 +2,7 @@ svg {
   display: grid;
   align-items: center;
   width: 100%;
+  height: 100%;
 }
 .one-rem-icon {
   width: 1rem;
@@ -120,11 +121,34 @@ h3 {
 a {
   text-decoration: none;
   color: currentColor;
-  display: block;
+  display: flex;
+  gap: var(--spacer-xs);
+}
+a > * {
+  min-width: 1rem;
 }
 :root {
   --link-icon-font-size: 0.7rem;
 }
+button {
+  height: 1em;
+  width: 1em;
+  padding: 0;
+}
+.system-icon {
+  --icon-size: 1.5rem;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+.system-icon > svg {
+  color: currentColor;
+  fill: currentColor;
+}
+
 .link {
   color: var(--accent);
   font-weight: var(--fw-m);
@@ -140,17 +164,6 @@ a {
 }
 .link-in-text {
   display: inline;
-}
-.header-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  width: 1.5rem;
-}
-.header-icon-container > svg {
-  color: currentColor;
-  fill: currentColor;
 }
 .wrapper {
   display: flex;
@@ -172,6 +185,11 @@ section {
   flex-direction: column;
   align-items: end;
   gap: var(--spacer-lg);
+}
+iframe {
+  overflow: clip;
+  border-radius: var(--spacer-md);
+  box-shadow: var(--panel-shadow-setup);
 }
 .sections {
   display: flex;

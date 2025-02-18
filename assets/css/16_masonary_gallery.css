@@ -1,0 +1,15 @@
+.masonry-gallery {
+  columns: 20rem;
+  column-gap: var(--spacer-sm);
+  /* column-count: 3; */
+}
+.masonry-gallery img {
+  border-radius: var(--spacer-xs);
+  box-shadow: var(--panel-shadow-setup);
+  margin-bottom: var(--spacer-xs);
+}
+.masonry-gallery img:nth-child(2n),
+.masonry-gallery img:first-child {
+  height: 20rem;
+  object-fit: cover;
+}
